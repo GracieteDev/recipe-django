@@ -1,6 +1,7 @@
-from django.views.generic import TemplateView
+from django.urls import path
+from .views import Index  # import the Recipes view from the home app
 
-
-# Create your views here.
-class Index(TemplateView):
-    template_name = 'home/index.html'
+urlpatterns = [
+    # other url patterns...
+    path('', Index.as_view(), name='home'),
+]
