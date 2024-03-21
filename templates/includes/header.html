@@ -16,10 +16,10 @@
                             <a class="nav-link {% if url_name == 'home' %}active{% endif %}" aria-current="page" href="{% url 'home' %}">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link"  href="#">Recipes</a>
+                            <a class="nav-link"   href="#">Recipes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link"  href="#">CreateRecipe</a>
+                            <a class="nav-link {% if url_name == 'add_recipe' %}active{% endif %}" aria-current="page" href="{% url 'add_recipe' %}">CreateRecipe</a>
                         </li>
                         {% if user.is_authenticated %}
                         <li class="nav-item">
