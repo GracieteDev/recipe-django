@@ -20,11 +20,11 @@ CUISINE_TYPES = (
 )
 
 
-
 class Recipe(models.Model):
-    """ 
-    A model to create and manage recipes  
     """
+    A model to create and manage recipes
+    """
+
     user = models.ForeignKey(
         User, related_name="recipe_owner", on_delete=models.CASCADE
     )

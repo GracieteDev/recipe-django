@@ -4,8 +4,8 @@ from .models import Recipe
 
 
 class RecipeForm(forms.ModelForm):
-    """ 
-    A form to create and manage recipes  
+    """
+    A form to create and manage recipes
     """
 
     class Meta:
@@ -26,7 +26,6 @@ class RecipeForm(forms.ModelForm):
             "ingredients": RichTextWidget(),
             "description": forms.Textarea(attrs={"rows": 5}),
         }
-        
 
         labels = {
             "title": "Recipe Title",

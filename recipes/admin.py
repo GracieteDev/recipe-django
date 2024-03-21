@@ -14,5 +14,3 @@ class RecipeAdmin(admin.ModelAdmin):
         "image",
     )
     list_filter = ("meal_type",)
-
-
