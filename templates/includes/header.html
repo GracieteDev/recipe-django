@@ -5,7 +5,7 @@
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
                 <!-- Logo -->
-                <a class="navbar-brand" href="#"><img src="{% static 'images/logo.webp' %}" alt="Recipe Sharing & Meal Planner Logo" class="logo"></a>
+                <a class="navbar-brand" href="#"><img src="{% static 'images/logo.webp' %}" alt="Healthy Recipe Logo" class="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -15,14 +15,24 @@
                         <li class="nav-item">
                             <a class="nav-link {% if url_name == 'home' %}active{% endif %}" aria-current="page" href="{% url 'home' %}">Home</a>
                         </li>
-                        <!-- Comment out or remove the below lines until you have 'recipes' and 'new' apps and URLs defined
                         <li class="nav-item">
-                            <a class="nav-link {% if url_name == '' %}active{% endif %}" href="#">Recipes</a>
+                            <a class="nav-link"  href="#">Recipes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {% if url_name == '' %}active{% endif %}" href="#">New</a>
+                            <a class="nav-link"  href="#">CreateRecipe</a>
                         </li>
-                        -->
+                        {% if user.is_authenticated %}
+                        <li class="nav-item">
+                            <a class="nav-link {% if url_name == 'accounts_logout' %}active{% endif %}" href="/accounts/logout/">Logout</a>
+                        </li>
+                        {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link {% if url_name == 'accounts_signup' %}active{% endif %}" href="/accounts/signup/">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link {% if url_name == 'accounts_login' %}active{% endif %}" href="/accounts/login/">Login</a>
+                        </li>
+                        {% endif %} 
                     </ul>
                     <!-- Form for search bar -->
                     <form class="d-flex" role="search" method="GET" action="#">
