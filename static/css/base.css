@@ -77,7 +77,7 @@ a.nav-link:hover {
 }
 
 img.logo {
-  width: 18.75rem;
+  width: 20.75rem;
 }
 
 .active {
@@ -98,4 +98,31 @@ img.logo {
   margin: 3% auto;
   box-shadow: var(--small-box-shadow);
   border-radius: 5px;
+}
+
+/* Recipes */
+
+.card {
+  height: 90%;
+  margin-top: 1rem;
+}
+
+.recipes {
+  text-decoration: none;
+  color: var(--red);
+}
+
+.recipes:hover {
+  cursor: pointer;
+}
+
+.recipe-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.recipe-container {
+  display: flex;
+  flex-direction: column;
 }

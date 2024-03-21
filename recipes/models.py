@@ -29,7 +29,7 @@ class Recipe(models.Model):
         User, related_name="recipe_owner", on_delete=models.CASCADE
     )
     title = models.CharField(max_length=300, null=False, blank=False)
-    description = models.CharField(max_length=600, null=False, blank=False)
+    description = models.CharField(max_length=500, null=False, blank=False)
     instructions = RichTextField(max_length=15000, null=False, blank=False)
     ingredients = RichTextField(max_length=10000, null=False, blank=False)
     image = ResizedImageField(
