@@ -154,7 +154,7 @@ img.logo {
 a.img-container {
   position: relative;
   text-align: center;
-  color: var(--white);
+  color: var(--grey);
   margin: 2%;
   overflow: hidden;
   text-decoration: none;
@@ -163,7 +163,7 @@ a.img-container {
 }
 
 a.img-container:hover {
-  color: var(--orange);
+  color: var(--grey);
 }
 
 .img-container img {

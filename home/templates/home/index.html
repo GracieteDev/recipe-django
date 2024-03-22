@@ -1,1 +1,35 @@
 {% extends 'base.html'%} 
+
+{% block title%}Home{% endblock %}
+
+
+{% block content %}
+<div class="container flex-column pt-3">
+    <section class="text-center">
+        <h1 class="main-title mx-auto">Embark on a delightful journey of taste and wellness with HealthyRecipy</h1>
+
+        <p class="pt-4">
+            Welcome to HealthyRecipy!
+
+            Whether you're aiming to maintain a balanced diet, on a mission to lose weight, or simply seeking to indulge in healthy eating habits, HealthyRecipy offers an abundant collection of recipes from around the globe, meticulously tailored to meet your dietary needs and preferences. Our mission is to inspire and empower you to embrace a healthier lifestyle without compromising on the joy of eating.
+
+            Join our vibrant community of food enthusiasts who are eager to share their cherished recipes and culinary secrets. Dive into our treasure trove of recipes, explore exotic cuisines, and experiment with dishes that will transform your meal times into an exciting adventure of wholesome goodness. With HealthyRecipy, customizing meals to your taste preferences and dietary requirements has never been easier.
+
+            We believe that healthy eating is a journey best enjoyed together. So, share your favorite recipes, discover new ones, and connect with fellow food lovers on HealthyRecipy. Together, let's celebrate the art of healthy cooking and bring the joy of nutritious and delicious meals to every table.
+
+            Welcome aboard, and let's make every meal a healthy discovery!
+
+        </p>
+    </section>
+    <section>
+        <div class="recipe-cont">
+            {% for recipe in recipes %} 
+                <a href="{% url 'recipe_detail' recipe.id %}" class="img-container">
+                    <img src="{{recipe.image.url}}" alt="{{recipe.image_alt}}" style="width: 100%">
+                    <div class="centered"><h2>{{recipe.title}}</h2></div>
+                </a>
+            {% endfor %}
+        </div>
+    </section>
+</div>
+{% endblock %}
