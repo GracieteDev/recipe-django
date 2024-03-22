@@ -114,6 +114,7 @@ img.logo {
 
 .recipes:hover {
   cursor: pointer;
+  color: var(--grey);
 }
 
 .recipe-info {
