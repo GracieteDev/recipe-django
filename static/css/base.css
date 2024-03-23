@@ -13,7 +13,7 @@
   --cream-light: #f1e1d0;
   --grey: #4a4a4a;
   --white: #ffffff;
-  --white-yellow: #f8f9e4;
+  --white-yellow: #f8f8f7;
   --cream: #c3b299;
 
   /* Utils */
@@ -38,17 +38,28 @@ h4,
 h5,
 h6 {
   font-family: var(--title);
+  color: var(--red);
+
+}
+
+
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover {
+  color: grey;
 }
 
 main {
   flex: 1 0 auto;
-  background-color: var(--cream-light);
+  background-color: var(--white-yellow);
 }
 
 /* Footer */
 footer {
   flex-shrink: 0;
-  background-color: var(--cream-light);
+  background-color: var(--white-yellow);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -63,10 +74,11 @@ footer {
 
 /* Header */
 .navbar {
-  background-color: var(--cream-light);
+  background-color: var(--white-yellow) !important;
   box-shadow: var(--small-box-shadow);
   color: var(--dark-red);
 }
+
 
 a.nav-link {
   color: var(--dark-red);
@@ -173,12 +185,10 @@ a.img-container:hover {
 
 .centered {
   width: 100%;
-  background-color: var(--red);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  background-color: var(--white-yellow);
+  top: 100%; 
 }
+
 
 /* Profiles */
 
