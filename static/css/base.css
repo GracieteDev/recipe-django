@@ -42,13 +42,13 @@ h6 {
 
 main {
   flex: 1 0 auto;
-  background-color: var(--white);
+  background-color: var(--cream-light);
 }
 
 /* Footer */
 footer {
   flex-shrink: 0;
-  background-color: var(--white);
+  background-color: var(--cream-light);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -63,9 +63,9 @@ footer {
 
 /* Header */
 .navbar {
-  background-color: var(--white);
+  background-color: var(--cream-light);
   box-shadow: var(--small-box-shadow);
-  color: var(--white);
+  color: var(--dark-red);
 }
 
 a.nav-link {
@@ -173,11 +173,38 @@ a.img-container:hover {
 
 .centered {
   width: 100%;
-  background-color: #000000c9;
+  background-color: var(--red);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* Profiles */
+
+.profile-img {
+  width: 280px;
+  margin: 0 auto;
+}
+
+.profile-img img {
+  border-radius: 8px;
+  width: 100%;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info {
+  width: 100%;
+  text-align: center;
+}
+
+.profile-recipes {
+  width: 100%;
 }
 
 @media screen and (min-width: 40em) {
@@ -225,5 +252,22 @@ a.img-container:hover {
 
   .instructions {
     width: 66.66%;
+  }
+
+  .profile {
+    flex-direction: row;
+  }
+
+  .info {
+    width: 30%;
+  }
+
+  .profile-recipes {
+    width: 70%;
+    padding: 1.5rem 3rem;
+  }
+
+  .profile-recipes a {
+    text-decoration: none;
   }
 }

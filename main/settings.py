@@ -49,16 +49,14 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
-    
-    'home', 
-    'recipes',  
-    'profiles',
-    
     'crispy_forms',
     'crispy_bootstrap5',
     'djrichtextfield',
     'cloudinary',
     'cloudinary_storage',
+    'home', 
+    'recipes',  
+    'profiles',
 ]
 
 

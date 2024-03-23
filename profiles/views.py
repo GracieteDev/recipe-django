@@ -11,10 +11,14 @@ class Profiles(TemplateView):
     template_name = "profiles/profile.html"
 
     def get_context_data(self, **kwargs):
-        profile = Profile.objects.get(user=self.kwargs["pk"])
+        try:
+            profile = Profile.objects.get(user__pk=self.kwargs["pk"])
+        except Profile.DoesNotExist:
+            profile = None
+
         context = {
-            "profile": profile,
-            'form': ProfileForm(instance=profile)
+            "profile":  profile,
+            'form':  ProfileForm(instance=profile) 
         }
 
         return context

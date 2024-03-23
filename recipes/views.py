@@ -11,7 +11,7 @@ from django.db.models import Q
 
 from django.contrib.auth.mixins import LoginRequiredMixin
 
-from .models import CUISINE_TYPES, Recipe
+from .models import Recipe
 from .forms import RecipeForm
 
 
@@ -19,7 +19,7 @@ class Recipes(ListView):
     """
     View all recipes
     """
-    # template_name = "recipes/recipes.html"
+    template_name = "recipes/recipes.html"
     model = Recipe
     context_object_name = 'recipes'
     
