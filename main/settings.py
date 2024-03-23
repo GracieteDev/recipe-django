@@ -57,6 +57,7 @@ INSTALLED_APPS = [
     'home', 
     'recipes',  
     'profiles',
+    'meal_planner',
 ]
 
 
