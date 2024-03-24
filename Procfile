@@ -1,1 +1,1 @@
-web: gunicorn recipe-django.wsgi
+web: gunicorn main.wsgi
