@@ -1,6 +1,10 @@
 from django.views.generic import TemplateView, UpdateView
 from django.contrib.auth.mixins import UserPassesTestMixin, LoginRequiredMixin
 
+from django.http import HttpResponseRedirect
+from django.urls import reverse
+
+
 from .models import Profile
 from .forms import ProfileForm
 

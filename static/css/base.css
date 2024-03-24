@@ -190,7 +190,7 @@ a.img-container:hover {
   background-color: rgba(--grey);  
   top: 100%; 
   border-radius:1px;
-  font-size: 0.1em; /*!important*/
+  font-size: 0.0001em; /*!important*/
   box-shadow: var(--smal-box-shadow);
 }
 
