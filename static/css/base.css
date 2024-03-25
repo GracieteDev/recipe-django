@@ -82,7 +82,7 @@ footer {
   background-color: var(--white-yellow) !important;
   box-shadow: var(--small-box-shadow);
   color: var(--dark-red);
-  font-size: 1rem;
+  font-size: 0.8rem;
   display: flex;
   justify-content: center;
 }
