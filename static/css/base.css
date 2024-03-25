@@ -42,7 +42,7 @@ h6 {
 
 }
 
-h1 {font-size:4rem}
+h1 {font-size:2rem}
 
 h2:hover,
 h3:hover,
@@ -52,10 +52,10 @@ h6:hover {
   color: var(--light-red);
 }
 
-p {
+/* p {
   color: var(--grey);
   font-size: 1.3rem;
-}
+}*/
 main {
   flex: 1 0 auto;
   background-color: var(--white-yellow); 
@@ -98,7 +98,7 @@ a.nav-link:hover {
 }
 
 img.logo {
-  width: 20rem;
+  width: 18.75rem;
 }
 
 .active {
@@ -110,7 +110,7 @@ img.logo {
   background-color: var(--red);
   border-color: var(--white-yellow); 
   color: var(--light-red);
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: var(--white-yellow)
   
 }
