@@ -2,7 +2,7 @@ README.md
 <h1 align="center">HealthyRecipyApp</h1>
 
 <p align="center">
-<img src="assets/documents/README_docs/responsive-site.png" width="800" height="100%">
+<img src="README_assets\images\healthyrecipy_responsive.png" width="800" height="100%">
 </p>
 
 You can find live site [here](https://mmmm.herokuapp.com/)
