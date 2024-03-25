@@ -15,21 +15,20 @@ from recipes.models import Recipe
 import random
 
 
-class MealPlanner(LoginRequiredMixin, TemplateView):    
-    """Meal planner view"""  
-    
+class MealPlanner(LoginRequiredMixin, TemplateView):
+    """Meal planner view"""
+
     template_name = "meal_planner/meal_planner.html"
-    
-    
+
     def get_context_data(self, **Kwargs):
         today = datetime.date.today()
-        days_in_mon = calendar.monthrange(today.year, today.month)[1]  
-        
+        days_in_mon = calendar.monthrange(today.year, today.month)[1]
+
         days = [
-                        datetime.date(today.year, today.month, day) 
-                        for day in range(1, days_in_mon + 1)
+            datetime.date(today.year, today.month, day)
+            for day in range(1, days_in_mon + 1)
         ]
-        
+
         meals = Meal.objects.filter(
             user=self.request.user, meal_date__in=days
         ).order_by(reorder(meal_type=["breakfast", "lunch", "dinner"]))
@@ -37,15 +36,14 @@ class MealPlanner(LoginRequiredMixin, TemplateView):
         context = {"days": days, "meals": meals}
 
         return context
-        
-        
-        
-        
+
+
 class GetMeal(TemplateView):
     """
     Class to handle getting a random meal based on
     search queries or empty input
     """
+
     template_name = "meal_planner/create_meal.html"
 
     def get_context_data(self, **kwargs):
@@ -65,9 +63,13 @@ class GetMeal(TemplateView):
             # AND calories & meal type
 
             recipes = Recipe.objects.filter(
-                Q(description__icontains=query) | Q(title__icontains=query) | Q(ingredients__icontains=query) |
-                Q(cuisine_types__icontains=query) | Q(instructions__icontains=query) &
-                Q(calories__lte=calories) & Q(meal_type=kwargs["meal_type"])
+                Q(description__icontains=query)
+                | Q(title__icontains=query)
+                | Q(ingredients__icontains=query)
+                | Q(cuisine_types__icontains=query)
+                | Q(instructions__icontains=query)
+                & Q(calories__lte=calories)
+                & Q(meal_type=kwargs["meal_type"])
             )
         # If only calories sent, search by meal type and calories
         elif calories:
@@ -87,7 +89,7 @@ class GetMeal(TemplateView):
             context = {
                 "meal_date": kwargs["meal_date"],
                 "meal_type": kwargs["meal_type"],
-                "recipe": recipe
+                "recipe": recipe,
             }
         # If no recipes in database, return without recipe
         else:
@@ -95,9 +97,10 @@ class GetMeal(TemplateView):
                 "meal_date": kwargs["meal_date"],
                 "meal_type": kwargs["meal_type"],
             }
-        
+
         return context
-    
+
+
 class AddMeal(View):
     def post(self, *args, **kwargs):
         pk = kwargs["pk"]
@@ -111,8 +114,8 @@ class AddMeal(View):
             defaults={
                 "user": self.request.user,
                 "recipe": recipe,
-                "meal_date": meal_date
+                "meal_date": meal_date,
             },
         )
 
-        return HttpResponseRedirect(reverse("meal_planner"))     
+        return HttpResponseRedirect(reverse("meal_planner"))

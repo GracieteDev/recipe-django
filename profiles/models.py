@@ -3,9 +3,10 @@ from djrichtextfield.models import RichTextField
 
 from django.contrib.auth.models import User
 from django.db.models.signals import post_save
-from django.dispatch import receiver    
+from django.dispatch import receiver
 
 from django_resized import ResizedImageField
+
 
 class Profile(models.Model):
     """Profile model"""
@@ -29,4 +30,3 @@ def create_user_profile(instance, created, **kwargs):
     """Create or update the user profile"""
     if created:
         Profile.objects.create(user=instance)
-    

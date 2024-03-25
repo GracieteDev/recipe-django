@@ -2,6 +2,5 @@ from django.urls import path
 from .views import Index
 
 urlpatterns = [
-    path('', Index.as_view(), name='home'),# placeholder URL pattern
+    path("", Index.as_view(), name="home"),  # placeholder URL pattern
 ]
-

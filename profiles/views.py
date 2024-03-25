@@ -20,10 +20,7 @@ class Profiles(TemplateView):
         except Profile.DoesNotExist:
             profile = None
 
-        context = {
-            "profile":  profile,
-            'form':  ProfileForm(instance=profile) 
-        }
+        context = {"profile": profile, "form": ProfileForm(instance=profile)}
 
         return context
 
