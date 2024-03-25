@@ -187,7 +187,7 @@ a.img-container:hover {
 
 .centered {
   width: 100%;
-  background-color: rgba(--grey);  
+  background-color: var(--grey);  
   top: 100%; 
   border-radius:1px;
   font-size: 0.0001em; /*!important*/
