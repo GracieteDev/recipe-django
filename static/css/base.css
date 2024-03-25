@@ -183,7 +183,6 @@ img.logo {
 a.img-container {
   position: relative;
   text-align: center;
-  color: rgba(var(--grey), 0.5);
   margin: 2%;
   overflow: hidden;
   text-decoration: none;
