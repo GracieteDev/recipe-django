@@ -52,6 +52,10 @@ h6:hover {
   color: var(--light-red);
 }
 
+p {
+  color: var(--grey);
+  font-size: 1.3rem;
+}
 main {
   flex: 1 0 auto;
   background-color: var(--white-yellow); 
@@ -79,6 +83,8 @@ footer {
   box-shadow: var(--small-box-shadow);
   color: var(--dark-red);
   font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -88,6 +94,7 @@ a.nav-link {
 
 a.nav-link:hover {
   color: var(--red);
+
 }
 
 img.logo {
@@ -99,11 +106,18 @@ img.logo {
   font-weight: 900;
 }
 
-.search-button {
-  background-color: #f60030;
-  border-color: #4a4a4a; 
+.btn  {
+  background-color: var(--red);
+  border-color: var(--white-yellow); 
+  color: var(--light-red);
+  font-size: 1.5rem;
+  color: var(--white-yellow)
+  
 }
-
+.btn:hover {
+  background-color: var(--light-red);
+  color: var(--white-yellow); 
+} 
 /* Form */
 
 .form {
@@ -192,7 +206,7 @@ a.img-container:hover {
   background-color: var(--white-yellow); 
   top: 100%; 
   border-radius:1px;
-  font-size: 0.0001em; /*!important*/
+  font-size: 0.001em; /*!important*/
   box-shadow: var(--smal-box-shadow);
 }
 
