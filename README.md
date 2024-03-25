@@ -27,7 +27,7 @@ HealthyRecipy is a community-driven project that aims to provide easy access to 
 3. [Structure](#structure)
 
    - [Sitemap](#sitemap)
-   - [Wireframes](#wireframes)
+   - [Wireframes](README_assets/images/Wireframe_Homepage_Desktop.png)
    - [Database schema](#database-schema)
    - [Business Model](#business-model)
    - [Marketing](#marketing)
