@@ -266,6 +266,7 @@ Wireframes for each device are linked here:
 <img src="README_assets/images/ERD/EDR.png" width="900" height="100%">
 </p>
 
+![ERD Image](README_assets/images/ERD/ERD.png)
 
 
 ## Models
