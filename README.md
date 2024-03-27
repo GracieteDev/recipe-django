@@ -2,10 +2,10 @@ README.md
 <h1 align="center">HealthyRecipyApp</h1>
 
 <p align="center">
-<img src="README_assets\images\healthyrecipy_responsive.png" width="800" height="100%">
+<img src="README_assets/images/responsiveness/healthyrecipy_responsive.png" width="800" height="100%">
 </p>
 
-You can find live site [here](https://mmmm.herokuapp.com/)
+You can find live site [here]((https://recipe-django-a56e80b1fce6.herokuapp.com/)
 
 # About HealthyRecipy App
 
@@ -138,12 +138,12 @@ By addressing the needs and challenges faced by our target audience, HealthyReci
 </p>
 
 
-*Hero Image:*
-- The hero image welcomes the user with a short message advertising what the website is about
+*Home Page Images:*
+- The home page images welcome the user with a short message advertising what the website is about. These images will be changing overtime with the addition of new recipes.
 - The Login / Register button will take users to the login page, if users do not have an account there is a link to the registration page
 
 <p align="center">
-<img src="assets/images-features/hero-image.png" width="100%" height="100%">
+<img src="assets/images-features/homepage-image.png" width="100%" height="100%">
 </p>
 
 *Recently added recipes:*
@@ -262,7 +262,8 @@ Wireframes for each device are linked here:
 # Database schema
 
 <p align="center">
-<img src="assets/images/database-schema.png" width="900" height="100%">
+
+<img src="README_assets/images/images_EDR/EDR.png" width="900" height="100%">
 </p>
 
 ## Models
@@ -394,10 +395,4 @@ To create a new repository I took the following steps:
 
 ## Media
 - All images were taken from
-
-
 ## Acknowledgements
-
-
-
-![image](https://github.com/GracieteDev/recipe-django/assets/140760650/964a67d9-2bb1-4744-9a4d-e992cf78c8fe)
