@@ -263,7 +263,7 @@ Wireframes for each device are linked here:
 
 <p align="center">
 
-<img src="README_assets/images/images_EDR/EDR.png" width="900" height="100%">
+<img src="README_assets/images/ERD/EDR.png" width="900" height="100%">
 </p>
 
 ## Models
