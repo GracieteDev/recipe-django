@@ -2,7 +2,8 @@ README.md
 <h1 align="center">HealthyRecipyApp</h1>
 
 <p align="center">
-<img src="README_assets/images/responsiveness/healthyrecipy_responsive.png" width="800" height="100%">
+![Responsiveness Image](README_assets\images\images_reponsiveness\healthyrecipy_responsive.png)
+
 </p>
 
 You can find live site [here]((https://recipe-django-a56e80b1fce6.herokuapp.com/)
