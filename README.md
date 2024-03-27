@@ -2,7 +2,7 @@ README.md
 <h1 align="center">HealthyRecipyApp</h1>
 
 <p align="center">
-![healthyrecipy_responsive Image](README_assets\images\images_reponsiveness\healthyrecipy_responsive.png)
+![Responsiveness Image](README_assets\images\images_reponsiveness\healthyrecipy_responsive.png)
 
 </p>
 
