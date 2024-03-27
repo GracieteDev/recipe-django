@@ -1,8 +1,8 @@
 README.md
 <h1 align="center">HealthyRecipyApp</h1>
 
-<p align="center"></p>
-![Healthy Recipe Responsiveness](README_assets/images/healthyrecipy_responsive.png)
+ ![Healthy Recipe Responsiveness](README_assets/images/healthyrecipy_responsive.png) 
+
 
 
 
@@ -12,45 +12,87 @@ README.md
 You can find the live site [here](https://recipe-django-a56e80b1fce6.herokuapp.com/).
 
 
-# About HealthyRecipy App
+# HealthyRecipy App: Your Gateway to Healthier Eating 
 
-HealthyRecipy is a community-driven project that aims to provide easy access to healthy recipes for individuals looking to maintain a balanced diet, lose weight, or simply enjoy nutritious meals. Our platform encourages users to share their favorite recipes, discover new ones, and customize meals to suit their taste preferences and dietary requirements.
+Welcome to the **HealthyRecipy App**, where every meal is an opportunity to nourish your body and delight your palate. Designed with Django, our app bridges the gap between nutritional goals and culinary enjoyment, offering a meticulously curated selection of recipes from around the world for a healthier lifestyle.
+
+## Why HealthyRecipy?
+
+HealthyRecipy is built on the belief that healthy eating shouldn't be complicated or dull. With a user-friendly interface and a rich database of nutritious recipes, our app is the perfect companion for anyone looking to eat better without sacrificing taste or spending hours in the kitchen.
+
+## Key Features
+
+### Personalized Meal Planning
+
+- **Curate Your Meals:** Utilize the Meal Planner to organize your daily eating schedule with recipes that align with your dietary preferences and health objectives.
+
+- **Explore Recipes:** Dive into our expansive Recipes Page, which is the core of HealthyRecipy. Discover recipes that cater to various dietary needs and for all around the world.
+
+### Designed for You
+
+- **Rich Nutritional Info:** Every recipe is accompanied by calorie details, enabling you to make well-informed decisions about your meals.
+
+- **Seamless Meal Tracking:** Add recipes to your Meal Planner effortlessly, keeping track of what you're eating and ensuring you stick to your dietary goals.
+
+## Powered by Django & Python
+
+The HealthyRecipy App is developed using Django, a high-level Python web framework known for its robustness, scalability, and versatility. Our application is engineered to facilitate a seamless and enriching user experience, making healthy eating straightforward and accessible.
+
+### Our App at Work
+
+- **User & Profile:** Register/ Sign up and personalize your HealthyRecipy experience. Each user profile is a gateway to a personalized meal planning journey.
+
+- **Meal:** Plan your meals with precision. Our Meal Planner allows you to schedule and manage your daily intake based on the recipes you love.
+
+- **Recipes:** At the heart of our app, the Recipes Page showcases a wide range of healthy dishes, complete with cooking instructions, ingredient lists, and nutritional values.
+
+## Embark on Your Healthy Eating Journey
+
+With the HealthyRecipy App, discover the joy of cooking and eating meals that are as nutritious as they are delicious. Say goodbye to guesswork and hello to a world where healthy eating is easy, enjoyable, and perfectly tailored to you.
+
+Start your journey towards a healthier you with HealthyRecipy today.
+
 
 
 # Table of Contents
 
 1. [UX](#ux)
-
-   - [Strategy](#strategy)
-   - [User Stories](#user-stories)
-
+    - [Strategy](#strategy)
+    - [User Stories](#user-stories)
 2. [Scope](#scope)
-
-   - [Features](#features)
-   - [Future Features](#future-features)
-
+    - [Features](#features)
+    - [Future Features](#future-features)
 3. [Structure](#structure)
+4. [Wireframes](#wireframes)
+5. [Database Schema](#database-schema)
+6. [Surface](#surface)
+7. [Technologies Used](#technologies-used)
+8. [Testing](#testing)
+9. [Deployment](#deployment)
+10. [Credits](#credits)
 
-   - [Sitemap](#sitemap)
-   - [Wireframes](README_assets/images/Wireframe_Homepage_Desktop.png)
-   - [Database schema](#database-schema)
-   - [Business Model](#business-model)
-   - [Marketing](#marketing)
-
-4. [Surface](#surface)
-
-5. [Technologies Used](#technologies-used)
-
-6. [Testing](#testing)
-
-7. [Deployment](#deployment)
-
-8. [Credits](#credits)
-
-
-
-
+    
 # UX
+
+Guided by fundamental UX principles, my initial approach centered on pinpointing the target audience for the HealthyRecipy app and discerning the specific features that would provide the most value to them.
+
+The target audience for HealthyRecipy encompasses:
+
+- Individuals across all demographics, with a notable emphasis on those who play a significant role in meal planning and preparation within households.
+- Health-conscious individuals seeking inspiration and guidance for crafting nutritious meals for themselves and their loved ones.
+- Culinary enthusiasts eager to explore and experiment with new healthy recipes, regardless of their cooking expertise level.
+
+  
+These users seek:
+
+- An app that is user-friendly, offering clear, readily available information and inspiration for crafting healthy meals.
+- A service that curates a collection of wholesome recipes that are straightforward and quick to prepare.
+- The ability to establish a personal account, enhancing interactivity with the app’s offerings.
+
+
+The HealthyRecipy app is designed to fulfill these needs, providing a user-friendly experience that encourages exploration, interaction, and the discovery of nutritious and delicious meal options.
+
+
 
 ## Strategy
 
@@ -60,15 +102,14 @@ Using the core UX principles I envisaged a Strategy, thinking about the features
 
 - **Expansive Recipe Database**: From breakfast to dinner, find recipes that taste great and are good for you.
 - **Customizable Meal Plans**: Tailor your meal plan according to your dietary needs, preferences, and fitness goals.
-- **Nutritional Information**: Every recipe comes with detailed nutritional information to help you keep track of your calorie intake and nutrient balance.
-- **Easy-to-Use Interface**: Our user-friendly platform makes it simple to search, find, and store your favorite recipes.
-- **Community Contributions**: Share your own recipes with the community and explore creations from other health-conscious cooks.
+- **Nutritional Information**: Every recipe comes with detailed calories information to help you keep track of your calorie intake and nutrient balance.
+- **Easy-to-Use Interface**: Our user-friendly platform makes it simple to **search, find, and store your favorite recipes**.
 - **Cross-Platform Accessibility**: Access HealthyRecipy from any device, ensuring you have your recipes and meal plans handy whether you're at home or on the go.
 
 ### Goals
 
 - To make healthy eating accessible and appealing to a wide audience by providing a diverse range of recipes.
-- To foster a supportive community of individuals who are passionate about healthy living and cooking.
+- To foster healthy cooking habits for all individuals who are passionate about healthy living and cooking.
 - To empower users with tools and information that aid in making informed dietary choices.
 
 ### Needs
@@ -128,7 +169,30 @@ By addressing the needs and challenges faced by our target audience, HealthyReci
 
 # Scope
 
-## **Features**
+## Features
+
+- **Recipe Discovery:** Users can explore a wide array of healthy recipes within the app. Each recipe is carefully selected to ensure it meets various dietary preferences and health goals, including gluten-free, vegan, low-carb, and more.
+
+- **Detailed Nutritional Information:** Every recipe comes with comprehensive nutritional details, helping users make informed choices about their meals and how they fit into their dietary requirements.
+
+- **Personalized Meal Planner:** The Meal model allows users to schedule their daily meals using the recipes available in the app. This feature helps in organizing meal times and ensuring nutritional goals are met.
+
+- **Rich User Profiles:** While primarily functional at this stage for meal planning and recipe discovery, user profiles lay the groundwork for a more personalized app experience, including tracking favorite recipes and meal planning history.
+
+## Future Features
+
+- **Social Sharing:** In future updates, we plan to introduce functionality that will allow users to share their favorite recipes and meal plans with friends and family, enhancing the app's social aspect.
+
+- **User-Generated Content:** We envision a platform where users can contribute their own recipes, subject to moderation to ensure they meet our health and nutritional standards. This will enrich our database and allow for a more diverse culinary experience.
+
+- **Interactive Meal Feedback:** Future iterations will include features for users to rate recipes and provide feedback, helping others in the app community make better meal choices based on collective experiences.
+
+- **Advanced Dietary Customization:** We aim to incorporate advanced filtering options that allow users to customize their recipe discovery and meal planning based on specific dietary needs, intolerances, and nutritional goals.
+
+- **Integration with Fitness Apps:** To offer a holistic approach to health and wellness, we plan to integrate with popular fitness and health tracking apps. This will allow users to see the full picture of their health journey, from calorie intake to physical activity.
+
+- **AI-Based Recipe Recommendations:** Leveraging AI and machine learning, we plan to offer personalized recipe recommendations based on users' tastes, dietary restrictions, and meal planning habits, making discovery even more intuitive and customized.
+
 
 ### **Home Page**
 *Navigation bar:* 
@@ -158,11 +222,11 @@ By addressing the needs and challenges faced by our target audience, HealthyReci
 - Users can also see title, image, author, date posted, short description and number of likes
 
 <p align="center">
-<img src="assets/images-features/recently-added-recipes.png" width="100%" height="100%">
+<img src="README_assets/images/latest_recipes.png" width="100%" height="100%">
 </p>
 
 
-*Most Loved Recipes:*
+*Latest Recipes:*
 - Each recipe takes the user to the recipe details page
 - At the bottom of the list there is a link to the Recipes page that takes users to the page with all the recipes
 <p align="center">
@@ -174,7 +238,7 @@ By addressing the needs and challenges faced by our target audience, HealthyReci
 - Appears on every page and contains social links
 - Links are opened in a new tab to avoid dragging users from our site
 <p align="center">
-<img src="assets/images-features/footer.png" width="100%" height="100%">
+<img src="assets/images/footer.png" width="100%" height="100%">
 </p>
 
 ### **Healthy Recipes Page**
