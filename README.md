@@ -266,6 +266,8 @@ Wireframes for each device are linked here:
 <img src="README_assets/images/ERD/EDR.png" width="900" height="100%">
 </p>
 
+
+
 ## Models
 ### **Recipe Model**
 
@@ -274,7 +276,7 @@ Wireframes for each device are linked here:
 <img src="assets/images/post-model.png" width="900" height="100%">
 </p>
 
-### **Comment Model**
+### ** Model**
 
 <p align="center">
 <img src="assets/images/comment-model.png" width="900" height="100%">
