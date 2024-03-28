@@ -6,7 +6,8 @@
   --main-font: 'Roboto', sans-serif;
 
   /* Colours*/
-  --background: #f8f9e4;
+  --green-ligth: #eff7ef;
+  --orange: #f52f0e;
   --light-red: #f60030;
   --red: #ac011c;
   --dark-red: #2d0001;
@@ -52,19 +53,19 @@ h6:hover {
   color: var(--light-red);
 }
 
-/* p {
+p {
   color: var(--grey);
-  font-size: 1.3rem;
-}*/
+  font-size: 1.1rem;
+}
 main {
   flex: 1 0 auto;
-  background-color: var(--white-yellow); 
+  background-color: var(--green-ligth); 
 }
 
 /* Footer */
 footer {
   flex-shrink: 0;
-  background-color: var(--white-yellow);
+  background-color: var(--green-ligth);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -79,10 +80,10 @@ footer {
 
 /* Header */
 .navbar {
-  background-color: var(--white-yellow) !important;
+  background-color: var(--green-ligth) !important;
   box-shadow: var(--small-box-shadow);
   color: var(--dark-red);
-  font-size: 0.8rem;
+  
   display: flex;
   justify-content: center;
 }
@@ -98,25 +99,28 @@ a.nav-link:hover {
 }
 
 img.logo {
-  width: 18.75rem;
+  width: 100%;
+  max-width: 300px; /* Maximum width of the logo */
+  height: auto;
 }
 
 .active {
   border-bottom: 2px solid var(--red);
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .btn  {
   background-color: var(--red);
   border-color: var(--white-yellow); 
   color: var(--light-red);
-  
   color: var(--white-yellow)
   
 }
 .btn:hover {
-  background-color: var(--light-red);
-  color: var(--white-yellow); 
+  background-color: var(--white-yellow);
+  color: var(--red); 
+  font-weight: bold;
+  border-color: var(--red);
 } 
 /* Form */
 
@@ -148,11 +152,13 @@ img.logo {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-radius: 10px;
 }
 
 .recipe-container {
   display: flex;
   flex-direction: column;
+  border-radius: 10px;
 }
 
 .ingredients,
@@ -171,6 +177,7 @@ img.logo {
 .recipe-pic {
   width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 
 .recipe-cont {
@@ -202,11 +209,12 @@ a.img-container:hover {
 
 .centered {
   width: 100%;
-  background-color: var(--white-yellow); 
+  background-color: var(--rose-ligth); 
   top: 100%; 
   border-radius:1px;
-  font-size: 0.001em; /*!important*/
+  font-size: 0.001em; 
   box-shadow: var(--smal-box-shadow);
+  font-weight: bold;
 }
 
 
@@ -215,6 +223,7 @@ a.img-container:hover {
 .profile-img {
   width: 280px;
   margin: 0 auto;
+  align-items: start;
 }
 
 .profile-img img {
@@ -230,7 +239,10 @@ a.img-container:hover {
 
 .info {
   width: 100%;
-  text-align: center;
+  text-align: align-center;
+  padding: 1rem;
+  text-align: justify;
+  width: 280px;
 }
 
 .profile-recipes {
@@ -251,7 +263,7 @@ a.img-container:hover {
     flex-direction: row;
     width: 29%;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(1, 0, 0, 0.6);
+    box-shadow: 0px 4px 8px rgba(172, 1, 28, 0.6);
 
   }
 }
