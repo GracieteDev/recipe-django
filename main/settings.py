@@ -34,12 +34,8 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-# Get the value of the "PRODUCTION" environment variable
-production = os.environ.get('PRODUCTION')
+DEBUG = os.environ.get("DEVELOPMENT", "False").lower() == "true"
 
-# If "PRODUCTION" is set to 'True', set DEBUG to False
-# Otherwise, set DEBUG to True
-DEBUG = False if production == 'True' else True
 
 ALLOWED_HOSTS = [
     "*.herokuapp.com",
