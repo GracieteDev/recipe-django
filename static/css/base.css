@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
+
+
 :root {
   /* Fonts */
-  --title: 'Montserrat', sans-serif;
+  --title: 'Monserrat', sans-serif;
   --main-font: 'Roboto', sans-serif;
 
   /* Colours*/
-  --green-ligth: #eff7ef;
+  --orange-ligth: #f8ebe8;
   --orange: #f52f0e;
   --light-red: #f60030;
   --red: #ac011c;
@@ -59,13 +62,13 @@ p {
 }
 main {
   flex: 1 0 auto;
-  background-color: var(--green-ligth); 
+  background-color: var(--orange-ligth); 
 }
 
 /* Footer */
 footer {
   flex-shrink: 0;
-  background-color: var(--green-ligth);
+  background-color: var(--orange-ligth);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -80,7 +83,7 @@ footer {
 
 /* Header */
 .navbar {
-  background-color: var(--green-ligth) !important;
+  background-color: var(--orange-ligth) !important;
   box-shadow: var(--small-box-shadow);
   color: var(--dark-red);
   
