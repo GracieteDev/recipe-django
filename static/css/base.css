@@ -149,7 +149,9 @@ img.logo {
     overflow: hidden;   
   }
   
-
+  .pt-4 {
+    font-style: italic;
+  }
 
 .card-text {
   overflow: hidden;
