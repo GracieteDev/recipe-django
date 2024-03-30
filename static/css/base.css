@@ -79,7 +79,7 @@ footer {
 .navbar {
   background-color: var(--orange-ligth) !important;
   box-shadow: var(--small-box-shadow);
-  color: var(--dark-red);
+  color: var(--red);
   --small-box-shadow: 1px -1px 7px 0 #4a4a4a;
   --border: 1px solid #4a4a4a;
 
@@ -92,7 +92,6 @@ footer {
   margin: 1rem;
   font-size: 1.2rem;
   font-weight: 700;
-  border: ;
 }
 
 a.nav-link {
