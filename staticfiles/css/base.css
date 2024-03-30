@@ -6,7 +6,7 @@
   --main-font: 'Roboto', sans-serif;
 
   /* Colours*/
-  --orange-ligth: #f8ebe8;
+  --orange-ligth: #f5f1f0;
   --orange: #f52f0e;
   --light-red: #f60030;
   --red: #ac011c;
@@ -89,9 +89,9 @@ footer {
 
 .nav-item {
   padding: 1rem;
-  margin: 1rem;
-  font-size: 1.2rem;
-  font-weight: 700;
+  margin: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
   border: ;
 }
 
@@ -223,7 +223,7 @@ a.img-container:hover {
 
 .centered {
   width: 100%;
-  background-color: var(--rose-ligth);
+  background-color: var(--orange-ligth);
   top: 100%;
   border-radius: 1px;
   font-size: 0.001em;
