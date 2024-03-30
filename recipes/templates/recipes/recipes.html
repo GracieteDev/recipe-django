@@ -12,7 +12,7 @@
         <div class="card m-3" style="width: 25rem;">
             <img src="{{recipe.image.url}}" class="card-img-top" alt="{{recipe.image_alt}}">
             <div class="card-body">
-                <h5 class="card-title">{{recipe.title}}</h5>
+                <h5 class="card-title">{{recipe.title|truncatechars:32}}</h5>
                 <p class="card-text">{{recipe.description|truncatechars:38}}</p>
             </div>
         </div>

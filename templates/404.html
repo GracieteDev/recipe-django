@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% load static %}
+{% block title %}Page Not Found{% endblock %}
+
+{% block content %} 
+    <div class="container text-center">
+        <h1>404 - Page Not Found</h1>
+        <p>Sorry, we couldn't find the page you're looking for.</p>
+        <img src="{% static 'images/not_found.png' %}" alt="Not Found">
+        <a href="{% url 'home' %}" class="btn btn-secondary w-25">Home</a>
+    </div>
+{% endblock %}
+
+
+
+

@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
-
-
 :root {
   /* Fonts */
   --title: 'Monserrat', sans-serif;
@@ -13,7 +10,7 @@
   --orange: #f52f0e;
   --light-red: #f60030;
   --red: #ac011c;
-  --dark-red: #2d0001;
+  --black: #000000;
   --cream-light: #f1e1d0;
   --grey: #4a4a4a;
   --white: #ffffff;
@@ -43,10 +40,7 @@ h5,
 h6 {
   font-family: var(--title);
   color: var(--red);
-
 }
-
-
 
 h2:hover,
 h3:hover,
@@ -62,7 +56,7 @@ p {
 }
 main {
   flex: 1 0 auto;
-  background-color: var(--orange-ligth); 
+  background-color: var(--orange-ligth);
 }
 
 /* Footer */
@@ -86,19 +80,27 @@ footer {
   background-color: var(--orange-ligth) !important;
   box-shadow: var(--small-box-shadow);
   color: var(--dark-red);
-  
+  --small-box-shadow: 1px -1px 7px 0 #4a4a4a;
+  --border: 1px solid #4a4a4a;
+
   display: flex;
   justify-content: center;
 }
 
+.nav-item {
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: ;
+}
 
 a.nav-link {
-  color: var(--dark-red);
+  color: var(--black);
 }
 
 a.nav-link:hover {
   color: var(--red);
-
 }
 
 img.logo {
@@ -112,19 +114,18 @@ img.logo {
   font-weight: 700;
 }
 
-.btn  {
+.btn {
   background-color: var(--red);
-  border-color: var(--white-yellow); 
+  border-color: var(--white-yellow);
   color: var(--light-red);
-  color: var(--white-yellow)
-  
+  color: var(--white-yellow);
 }
 .btn:hover {
   background-color: var(--white-yellow);
-  color: var(--red); 
+  color: var(--red);
   font-weight: bold;
   border-color: var(--red);
-} 
+}
 /* Form */
 
 .form {
@@ -139,6 +140,16 @@ img.logo {
 .card {
   height: 90%;
   margin-top: 1rem;
+}
+
+.pt-4 strong {
+  font-style: italic;
+}
+
+.card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .recipes {
@@ -212,14 +223,13 @@ a.img-container:hover {
 
 .centered {
   width: 100%;
-  background-color: var(--rose-ligth); 
-  top: 100%; 
-  border-radius:1px;
-  font-size: 0.001em; 
+  background-color: var(--rose-ligth);
+  top: 100%;
+  border-radius: 1px;
+  font-size: 0.001em;
   box-shadow: var(--smal-box-shadow);
   font-weight: bold;
 }
-
 
 /* Profiles */
 
@@ -267,7 +277,6 @@ a.img-container:hover {
     width: 29%;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(172, 1, 28, 0.6);
-
   }
 }
 
