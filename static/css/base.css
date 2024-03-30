@@ -91,6 +91,12 @@ footer {
   justify-content: center;
 }
 
+.nav-item{
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
 
 a.nav-link {
   color: var(--dark-red);
@@ -139,7 +145,18 @@ img.logo {
 .card {
   height: 90%;
   margin-top: 1rem;
+    max-height: 400px; 
+    overflow: hidden;   
+  }
+  
+
+
+.card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
+
 
 .recipes {
   text-decoration: none;
