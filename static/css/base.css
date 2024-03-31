@@ -15,7 +15,7 @@
   --grey: #4a4a4a;
   --white: #ffffff;
   --white-yellow: #f8f8f7;
-  --cream: #c3b299;
+  
 
   /* Utils */
   --small-box-shadow: 1px -1px 7px 0 #4a4a4a;
@@ -222,7 +222,7 @@ a.img-container:hover {
 
 .centered {
   width: 100%;
-  background-color: var(--rose-ligth);
+  background-color: var(--orange-ligth);
   top: 100%;
   border-radius: 1px;
   font-size: 0.001em;
@@ -233,7 +233,7 @@ a.img-container:hover {
 /* Profiles */
 
 .profile-img {
-  width: 280px;
+  width: 100%;
   margin: 0 auto;
   align-items: start;
 }
@@ -251,15 +251,15 @@ a.img-container:hover {
 
 .info {
   width: 100%;
-  text-align: align-center;
+  text-align: center;
   padding: 1rem;
   text-align: justify;
-  width: 280px;
 }
 
 .profile-recipes {
   width: 100%;
 }
+
 
 @media screen and (min-width: 40em) {
   .form {
@@ -286,7 +286,7 @@ a.img-container:hover {
 
   .recipe-info {
     flex-direction: row;
-    border: 1px solid var(--dark-red);
+    border: 1px solid var(--red);
   }
 
   .recipe-img {

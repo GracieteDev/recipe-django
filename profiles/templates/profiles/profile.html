@@ -7,9 +7,9 @@
 
 {% block content %}
     <div class="container p-4">
-        <div class="profile">
-            <div class="info">
-                <div class="profile-img text-center">
+        <div class="profile row">
+            <div class="info col-12 col-sm-6">
+                <div class="profile-img col-12 col-sm-6 -md-4 text-center">
                     {% if profile.image.url is not none %}
                     <img src="{{ profile.image.url }}" alt="{{ profile.user.username }}'s profile image">
                     {% else %}
