@@ -330,12 +330,42 @@ Wireframes for each device are linked here:
 
 # Database schema
 
-<p align="center">
-
-<img src="README_assets/images/ERD/EDR.png" width="900" height="100%">
-</p>
-
 ![ERD Image](README_assets/images/ERD/ERD.png)
+
+## Entities, Relationships and Cardinalities
+
+| Entity        | Description                                         | Relationship                                       | Cardinality                        |
+|---------------|-----------------------------------------------------|----------------------------------------------------|------------------------------------|
+| **User**      | PK: `id`, `email` - Unique                          | Has one **Profile**                                | **User:Profile** - 1:1             |
+|               |                                                     | Can have many **Recipes**                          | **User:Recipe** - 1:N              |
+|               |                                                     | Can have many **Meals**                            | **User:Meal** - 1:N                |
+| **Profile**   | PK: `id`, FK: `user`                                | Belongs to one **User**                            | **Profile:User** - 1:1             |
+| **Recipe**    | PK: `id`, FK: `user`                                | Owned by one **User**                              | **User:Recipe** - 1:N              |
+|               |                                                     | Can be included in many **Meals**                  | **Recipe:Meal** - 1:N              |
+| **Meal**      | PK: `id`, FK: `user`, FK: `recipe`                  | Associated with one **User** and multiple **Recipes** | **User:Meal** - 1:N, **Recipe:Meal** - 1:N |
+
+### **Notes**
+
+#### **Entities:**
+
+- **User** (PK: `id`, `email` - Unique)
+- **Profile** (PK: `id`, FK: `user`)
+- **Recipe** (PK: `id`, FK: `user`)
+- **Meal** (PK: `id`, FK: `user`, FK: `recipe`)
+
+#### **Relationships:**
+
+- One **User** can have one **Profile** (One-to-One)
+- One **User** can have many **Recipes** (One-to-Many)
+- One **User** can have many **Meals** (One-to-Many)
+- One **Recipe** can be included in many **Meals** (One-to-Many)
+
+#### **Cardinalities:**
+
+- **User:Profile** - 1:1 (One User has one Profile)
+- **User:Recipe** - 1:N (One User has many Recipes)
+- **User:Meal** - 1:N (One User has many Meals)
+- **Recipe:Meal** - 1:N (One Recipe can be included in many Meals)
 
 
 ## Models
