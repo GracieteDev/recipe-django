@@ -271,53 +271,72 @@ Our streamlined process is crafted to ensure a seamless Login/Register experienc
 - #### **Join Our Community:** For newcomers eager to join, a direct link to the **Register** page is prominently placed on the login page. This ensures that creating an account is as hassle-free as possible, paving the way for new users to embark on their journey with us.
 
 
+## Profile Page
 
-## Profile page
-- Only logged-in users can see Favorite Recipes Page
-- The Profile Page includes:
-   - The 'My Recipes' section, which has the recipes that the user has created
-   - The Username of the user
-   - The 'Avatar' image
-   - the date the user has joined the App
-   - the number recipes that user crreated
-   - A brief bio of the user
-   - A Edit button - that redirects to a form for updating the user's bio and avater image
-   - Meals Button - that redirects to the Meal planner
+Designed to celebrate and manage the user's culinary contributions and preferences, the Profile Page enhances the overall experience within the app.
+The Profile Page is an exclusive section accessible only to logged-in users, providing a personalized view of their contributions and personal information. 
+
+![Profile Page Image](README_assets/images/profile/profile.png)
+
+#### Highlights of the Profile Page include:
+- **My Recipes:** Showcases the recipes created by the user, highlighting their culinary creativity.
+- **Username:** The unique identifier for each user within the community.
+- **Avatar Image:** A personal visual representation of the user.
+- **Join Date:** The date the user joined the app, marking their journey with us.
+- **Recipe Count:** The total number of recipes contributed by the user to the community.
+- **Brief Bio:** A glimpse into the user's culinary interests and personal story.
+- **Edit Button:** Allows users to update their bio and avatar image, keeping their profile current.
+- **Meals Button:** Provides direct access to the Meal Planner, aiding users in their meal preparation and planning.
 
 
-## **My Recipes Page**
-- The 'My Recipes' page displays all the recipes that user has created
-- At the top there is an Add Recipe button which takes user to the add recipe page
-- Each recipe has two buttons, Edit and Delete
-- Edit button takes user to the edit page
-- Clicking the Delete button will display the message asking the users if they are sure they want to delete that particular recipe
-<p align="center">
-<img src="assets/images-features/your-recipes-page.png" width="100%" height="100%">
-</p>
+## Edit Profile Page
+- **Edit Button:** Allows users to update their bio and avatar image, keeping their profile current.
+![Edit Profile Page  Image](README_assets/images/profile/edit_profile.png)
 
-## **Recipes Details Page**
-- The Recipes Details Page displays all the information about the selected recipes
-- At the top of the page, the recipe card will display Recipes name, author name, date posted and image
-- The main body of the page contains short description of the recipe, ingredients and preparation steps
-- Number of likes and comments are displayed after the preparation steps
-- Commenting section is located at the end of the page, only logged in users can leave a comment
-<p align="center">
-<img src="assets/images-features/recipe-details-card-head.png" width="100%" height="100%">
-</p>
+## Recipe Detail Page
+- **My Recipes:** Showcases the recipes created by the user, highlighting their culinary creativity.
+- When user clicks on a recipe link, they are redirected to the 'Recipe Detail Page'
+![Recipe Detail Page  Image](README_assets/images/profile/profile_recipe_detail_edit_delete_options.png)
 
-<p align="center">
-<img src="assets/images-features/recipe-details-body.png" width="100%" height="100%">
-</p>
+## Recipe Edit Form Page
+ - The user has the option to edit/update their recipes
+![ Recipe Edit Form Pag Image](README_assets/images/profile/profile_edit_recipe_.png)
 
-### **Add Recipe Page**
-- On the Add Recipe page users can add their recipes to the website
-- The user must fill in all the fields in order for the recipe to be published
-- If the user doesn't fill in one of the fields the error message appears
-- If the user doesn't provide their image, the default image is displayed
-- The Add Recipe button is located at the end of the page
-<p align="center">
-<img src="assets/images-features/add-recipe.png" width="100%" height="100%">
-</p>
+## Delete Recipe Confirmation Page
+- The user has the option to delete their recipes
+![Delete Recipe Confirmation Page Image](README_assets/images/profile/delete_confirm.png)
+
+## Profile Page after Recipe Deletion 
+- The recipes count is now 5, and we can see that the 'African Chicken Curry' has been deleted.
+![Profile Page after Recipe DeletionImage](README_assets/images/profile/profile_recipe_delete_successful.png)
+
+
+
+## Meal Planner - Monthly View Page
+**Meals Button:** Provides direct access to the Meal Planner, aiding users in their meal preparation and planning.
+![Meal Planner - Monthly View Page Image](README_assets\images\profile\meal_planner.png)
+
+## Meal Planner - Choose a Meal Page
+- User can choose the meal to add to the Meal Planner by calories and keywords.
+![Register form  Image](README_assets/images/profile/meal_planner_choose_breakfast.png)
+
+## Meal Planner - Add Meal Page
+- User can add the meal to the  the Meal Planner.
+![Register form  Image](README_assets/images/profile/meal_planner_breakfast_added.png)
+
+## Meal Added to Meal Planner Page
+- Meal added to the Monthly Meal Planner.
+- User can click on the recipe title link to access the recipe detail information
+![Register form  Image](README_assets/images/profile/meal_planner_breakfastadded_to_day.png)
+
+## Recipe Detail Page
+- User can easily access the recipe detail information
+![Register form  Image](README_assets/images/profile/meal_planner_breakfastadded_to_day.png)
+
+
+## Recipe Detail Page
+- User can easily access the recipe detail information
+![Register form  Image](README_assets/images/profile/meal_planner_breakfastadded_to_day.png)
 
 
 ## Footer
