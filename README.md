@@ -168,58 +168,79 @@ By addressing the needs and challenges faced by our target audience, HealthyReci
 
 
 # Scope
-
-## Features
-
-- **Recipe Discovery:** Users can explore a wide array of healthy recipes within the app. Each recipe is carefully selected to ensure it meets various dietary preferences and health goals, including gluten-free, vegan, low-carb, and more.
-
-- **Detailed Nutritional Information:** Every recipe comes with comprehensive nutritional details, helping users make informed choices about their meals and how they fit into their dietary requirements.
-
-- **Personalized Meal Planner:** The Meal model allows users to schedule their daily meals using the recipes available in the app. This feature helps in organizing meal times and ensuring nutritional goals are met.
-
-- **Rich User Profiles:** While primarily functional at this stage for meal planning and recipe discovery, user profiles lay the groundwork for a more personalized app experience, including tracking favorite recipes and meal planning history.
-
-## Future Features
-
-- **Social Sharing:** In future updates, we plan to introduce functionality that will allow users to share their favorite recipes and meal plans with friends and family, enhancing the app's social aspect.
-
-- **User-Generated Content:** We envision a platform where users can contribute their own recipes, subject to moderation to ensure they meet our health and nutritional standards. This will enrich our database and allow for a more diverse culinary experience.
-
-- **Interactive Meal Feedback:** Future iterations will include features for users to rate recipes and provide feedback, helping others in the app community make better meal choices based on collective experiences.
-
-- **Advanced Dietary Customization:** We aim to incorporate advanced filtering options that allow users to customize their recipe discovery and meal planning based on specific dietary needs, intolerances, and nutritional goals.
-
-- **Integration with Fitness Apps:** To offer a holistic approach to health and wellness, we plan to integrate with popular fitness and health tracking apps. This will allow users to see the full picture of their health journey, from calorie intake to physical activity.
-
-- **AI-Based Recipe Recommendations:** Leveraging AI and machine learning, we plan to offer personalized recipe recommendations based on users' tastes, dietary restrictions, and meal planning habits, making discovery even more intuitive and customized.
+## **Features**
 
 
 ### **Home Page**
-*Navigation bar:* 
-- The navigation bar appears on every page so users can easily navigate through the site
-- Navigation bar has links for 'Home', 'My Recipes', 'Healthy Recipes', 'Add recipe' and 'Login/Register' more links will be shown to logged in users
-- If the user is logged in then they can access pages that only authorized users can visit and use, they are: 'Favorite Recipes', 'Your Recipes' and  'Logout'. Otherwise, the user will be given the option to 'Register' or 'Login'
-- A search bar is nested in the navbar to find recipes quickly
-- The navbar is fully responsive, collapsing into a hamburger menu for medium and small screen size
+ #### *Navigation bar:* 
+
+
+![NavBar Image](README_assets/images/homepage/navbar.png)
 
 <p align="center">
-<img src="assets/images-features/navbar.png" width="100%" height="100%">
+
+
+- #### Persistent Navigation Bar
+Our website features a constant navigation bar across all pages, ensuring that users can seamlessly navigate through the site. This accessibility is our priority, making site exploration intuitive and straightforward.
+
+- #### Comprehensive Link Options
+The navigation bar is equipped with essential links including **'Home'**, **'Recipes'**, **'Create Recipe'**, **'Register'**, and **'Login'**. Notably, the 'Login' link directs users to the **Sign In Page**, while 'Register' leads to the **Sign Up Page**. Additional functionalities become available to users upon login, enhancing the user experience with more tailored options.
+
+- #### Exclusive Access for Logged-In Users
+Authenticated users gain exclusive access to certain pages designed for registered members. These include:
+
+- **'Profile':** A personal hub showcasing the user's own recipes and their favorite selections. It's also equipped with 'Edit' and 'Meals' buttons, enabling users to modify their profile and access the Meal Planner, respectively.
+- **'Logout':** For securely ending sessions.
+
+- #### Quick Recipe Search
+Embedded within the navigation bar, the search feature allows users to effortlessly find recipes. This tool is designed for efficiency, ensuring your favorite recipes are just a search away.
+
+- #### Responsive Design
+The navigation bar's design is responsive, accommodating various screen sizes by transforming into a hamburger menu on medium and small devices. This ensures a smooth and consistent user experience across all browsing environments.
 </p>
 
 
-*Home Page Images:*
-- The home page images welcome the user with a short message advertising what the website is about. These images will be changing overtime with the addition of new recipes.
-- The Login / Register button will take users to the login page, if users do not have an account there is a link to the registration page
+  #### *Home Page Image:*  
 
-<p align="center">
-<img src="assets/images-features/homepage-image.png" width="100%" height="100%">
-</p>
+![Home page desktop Image](README_assets/images/homepage/homepage_desktop_half.png)
 
-*Recently added recipes:*
-- Recently Added section shows the latest published recipes so users can quickly see recently published recipes
-- The Recently Added section is fully responsive, showing 4 recipe cards
-- Each recipe takes the user to the recipe details page
-- Users can also see title, image, author, date posted, short description and number of likes
+
+![Home page desktop Image](README_assets/images/homepage/homepage_desktop.png)
+
+
+- #### Engaging Homepage Imagery
+Upon visiting the homepage, users are greeted with captivating images accompanied by a brief message that encapsulates the essence of our website. These images not only set the tone but also provide a glimpse into what users can expect - a vibrant community centered around sharing and discovering recipes. The imagery on the homepage is dynamic, evolving to feature new and exciting recipes over time, ensuring the experience remains fresh and engaging.
+
+- #### Seamless Login and Registration Process
+The **Login/Register** button is designed for straightforward navigation to the authentication process. For newcomers without an account, a conveniently placed link directs them to the registration page, ensuring a smooth transition into becoming a part of our community. This process is streamlined to facilitate easy access to our website's features, making the journey from visitor to member as seamless as possible.
+
+
+#### *Recipes:*  
+## Discover the Latest Recipes
+
+- **Stay Updated:** Navigate directly to the most recently published recipes to discover new culinary inspirations.
+  Our platform ensures that the freshest content is always at your fingertips, allowing you to stay current with the latest culinary trends.
+- **Optimized for Every Device:** Experience seamless browsing with a fully responsive design that adapts to any screen size. Our recipe cards are designed to provide an optimal viewing experience, showcasing the latest recipes in a visually appealing manner, regardless of the device you're using.
+
+![Home page desktop Image](README_assets/images/recipes/recipeshalf_.png)
+
+- When the user click on the recipe card is redirected to the **recipe details page**:
+
+**recipe details page**
+![Home page desktop Image](README_assets/images/recipe_detail/recipe_detail_21_.png)
+
+
+- **Detailed Recipe Insights:** By selecting a recipe card, you'll be taken to the **Recipe Details Page**. Here, every recipe is presented with comprehensive details to enhance your cooking journey, including:
+  - **Title:** Discover the name of the dish that caught your eye.
+  - **Image:** A visual representation to inspire your culinary creation.
+  - **Author:** Learn about the culinary expert behind the recipe.
+  - **Date Posted:** Know when the recipe was shared with our community.
+  - **Short Description:** Get a glimpse of the dish's essence and what makes it special.
+  - **Ingredients:** A detailed list to prepare your shopping list.
+  - **Instructions:** Step-by-step guidance to ensure your cooking success.
+
+Our goal is to provide you with an engaging and informative platform where you can easily access and enjoy the latest in the world of recipes.
+
 
 <p align="center">
 <img src="README_assets/images/latest_recipes.png" width="100%" height="100%">
@@ -241,7 +262,7 @@ By addressing the needs and challenges faced by our target audience, HealthyReci
 <img src="assets/images/footer.png" width="100%" height="100%">
 </p>
 
-### **Healthy Recipes Page**
+### **CreateRecipe Page**
 - The Recipes page shows all the published recipes, recipes are shown in order from newest to oldest
 - The site will paginate all recipe cards to display 6 to a page
 - Each recipe card will display an image and title of the recipe
@@ -301,12 +322,29 @@ By addressing the needs and challenges faced by our target audience, HealthyReci
 <img src="assets/images-features/add-recipe.png" width="100%" height="100%">
 </p>
 
-### Future Features
-- Categories
-- Users settings
-- Calories Intake/per meal
-- Preparation time
-- Notification for likes and comments
+## Features
+
+- **Recipe Discovery:** Users can explore a wide array of healthy recipes within the app. Each recipe is carefully selected to ensure it meets various dietary preferences and health goals, including gluten-free, vegan, low-carb, and more.
+
+- **Detailed Nutritional Information:** Every recipe comes with comprehensive nutritional details, helping users make informed choices about their meals and how they fit into their dietary requirements.
+
+- **Personalized Meal Planner:** The Meal model allows users to schedule their daily meals using the recipes available in the app. This feature helps in organizing meal times and ensuring nutritional goals are met.
+
+- **Rich User Profiles:** While primarily functional at this stage for meal planning and recipe discovery, user profiles lay the groundwork for a more personalized app experience, including tracking favorite recipes and meal planning history.
+
+## Future Features
+
+- **Social Sharing:** In future updates, we plan to introduce functionality that will allow users to share their favorite recipes and meal plans with friends and family, enhancing the app's social aspect.
+
+- **User-Generated Content:** We envision a platform where users can contribute their own recipes, subject to moderation to ensure they meet our health and nutritional standards. This will enrich our database and allow for a more diverse culinary experience.
+
+- **Interactive Meal Feedback:** Future iterations will include features for users to rate recipes and provide feedback, helping others in the app community make better meal choices based on collective experiences.
+
+- **Advanced Dietary Customization:** We aim to incorporate advanced filtering options that allow users to customize their recipe discovery and meal planning based on specific dietary needs, intolerances, and nutritional goals.
+
+- **Integration with Fitness Apps:** To offer a holistic approach to health and wellness, we plan to integrate with popular fitness and health tracking apps. This will allow users to see the full picture of their health journey, from calorie intake to physical activity.
+
+- **AI-Based Recipe Recommendations:** Leveraging AI and machine learning, we plan to offer personalized recipe recommendations based on users' tastes, dietary restrictions, and meal planning habits, making discovery even more intuitive and customized.
 
 # Structure
  
