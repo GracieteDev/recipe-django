@@ -344,22 +344,19 @@ The Profile Page is an exclusive section accessible only to logged-in users, pro
 Our website's footer is a constant presence across all pages, serving as a hub for our social media links. Designed with user convenience in mind, each link opens in a new tab, ensuring that you remain on our site while exploring our social media presence. This thoughtful feature keeps your browsing experience uninterrupted, allowing for easy navigation back to our content.
 
 
-
 ## Features
 
-- **Recipe Discovery:** Users can explore a wide array of healthy recipes within the app. Each recipe is carefully selected to ensure it meets various dietary preferences and health goals, including gluten-free, vegan, low-carb, and more.
+- **User-Generated Content and Recipe Discovery:** Users can create, update/edit read and delete recipes to the website  and explore a wide array of healthy recipes within the app.
 
-- **Detailed Nutritional Information:** Every recipe comes with comprehensive nutritional details, helping users make informed choices about their meals and how they fit into their dietary requirements.
+- **Detailed Caloric Information:** Every recipe comes with calories information, helping users make informed choices about their meals and how they fit into their dietary requirements.
 
 - **Personalized Meal Planner:** The Meal model allows users to schedule their daily meals using the recipes available in the app. This feature helps in organizing meal times and ensuring nutritional goals are met.
 
-- **Rich User Profiles:** While primarily functional at this stage for meal planning and recipe discovery, user profiles lay the groundwork for a more personalized app experience, including tracking favorite recipes and meal planning history.
+- **Rich User Profiles:** While primarily functional at this stage for meal planning and recipe discovery, user profiles lay the groundwork for a more personalized app experience, including tracking recipes and meal planning history.
 
 ## Future Features
 
 - **Social Sharing:** In future updates, we plan to introduce functionality that will allow users to share their favorite recipes and meal plans with friends and family, enhancing the app's social aspect.
-
-- **User-Generated Content:** We envision a platform where users can contribute their own recipes, subject to moderation to ensure they meet our health and nutritional standards. This will enrich our database and allow for a more diverse culinary experience.
 
 - **Interactive Meal Feedback:** Future iterations will include features for users to rate recipes and provide feedback, helping others in the app community make better meal choices based on collective experiences.
 
