@@ -314,7 +314,7 @@ The Profile Page is an exclusive section accessible only to logged-in users, pro
 
 ## Meal Planner - Monthly View Page
 **Meals Button:** Provides direct access to the Meal Planner, aiding users in their meal preparation and planning.
-![Meal Planner - Monthly View Page Image](README_assets\images\profile\meal_planner.png)
+![Meal Planner - Monthly View Page Image](README_assets/images/profile/meal_planner.png)
 
 ## Meal Planner - Choose a Meal Page
 - User can choose the meal to add to the Meal Planner by calories and keywords.
@@ -331,18 +331,18 @@ The Profile Page is an exclusive section accessible only to logged-in users, pro
 
 ## Recipe Detail Page
 - User can easily access the recipe detail information
-![Register form  Image](README_assets/images/profile/meal_planner_breakfastadded_to_day.png)
+![Register form  Image](README_assets/images/profile/recipe_detail_instructions_ingredients.png)
 
 
-## Recipe Detail Page
-- User can easily access the recipe detail information
-![Register form  Image](README_assets/images/profile/meal_planner_breakfastadded_to_day.png)
+## Logout Page
+- User can easily and securely logout from the website
+![Register form  Image](README_assets/images/login_logout/logout.png)
 
 
 ## Footer
-
-Our website's footer is a constant presence across all pages, serving as a hub for our social media links. Designed with user convenience in mind, each link opens in a new tab, ensuring that you remain on our site while exploring our social media presence. This thoughtful feature keeps your browsing experience uninterrupted, allowing for easy navigation back to our content.
 ![Login form Image](README_assets/images/homepage/footer.png)
+Our website's footer is a constant presence across all pages, serving as a hub for our social media links. Designed with user convenience in mind, each link opens in a new tab, ensuring that you remain on our site while exploring our social media presence. This thoughtful feature keeps your browsing experience uninterrupted, allowing for easy navigation back to our content.
+
 
 
 ## Features
