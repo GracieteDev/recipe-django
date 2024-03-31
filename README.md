@@ -242,17 +242,17 @@ Explore the culinary world with just a click on a recipe card, leading you to th
   - **Instructions:** Step-by-step guidance to ensure your cooking success.
 
 
-## **CreateRecipe Page**
+## **CreateRecipe Page- Add Recipe Form Page**
 Our goal is to provide you with an engaging and informative platform where you can easily access and enjoy the latest in the world of recipes.
 
 - #### Non-Registered Users:
 Users who are not logged in or registered will not have access to the **'CreateRecipe'** feature.
 - #### Registered Users:
-Logged-in users gain access to the **'CreateRecipe'** feature. They will be directed to a page containing a form that enables them to add a new recipe. Users can share their creations on the **Home** and **Recipes** pages, as well as include them on their own **Profile** page. Further details are provided later in this README.md document.
+Logged-in users gain access to the **'CreateRecipe'** feature. They will be directed to a page containing a form that enables them to add a new recipe. Users can share their creations on the **Home** and **Recipes** pages, as well as include them on their own **Profile** page (further details are provided later in this README.md document).
 
 ![CreateRecipe Page Image](README_assets/images/create_recipe/create_recipe_foem_filled_.png)
 
-## Add Recipe Form Page
+## **CreateRecipe Page- Recipe added to Home Page**
 ![Add Recipe Form Image](README_assets/images/create_recipe/created_recipe_added_to_homepage.webp)
 
 
@@ -272,15 +272,18 @@ Our streamlined process is crafted to ensure a seamless Login/Register experienc
 
 
 
+## Profile page
+- Only logged-in users can see Favorite Recipes Page
+- The Profile Page includes:
+   - The 'My Recipes' section, which has the recipes that the user has created
+   - The Username of the user
+   - The 'Avatar' image
+   - the date the user has joined the App
+   - the number recipes that user crreated
+   - A brief bio of the user
+   - A Edit button - that redirects to a form for updating the user's bio and avater image
+   - Meals Button - that redirects to the Meal planner
 
-
-
-## *Profile**
-- Only logged in users can see Favorite Recipes Page
-- The Favorite Recipes page shows all the recipes that the user liked
-<p align="center">
-<img src="assets/images-features/favourite-recipes-page.png" width="100%" height="100%">
-</p>
 
 ## **My Recipes Page**
 - The 'My Recipes' page displays all the recipes that user has created
