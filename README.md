@@ -132,7 +132,7 @@ By addressing the needs and challenges faced by our target audience, HealthyReci
 
 ## User Stories
 
-**Epic:Non-logged in user**
+**Epic:Non-logged-in user**
 
 | I want to... | So that I can... | Acceptance Criteria |
 | ----------- | ----------- | ----------- |
@@ -171,9 +171,9 @@ By addressing the needs and challenges faced by our target audience, HealthyReci
 ## **Features**
 
 
-### **Home Page**
- #### *Navigation bar:* 
+## Home Page
 
+### Navigation bar:
 
 ![NavBar Image](README_assets/images/homepage/navbar.png)
 
@@ -181,10 +181,10 @@ By addressing the needs and challenges faced by our target audience, HealthyReci
 
 
 - #### Persistent Navigation Bar
-Our website features a constant navigation bar across all pages, ensuring that users can seamlessly navigate through the site. This accessibility is our priority, making site exploration intuitive and straightforward.
+<p>Our website features a constant navigation bar across all pages, ensuring that users can seamlessly navigate through the site. This accessibility is our priority, making site exploration intuitive and straightforward.</p>
 
 - #### Comprehensive Link Options
-The navigation bar is equipped with essential links including **'Home'**, **'Recipes'**, **'Create Recipe'**, **'Register'**, and **'Login'**. Notably, the 'Login' link directs users to the **Sign In Page**, while 'Register' leads to the **Sign Up Page**. Additional functionalities become available to users upon login, enhancing the user experience with more tailored options.
+The navigation bar is equipped with essential links including **'Home'**, **'Recipes'**, **'Create Recipe'**, **'Register'**, and **'Login'**. Notably, the 'Login' link directs users to the **Sign In Page**, while 'Register' leads to the **Sign Up Page**. Additional functionalities become available to users upon login, enhancing the user experience with more tailored options.</p>
 
 - #### Exclusive Access for Logged-In Users
 Authenticated users gain exclusive access to certain pages designed for registered members. These include:
@@ -200,12 +200,11 @@ The navigation bar's design is responsive, accommodating various screen sizes by
 </p>
 
 
-  #### *Home Page Image:*  
-
+### Home Page Image: 
 ![Home page desktop Image](README_assets/images/homepage/homepage_desktop_half.png)
 
 
-![Home page desktop Image](README_assets/images/homepage/homepage_desktop.png)
+![Home page desktop hamburger navbar Image](README_assets/images/homepage/homepage_desktop.png)
 
 
 - #### Engaging Homepage Imagery
@@ -215,22 +214,25 @@ Upon visiting the homepage, users are greeted with captivating images accompanie
 The **Login/Register** button is designed for straightforward navigation to the authentication process. For newcomers without an account, a conveniently placed link directs them to the registration page, ensuring a smooth transition into becoming a part of our community. This process is streamlined to facilitate easy access to our website's features, making the journey from visitor to member as seamless as possible.
 
 
-#### *Recipes:*  
-## Discover the Latest Recipes
+## Recipes Page:  
+Our goal is to provide an engaging and informative platform where users can easily access and enjoy the latest in the world of recipes.
+
+![Recipes Page Image](README_assets/images/recipes/recipeshalf_.png)
 
 - **Stay Updated:** Navigate directly to the most recently published recipes to discover new culinary inspirations.
   Our platform ensures that the freshest content is always at your fingertips, allowing you to stay current with the latest culinary trends.
 - **Optimized for Every Device:** Experience seamless browsing with a fully responsive design that adapts to any screen size. Our recipe cards are designed to provide an optimal viewing experience, showcasing the latest recipes in a visually appealing manner, regardless of the device you're using.
 
-![Home page desktop Image](README_assets/images/recipes/recipeshalf_.png)
-
 - When the user click on the recipe card is redirected to the **recipe details page**:
 
-**recipe details page**
-![Home page desktop Image](README_assets/images/recipe_detail/recipe_detail_21_.png)
+## Recipe Details Page
+Explore the culinary world with just a click on a recipe card, leading you to the **Recipe Details Page**.
+
+![Recipe details page Image](README_assets/images/recipe_detail/recipe_detail_21_.png)
 
 
-- **Detailed Recipe Insights:** By selecting a recipe card, you'll be taken to the **Recipe Details Page**. Here, every recipe is presented with comprehensive details to enhance your cooking journey, including:
+- **Detailed Recipe Insights:** By selecting a recipe card, you'll be taken to the **Recipe Details Page**.
+  Here, every recipe is presented with comprehensive details to enhance your cooking journey, including:
   - **Title:** Discover the name of the dish that caught your eye.
   - **Image:** A visual representation to inspire your culinary creation.
   - **Author:** Learn about the culinary expert behind the recipe.
@@ -239,56 +241,48 @@ The **Login/Register** button is designed for straightforward navigation to the 
   - **Ingredients:** A detailed list to prepare your shopping list.
   - **Instructions:** Step-by-step guidance to ensure your cooking success.
 
+
+## **CreateRecipe Page**
 Our goal is to provide you with an engaging and informative platform where you can easily access and enjoy the latest in the world of recipes.
 
+- #### Non-Registered Users:
+Users who are not logged in or registered will not have access to the **'CreateRecipe'** feature.
+- #### Registered Users:
+Logged-in users gain access to the **'CreateRecipe'** feature. They will be directed to a page containing a form that enables them to add a new recipe. Users can share their creations on the **Home** and **Recipes** pages, as well as include them on their own **Profile** page. Further details are provided later in this README.md document.
 
-<p align="center">
-<img src="README_assets/images/latest_recipes.png" width="100%" height="100%">
-</p>
+![CreateRecipe Page Image](README_assets/images/create_recipe/create_recipe_foem_filled_.png)
 
-
-*Latest Recipes:*
-- Each recipe takes the user to the recipe details page
-- At the bottom of the list there is a link to the Recipes page that takes users to the page with all the recipes
-<p align="center">
-<img src="assets/images-features/most-loved-recipes.png" width="100%" height="100%">
-</p>
+## Add Recipe Form Page
+![Add Recipe Form Image](README_assets/images/create_recipe/created_recipe_added_to_homepage.webp)
 
 
-*Footer:*
-- Appears on every page and contains social links
-- Links are opened in a new tab to avoid dragging users from our site
-<p align="center">
-<img src="assets/images/footer.png" width="100%" height="100%">
-</p>
+## Login/Register
+Our streamlined process is crafted to ensure a seamless Login/Register experience, whether the user is returning or just starting out, access to our platform is straightforward and welcoming.
 
-### **CreateRecipe Page**
-- The Recipes page shows all the published recipes, recipes are shown in order from newest to oldest
-- The site will paginate all recipe cards to display 6 to a page
-- Each recipe card will display an image and title of the recipe
-- Each recipe card takes users to the recipe details page 
-<p align="center">
-<img src="assets/images-features/all-recipes-page.png" width="100%" height="100%">
-</p>
+## Register Page
+![Register form  Image](README_assets/images/login_logout/register_signup_form.png)
 
-### **Login/Register**
-- The Login / Register button takes users to the login page where they can also find a link to the Register page where they can create an account
-<p align="center">
-<img src="assets/images-features/signin.png" width="100%" height="100%">
-</p>
+## Login Page
 
-<p align="center">
-<img src="assets/images-features/register.png" width="100%" height="100%">
-</p>
+![Login form Image](README_assets/images/login_logout/login_form.png)
 
-### **Favorite Recipes Page**
+- #### **Effortless Access:** Clicking the **Login / Register** button navigates users to our login/register pages, designed with simplicity and user-friendliness in mind. Here, those who already belong to our community can quickly re-enter their digital home.
+
+- #### **Join Our Community:** For newcomers eager to join, a direct link to the **Register** page is prominently placed on the login page. This ensures that creating an account is as hassle-free as possible, paving the way for new users to embark on their journey with us.
+
+
+
+
+
+
+## *Profile**
 - Only logged in users can see Favorite Recipes Page
 - The Favorite Recipes page shows all the recipes that the user liked
 <p align="center">
 <img src="assets/images-features/favourite-recipes-page.png" width="100%" height="100%">
 </p>
 
-### **My Recipes Page**
+## **My Recipes Page**
 - The 'My Recipes' page displays all the recipes that user has created
 - At the top there is an Add Recipe button which takes user to the add recipe page
 - Each recipe has two buttons, Edit and Delete
@@ -298,7 +292,7 @@ Our goal is to provide you with an engaging and informative platform where you c
 <img src="assets/images-features/your-recipes-page.png" width="100%" height="100%">
 </p>
 
-### **Recipes Details Page**
+## **Recipes Details Page**
 - The Recipes Details Page displays all the information about the selected recipes
 - At the top of the page, the recipe card will display Recipes name, author name, date posted and image
 - The main body of the page contains short description of the recipe, ingredients and preparation steps
@@ -321,6 +315,13 @@ Our goal is to provide you with an engaging and informative platform where you c
 <p align="center">
 <img src="assets/images-features/add-recipe.png" width="100%" height="100%">
 </p>
+
+
+## Footer
+
+Our website's footer is a constant presence across all pages, serving as a hub for our social media links. Designed with user convenience in mind, each link opens in a new tab, ensuring that you remain on our site while exploring our social media presence. This thoughtful feature keeps your browsing experience uninterrupted, allowing for easy navigation back to our content.
+![Login form Image](README_assets/images/homepage/footer.png)
+
 
 ## Features
 
