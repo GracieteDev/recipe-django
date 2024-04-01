@@ -428,6 +428,7 @@ Wireframes for each device are linked here:
 
 
 ## Models
+
 ## Recipe Model 
 ![Register form  Image](README_assets/images/Models/Recipe_model.png)
 
@@ -438,23 +439,19 @@ Wireframes for each device are linked here:
 ![Register form  Image](README_assets/images/Models/profile_model.png)
 
 
-<p align="center">
-<img src="assets/images/post-model.png" width="900" height="100%">
-</p>
-
-### ** Model**
-
-<p align="center">
-<img src="assets/images/comment-model.png" width="900" height="100%">
-</p>
-
 
 # Surface
 
 ## Design 
 
 ## Chosen Color 
-Color palette from [Coolorpalettes][[https://colorpalettes.net/color-palette-4486/]
+The palettes that were used for the project were created with Color Hunt.
+[Color palette from Color Hunt](https://colorhunt.co/create)
+
+[Palette 1 Image](README_assets/images/Surface/Pallete_1.png)
+
+[Palette 2 Image](README_assets/images/Surface/Palette_2.png)
+
 
 <p align="center">
 <img src="assets/images/used-colors.png" width="800" height="300">
