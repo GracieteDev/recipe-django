@@ -527,22 +527,19 @@ The development and deployment of this project were supported by a range of fram
 
 - **[Draw.io](https://draw.io/)**: An online tool for creating diagrams and wireframes, Draw.io was employed in the planning stages to design the layout and structure of the website, ensuring a well-thought-out user experience.
 
-- **[Am I Responsive](http://ami.responsivedesign.is/)**: This tool was used to test the responsiveness of the website across different devices and screen sizes, ensuring a consistent and accessible user experience regardless of the viewing platform.
-
-- **[DALL·E 3 - OpenAI](https://openai.com/dall-e-3)**: Employed to generate all the images for the website, leveraging advanced AI to create visually compelling and relevant graphics tailored to the content and theme of the site.
-
 - **[W3C Markup Validator](https://validator.w3.org/#validate_by_input)**: This tool was used to ensure the HTML code meets web standards and best practices, helping to identify and correct any markup errors.
 
 - **[W3C Rocket Validator](https://rocketvalidator.com/)**: Similar to the Markup Validator, Rocket Validator was utilized for bulk validation of HTML, streamlining the process of ensuring web standards compliance across multiple pages at once.
 
 - **[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)**: To guarantee the CSS code adheres to the latest web standards and best practices, this validator was used, aiding in the identification and rectification of any issues in styling sheets.
 
-- **[Beautify](https://www.jpkc.com/tools/beautify/)**: A tool for cleaning up and formatting HTML and CSS code, Beautify was instrumental in correcting indentation inconsistencies and reducing excessive whitespace, resulting in cleaner, more readable code.
+- **[VSCode: Using Black to Automatically Format Python](https://code.visualstudio.com/docs/python/editing#_formatting)**: Implemented this Django project to ensure consistent and standard Python code formatting. Black, as an automatic code formatter, greatly enhances 
+    the development workflow by enforcing style consistency across all Python scripts. This tool is crucial in maintaining code readability and reducing the time spent on manual code reviews for formatting issues.
 
-- **[Color Hunt](https://colorhunt.co/)**: Provided inspiration and guidance for the website's color scheme, offering a curated selection of color palettes to enhance the visual design and user experience.
+- **[Color Hunt](https://colorhunt.co/)**: For this project, I created two color palettes using Color Hunt, specifically designed to enrich the visual design and elevate the user experience. These custom palettes were meticulously selected to ensure 
+    a harmonious blend of colors that aligns seamlessly with the site's aesthetic, contributing to a cohesive and attractive interface
 
 By leveraging these tools and resources, the project benefited from improved code quality, adherence to web standards, and enhanced visual appeal, contributing to a more polished and professional final product.
-
 Each of these technologies played a pivotal role in the development lifecycle, from initial coding through to deployment, ensuring a robust and scalable solution.
 
 
@@ -553,15 +550,19 @@ Each of these technologies played a pivotal role in the development lifecycle, f
 
 ### **Testing Users Stories form (UX) Section**
 
-**EPIC: Superuser / Admin**
-
-**EPIC: User Interaction**
-
-
-**EPIC: User Recipes**
+**Epic: Admin**
+- As an Admin I can can create, edit and delete recipes (access a form to input new recipe details, including title, description, ingredients, and preparation steps).
+- As an Admin I can log in to the admin panel using their credentials. 
+- As an Admin I can Log out of the admin panel. 
 
 
-**EPIC: Login/Register**
+
+**EPIC:Logged-in User**
+
+
+**EPIC: Not Logged-in User**
+
+
 
 ## Bugs and Issues
 
@@ -569,19 +570,24 @@ Each of these technologies played a pivotal role in the development lifecycle, f
 
 # Validation
 
+
+
 # Deploying a Django Project with GitHub, Heroku, and Cloudinary
 
-Deploying a Django application involves several platforms and services, each contributing to different stages of development, deployment, and runtime. Here's how GitHub, Heroku, and Cloudinary can be integrated for a seamless deployment process.
+## GitHub Desktop
 
-## GitHub - Version Control and Code Repository
+For managing the project's repository and streamlining Git workflows, I used GitHub Desktop by following these steps:
 
-GitHub serves as the central repository for your Django project's codebase. It offers version control with Git, allowing you to track changes, collaborate with others, and maintain a history of your project's development.
+- Downloaded and installed GitHub Desktop from the [official site](https://desktop.github.com/).
+- Signed in to my GitHub account within GitHub Desktop.
+- Cloned the repository to my local machine by going to `File > Clone Repository`, selecting the desired repository under the GitHub.com tab, and choosing a local path for the clone.
+- Made changes to the project in VSCode, then used GitHub Desktop to stage, commit, and push these changes back to the repository on GitHub.
+- Utilized GitHub Desktop's user-friendly interface to manage branches, pull requests, and review changes before committing.
 
-### Key Steps:
+These tools, VSCode and GitHub Desktop, provided a powerful and efficient environment for code management and version control, significantly enhancing the development workflow and productivity.
 
-1. **Initialize a Git repository** in your Django project directory (if not already done) using `git init`.
-2. **Connect your local repository** to GitHub by adding the remote repository with `git remote add origin YOUR_REPOSITORY_URL`.
-3. **Commit your changes** locally and **push** them to GitHub using `git push -u origin master`.
+## Django
+- To get the Django framework installed and set up I followed the Code institutes [Django Blog cheatsheet](https://codeinstitute.s3.amazonaws.com/fst/Django%20Blog%20Cheat%20Sheet%20v1.pdf)
 
 ## Heroku - Hosting and Deployment
 
@@ -593,7 +599,7 @@ Heroku is a cloud platform that enables developers to build, run, and operate ap
 2. **Log in to Heroku** through the CLI using `heroku login`.
 3. **Create a new Heroku app** using `heroku create`.
 4. **Add the Heroku remote** to your Git repository with `heroku git:remote -a YOUR_APP_NAME`.
-5. **Deploy your application** to Heroku by pushing your code with `git push heroku master`.
+5. **Deploy application** to Heroku by pushing your code with `git push heroku master`.
 6. **Set environment variables** (like `DATABASE_URL`, `SECRET_KEY`, and Cloudinary's credentials) in Heroku's dashboard.
 
 ## Cloudinary - Media Management
@@ -604,16 +610,54 @@ Cloudinary offers cloud-based image and video management services. In the contex
 
 1. **Sign up for Cloudinary** and obtain your account details (cloud name, API key, API secret).
 2. **Install Cloudinary's library** for Django using pip: `pip install cloudinary`.
-3. **Configure Cloudinary** in your Django settings by adding your account details to the `CLOUDINARY_STORAGE` dictionary.
-4. **Use Cloudinary's storage** for your media files by setting `DEFAULT_FILE_STORAGE` to `'cloudinary_storage.storage.MediaCloudinaryStorage'` in your Django settings.
+3. **Configure Cloudinary** in Django settings by adding account details to the `CLOUDINARY_STORAGE` dictionary.
+4. **Use Cloudinary's storage** for  media files by setting `DEFAULT_FILE_STORAGE` to `'cloudinary_storage.storage.MediaCloudinaryStorage'` in Django settings.
+
 
 ## Integration
 
 The integration of GitHub, Heroku, and Cloudinary allows for efficient development, deployment, and media handling. GitHub acts as the source of truth for your codebase, Heroku as the cloud-based platform for running your web application, and Cloudinary as the solution for storing and serving media files. This setup ensures your Django application is scalable, maintainable, and performant.
 
+## Visual Studio Code (VSCode)
+
+To edit and manage my project's codebase, I followed these steps with VSCode:
+
+- Installed VSCode on my computer from the [official website](https://code.visualstudio.com/).
+- Opened VSCode and used the integrated terminal to create the virtual environment and clone the repository using `git clone REPOSITORY_URL`.
+- After cloning, I navigated into the project directory using `cd PROJECT_NAME` and opened it in VSCode by executing `code .` in the terminal.
+- Utilized VSCode's extensive range of extensions and features for code editing, debugging, and version control.
 
 # Credits
 
 ## Media
 - **[DALL·E 3 - OpenAI](https://openai.com/dall-e-3)**: Employed to generate all the images for the website, leveraging advanced AI to create visually compelling and relevant graphics tailored to the content and theme of the site.
+- **[ChatGPT - OpenAI](https://openai.com/chatgpt)**: Utilized within our Django project as a dynamic tool for troubleshooting development challenges, resolving bugs, and in content generation, providing unique recipes and creating visually appealing images to enrich 
+    website content and elevate the overall user experience.
+
 ## Acknowledgements
+  
+- **[Django Recipe Sharing Tutorial](https://www.youtube.com/results?search_query=Django+Recipe+Sharing+Tutorial+-+1)**: This invaluable tutorial served as a cornerstone for the realization of this project. It provided me with the essential knowledge and practical 
+  skills required to implement the project successfully, guiding me through the complexities of Django and enabling the creation of a feature-rich recipe sharing platform.
+  
+- **[Django Concepts with Net Ninja](https://www.youtube.com/watch?v=n-FTlQ7Djqc&list=PL4cUxeGkcC9ib4HsrXEYpQnTOTZE1x0uc&ab_channel=NetNinja)**: This comprehensive video series by Net Ninja played a pivotal role in deepening my understanding of Django's core concepts. 
+  It offered clear, concise explanations and practical examples that significantly contributed to my ability to navigate and utilize Django effectively in developing the project.
+  
+- **[Django Tutorial for Beginners by Tech With Tim](https://www.youtube.com/watch?v=nGIg40xs9e4&t=10s&ab_channel=TechWithTim)**: This tutorial provided a foundational understanding of Django for beginners. Tech With Tim's engaging teaching style and step-by-step guidance were instrumental in helping me grasp the basics of Django, setting a solid foundation for further exploration and development within this framework.
+
+- **[Python Django Web Framework - Full Course for Beginners by Programming with Mosh](https://www.youtube.com/watch?v=rHux0gMZ3Eg&ab_channel=ProgrammingwithMosh)**: Programming with Mosh offered an exhaustive full course on Django, meticulously covering everything from initial setup to advanced features. This tutorial was crucial in bridging knowledge gaps and enhancing my proficiency with Django, enabling the implementation of more complex functionalities in my projects.
+
+- **[Learn Django by Building a Stock Management System by Dave Gray](https://www.youtube.com/watch?v=qcJZN1pvG6A&ab_channel=DaveGray)**: Dave Gray's practical approach to learning Django through building a stock management system provided me with hands-on experience and a project-based understanding of the framework. This tutorial not only enriched my learning experience but also inspired innovative ideas for applying Django in real-world applications.
+
+- **[The Healthy Family PP4 Repository](https://github.com/Iris-Smok/The-Healthy-Family-PP4/tree/main)**: Accessing this GitHub repository was instrumental in visualizing the structure of a well-organized `README.md` document. It offered me a clear example of how to effectively structure documentation to enhance readability and provide comprehensive project insights. The repository served as a practical reference for crafting my own `README.md`, guiding me in the layout, content organization, and presentation best practices.
+
+ 
+### To people and the furry one:
+
+- **Iris Smok** - My CI facilitator for all help, patience and encouragement.
+  
+- **Excellence Ilesanmi** - My mentor for this Django project for his patience and help in solving bugs and issues.
+  
+- **Dulce Gil** - My sister for her encouragement, incentive and being there when I most needed.
+  
+- **Gracie - my beloved dog** - for her unconditional love and presence.
+
