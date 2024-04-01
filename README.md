@@ -381,15 +381,17 @@ In summary, the app's structure is crafted to provide a user-friendly experience
 # Wireframes
 
 ## Desktop Wireframes
-User can easily and securely logout from the website
-![Logout Page  Image](README_assets/images/login_logout/logout.png)
+
+![Desktop wireframes Image](README_assets/images/Wireframes/Wireframe2_Desktop_homepage_login.png)
+
+![Desktop wireframes Image](README_assets/images/Wireframes/Wireframe_Desktop_recipes_createrecipe.png)
 
 
 ## Mobile Wireframes
 User can easily and securely logout from the website
-![Mobile Wireframes1  Image](README_assets/images/Wireframes/Wireframe_Mobile_Addrecipe_recipe_logout1.png)
+![Mobile Wireframes1  Image](README_assets/images/Wireframes/Wireframe_Mobile_homepage_login_myrecipes_healthyrecipes.png)
 
-![Mobile Wireframes2 Image](README_assets/images/Wireframes/Wireframe Mobile_homepage_login_myrecipes_healthyrecipes.png)
+![Mobile Wireframes2 Image](README_assets/images/Wireframes/wireframe_mobile_add_recipe__recipe_signout.png)
 
 All wireframes were created used [draw.io](https://draw.io/)
 
@@ -620,9 +622,6 @@ The integration of GitHub, Heroku, and Cloudinary allows for efficient developme
 
 # Credits
 
-
-
-
 ## Media
-- All images were taken from
+- **[DALL·E 3 - OpenAI](https://openai.com/dall-e-3)**: Employed to generate all the images for the website, leveraging advanced AI to create visually compelling and relevant graphics tailored to the content and theme of the site.
 ## Acknowledgements
