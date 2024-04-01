@@ -552,9 +552,13 @@ Each of these technologies played a pivotal role in the development lifecycle, f
 
 **Epic: Admin**
 - As an Admin I can can create, edit and delete recipes (access a form to input new recipe details, including title, description, ingredients, and preparation steps).
-- As an Admin I can log in to the admin panel using their credentials. 
+  ![Admin User Story 1 Image]()
+  
+- As an Admin I can log in to the admin panel using their credentials.
+  ![Admin User Story 2Image]()
+  
 - As an Admin I can Log out of the admin panel. 
-
+  ![Admin User Story 3 Image]()
 
 
 **EPIC:Logged-in User**
@@ -651,13 +655,14 @@ To edit and manage my project's codebase, I followed these steps with VSCode:
 - **[The Healthy Family PP4 Repository](https://github.com/Iris-Smok/The-Healthy-Family-PP4/tree/main)**: Accessing this GitHub repository was instrumental in visualizing the structure of a well-organized `README.md` document. It offered me a clear example of how to effectively structure documentation to enhance readability and provide comprehensive project insights. The repository served as a practical reference for crafting my own `README.md`, guiding me in the layout, content organization, and presentation best practices.
 
  
-### To people and the furry one:
+### Acknowledgments to the People and the Furry Companion:
 
-- **Iris Smok** - My CI facilitator for all help, patience and encouragement.
-  
-- **Excellence Ilesanmi** - My mentor for this Django project for his patience and help in solving bugs and issues.
-  
-- **Dulce Gil** - My sister for her encouragement, incentive and being there when I most needed.
-  
-- **Gracie - my beloved dog** - for her unconditional love and presence.
+- **Iris Smok**: Immense gratitude is extended to my CI facilitator, Iris Smok, for her invaluable help, endless patience, and unwavering encouragement throughout this journey.
+
+- **Excellence Ilesanmi**: Special thanks to my mentor, Excellence Ilesanmi, for his guidance and expertise in navigating the complexities of this Django project. His patience and adeptness in resolving bugs and issues have been pivotal to my progress.
+
+- **Dulce Gil**: Heartfelt appreciation to my sister, Dulce Gil, for her continuous encouragement and support. Her presence and motivation were my pillars of strength during challenging moments.
+
+- **Gracie, My Beloved Dog**: A warm acknowledgment to Gracie, my faithful companion, whose unconditional love and comforting presence have been a source of joy and inspiration.
+
 
