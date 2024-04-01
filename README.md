@@ -382,14 +382,14 @@ In summary, the app's structure is crafted to provide a user-friendly experience
 
 ## Desktop Wireframes
 User can easily and securely logout from the website
-![Logout Page  Image](README_assets/images/login_logout/logout.png)
+![Desktop wireframes  Image](R)
 
 
 ## Mobile Wireframes
 User can easily and securely logout from the website
 ![Mobile Wireframes1  Image](README_assets/images/Wireframes/Wireframe_Mobile_Addrecipe_recipe_logout1.png)
 
-![Mobile Wireframes2 Image](README_assets/images/Wireframes/Wireframe Mobile_homepage_login_myrecipes_healthyrecipes.png)
+![Mobile Wireframes2 Image](README_assets\images\Wireframes\Wireframes2_Mobile_Homepage_Login_Myrecipes_healthyrecipes.png)
 
 All wireframes were created used [draw.io](https://draw.io/)
 
