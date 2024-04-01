@@ -382,8 +382,8 @@ In summary, the app's structure is crafted to provide a user-friendly experience
 All wireframes were created used [draw.io](https://draw.io/)
 
 ## Desktop Wireframes
-![Desktop wireframes1  Image]()
 ![Desktop wireframes1  Image](README_assets/images/Wireframes/Wireframe2_Desktop_homepage_login.png)
+![Desktop wireframes2  Image](README_assets/images/Wireframes/Wireframe_Desktop_recipes_createrecipe.png)
 
 
 ## Mobile Wireframes
