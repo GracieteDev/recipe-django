@@ -181,7 +181,7 @@ By addressing the needs and challenges faced by our target audience, HealthyReci
 
 
 - #### Persistent Navigation Bar
-<p>Our website features a constant navigation bar across all pages, ensuring that users can seamlessly navigate through the site. This accessibility is our priority, making site exploration intuitive and straightforward.</p>
+Our website features a constant navigation bar across all pages, ensuring that users can seamlessly navigate through the site. This accessibility is our priority, making site exploration intuitive and straightforward.
 
 - #### Comprehensive Link Options
 The navigation bar is equipped with essential links including **'Home'**, **'Recipes'**, **'Create Recipe'**, **'Register'**, and **'Login'**. Notably, the 'Login' link directs users to the **Sign In Page**, while 'Register' leads to the **Sign Up Page**. Additional functionalities become available to users upon login, enhancing the user experience with more tailored options.</p>
@@ -387,6 +387,7 @@ Wireframes for each device are linked here:
 
 
 # Database schema
+## Entity-Relationship Diagram (ERD)
 
 ![ERD Image](README_assets/images/ERD/ERD.png)
 
@@ -427,7 +428,14 @@ Wireframes for each device are linked here:
 
 
 ## Models
-### **Recipe Model**
+## Recipe Model 
+![Register form  Image](README_assets/images/Models/Recipe_model.png)
+
+## Meal Model 
+![Register form  Image](README_assets/images/Models/meal_model.png)
+
+## Profile Model 
+![Register form  Image](README_assets/images/Models/profile_model.png)
 
 
 <p align="center">
