@@ -448,14 +448,10 @@ Wireframes for each device are linked here:
 The palettes that were used for the project were created with Color Hunt.
 [Color palette from Color Hunt](https://colorhunt.co/create)
 
-<a href="https://colorhunt.co/create">
-  <img src="URL_OF_YOUR_IMAGE_HERE" alt="Color palette from Color Hunt">
-</a>
 
+[Palette 1 Image](README_assets/images/Surface/Pallete1.png)
 
-[Palette 1 Image](README_assets/images/Surface/Pallete_1.png)
-
-[Palette 2 Image](README_assets/images/Surface/Palette_2.png)
+[Palette 2 Image](README_assets/images/Surface/Palette2.png)
 
 
 <p align="center">
