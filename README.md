@@ -1,7 +1,7 @@
 README.md
 <h1 align="center">HealthyRecipyApp</h1>
 
- ![Healthy Recipe Responsiveness](README_assets/images/healthyrecipy_responsive.png) 
+ ![Healthy Recipe Responsiveness](README_assets/images/homepage/red_healthyrecipy.png) 
 
 
 
@@ -28,7 +28,7 @@ HealthyRecipy is built on the belief that healthy eating shouldn't be complicate
 
 - **Explore Recipes:** Dive into our expansive Recipes Page, which is the core of HealthyRecipy. Discover recipes that cater to various dietary needs and for all around the world.
 
-### Designed for You
+### Designed with the User in Mind
 
 - **Rich Nutritional Info:** Every recipe is accompanied by calorie details, enabling you to make well-informed decisions about your meals.
 
@@ -46,12 +46,11 @@ The HealthyRecipy App is developed using Django, a high-level Python web framewo
 
 - **Recipes:** At the heart of our app, the Recipes Page showcases a wide range of healthy dishes, complete with cooking instructions, ingredient lists, and nutritional values.
 
-## Embark on Your Healthy Eating Journey
+## Healthy Eating Journey
 
 With the HealthyRecipy App, discover the joy of cooking and eating meals that are as nutritious as they are delicious. Say goodbye to guesswork and hello to a world where healthy eating is easy, enjoyable, and perfectly tailored to you.
 
 Start your journey towards a healthier you with HealthyRecipy today.
-
 
 
 # Table of Contents
@@ -201,11 +200,8 @@ The navigation bar's design is responsive, accommodating various screen sizes by
 
 
 ### Home Page Image: 
-![Home page desktop Image](README_assets/images/homepage/homepage_desktop_half.png)
 
-
-![Home page desktop hamburger navbar Image](README_assets/images/homepage/homepage_desktop.png)
-
+![Home page desktop Image](README_assets/images/homepage/homepage_desktopf.png)
 
 - #### Engaging Homepage Imagery
 Upon visiting the homepage, users are greeted with captivating images accompanied by a brief message that encapsulates the essence of our website. These images not only set the tone but also provide a glimpse into what users can expect - a vibrant community centered around sharing and discovering recipes. The imagery on the homepage is dynamic, evolving to feature new and exciting recipes over time, ensuring the experience remains fresh and engaging.
@@ -290,24 +286,24 @@ The Profile Page is an exclusive section accessible only to logged-in users, pro
 
 
 ## Edit Profile Page
-- **Edit Button:** Allows users to update their bio and avatar image, keeping their profile current.
+**Edit Button:** Allows users to update their bio and avatar image, keeping their profile current.
 ![Edit Profile Page  Image](README_assets/images/profile/edit_profile.png)
 
 ## Recipe Detail Page
-- **My Recipes:** Showcases the recipes created by the user, highlighting their culinary creativity.
-- When user clicks on a recipe link, they are redirected to the 'Recipe Detail Page'
+**My Recipes:** Showcases the recipes created by the user, highlighting their culinary creativity.
+When user clicks on a recipe link, they are redirected to the 'Recipe Detail Page'
 ![Recipe Detail Page  Image](README_assets/images/profile/profile_recipe_detail_edit_delete_options.png)
 
 ## Recipe Edit Form Page
- - The user has the option to edit/update their recipes
+The user has the option to edit/update their recipes
 ![ Recipe Edit Form Pag Image](README_assets/images/profile/profile_edit_recipe_.png)
 
 ## Delete Recipe Confirmation Page
-- The user has the option to delete their recipes
+The user has the option to delete their recipes
 ![Delete Recipe Confirmation Page Image](README_assets/images/profile/delete_confirm.png)
 
 ## Profile Page after Recipe Deletion 
-- The recipes count is now 5, and we can see that the 'African Chicken Curry' has been deleted.
+The recipes count is now 5, and we can see that the 'African Chicken Curry' has been deleted.
 ![Profile Page after Recipe DeletionImage](README_assets/images/profile/profile_recipe_delete_successful.png)
 
 
@@ -317,30 +313,30 @@ The Profile Page is an exclusive section accessible only to logged-in users, pro
 ![Meal Planner - Monthly View Page Image](README_assets/images/profile/meal_planner.png)
 
 ## Meal Planner - Choose a Meal Page
-- User can choose the meal to add to the Meal Planner by calories and keywords.
+User can choose the meal to add to the Meal Planner by calories and keywords.
 ![Register form  Image](README_assets/images/profile/meal_planner_choose_breakfast.png)
 
 ## Meal Planner - Add Meal Page
-- User can add the meal to the  the Meal Planner.
+User can add the meal to the  the Meal Planner.
 ![Register form  Image](README_assets/images/profile/meal_planner_breakfast_added.png)
 
 ## Meal Added to Meal Planner Page
-- Meal added to the Monthly Meal Planner.
-- User can click on the recipe title link to access the recipe detail information
+Meal added to the Monthly Meal Planner.
+User can click on the recipe title link to access the recipe detail information
 ![Register form  Image](README_assets/images/profile/meal_planner_breakfastadded_to_day.png)
 
 ## Recipe Detail Page
-- User can easily access the recipe detail information
+User can easily access the recipe detail information
 ![Register form  Image](README_assets/images/profile/recipe_detail_instructions_ingredients.png)
 
 
 ## Logout Page
-- User can easily and securely logout from the website
-![Register form  Image](README_assets/images/login_logout/logout.png)
+User can easily and securely logout from the website
+![Logout Page  Image](README_assets/images/login_logout/logout.png)
 
 
 ## Footer
-![Login form Image](README_assets/images/homepage/footer.png)
+![Footer Image](README_assets/images/homepage/footer.png)
 Our website's footer is a constant presence across all pages, serving as a hub for our social media links. Designed with user convenience in mind, each link opens in a new tab, ensuring that you remain on our site while exploring our social media presence. This thoughtful feature keeps your browsing experience uninterrupted, allowing for easy navigation back to our content.
 
 
@@ -366,16 +362,34 @@ Our website's footer is a constant presence across all pages, serving as a hub f
 
 - **AI-Based Recipe Recommendations:** Leveraging AI and machine learning, we plan to offer personalized recipe recommendations based on users' tastes, dietary restrictions, and meal planning habits, making discovery even more intuitive and customized.
 
-# Structure
- 
- Simplicity helps users to quickly and easily access the app and navigate within the app.
+# App Structure and Navigation
+
+![App Structure and Navigation Image](README_assets/images/homepage/flowdiagram.png)
+
+The foundational principle guiding the structure and design of our app is simplicity. By prioritizing a straightforward and intuitive interface, we ensure that users can swiftly familiarize themselves with the app's functionalities. This approach minimizes the learning curve and enhances the overall user experience by enabling:
+
+- **Effortless Access**: Users can quickly access the app without navigating through complex procedures, making the entry point as welcoming and as straightforward as possible.
+- **Seamless Navigation**: The app's navigation is designed to be intuitive, allowing users to move between different sections effortlessly. This is achieved by logical organization and clear labeling of all features and content.
+- **Enhanced Usability**: With a focus on simplicity, the app caters to a wide range of users, including those who may not be tech-savvy. By reducing clutter and focusing on essential functionalities, the app becomes more accessible and easier to use.
+
+In summary, the app's structure is crafted to provide a user-friendly experience that encourages exploration and engagement without overwhelming the users. This simplicity in design and structure is instrumental in building a positive relationship between the app and its users, fostering a sense of ease and efficiency.
+
 
 #Apps in the project
 
 
 # Wireframes
 
+## Desktop Wireframes
+User can easily and securely logout from the website
+![Logout Page  Image](README_assets/images/login_logout/logout.png)
 
+
+## Mobile Wireframes
+User can easily and securely logout from the website
+![Mobile Wireframes1  Image](README_assets/images/Wireframes/Wireframe_Mobile_Addrecipe_recipe_logout1.png)
+
+![Mobile Wireframes2 Image](README_assets/images/Wireframes/Wireframe Mobile_homepage_login_myrecipes_healthyrecipes.png)
 
 All wireframes were created used [draw.io](https://draw.io/)
 
@@ -450,81 +464,92 @@ The palettes that were used for the project were created with Color Hunt.
 
 
 
-<p align="center">
-<img src="README_assets/images/Surface/Pallete1.png" width="400" height="300">
-</p>
-
-<p>
-#ac011c
-#f52f0e
-#4a4a4a
-#f8f8f7
-</p>
+##  AC011C  F52F0E  4A4A4A  F8F8F7                                  |    000000  F60030  F1E1D0  F8F8F7                     
+##  ![Palette 1](README_assets/images/surface/Pallete1.png)              ![Palette 2](README_assets/images/surface/Palette2.png) 
 
 
 
-<p align="center">
-<img src="README_assets/images/Surface/Palette2.png" width="400" height="300">
-</p>
+## Site Color Scheme Overview
+
+The color scheme selected for the website has been thoughtfully chosen to enhance user experience and visual harmony across different sections:
+
+- **Navigation Bar Color**: The color chosen for the navigation bar perfectly complements the hero image, ensuring a cohesive look and feel across the website's interface.
+
+- **Button Color**: Selected for its ability to blend seamlessly with the page's overall aesthetic, this hue enhances the visual appeal and draws attention to interactive elements.
+
+- **Main Body Color**: This color was picked for its gentle contrast against the design elements, offering a visually soothing alternative to stark white and improving readability.
+
+- **Login/Register Section Background**: The backdrop color for the login/register sections has been carefully chosen to coordinate with adjacent imagery, fostering a welcoming and integrated user experience.
+
+- **Footer Background Color**: The background color used for the footer has been specifically selected to round off the site's design smoothly, complementing the overall color scheme while clearly defining the page's bottom boundary.
 
 
-- **#** - Color for the navigation bar. Complements the hero image well.
-- **#** - Color selected for the buttons. This hue was picked as it harmonizes with the page's overall aesthetic and enhances its appearance.
-- **#** - Main body color of the site. Chosen for its compatibility with the page's design, this color offers a softer alternative to stark white.
-- **#** - Chosen as the backdrop for the login/register sections, this color coordinates well with the adjacent image.
-- **#** - Background color used for the footer.
 
+## Font Choices Overview
 
+The selection of fonts for the website is aimed at enhancing readability and establishing a strong visual identity:
 
-## Font 
-- Verdana, sans-serif - main font
-- Nadira- for navbar logo and welcome message
+- **Title Font**: "Montserrat", sans-serif. Chosen for its modern and geometric lines, Montserrat is used for all titles to grab attention and convey clarity.
+
+- **Main Body Font**: "Roboto", sans-serif. Roboto is selected for the main text due to its friendly and legible appearance, ensuring excellent readability across various devices and screen sizes.
+
+- **Logo Font**: "Nadira". The font for the logo is specially chosen for its unique characteristics, helping to set the logo apart and make a memorable impression.
 
 
 # Technologies Used
 
-## Languages 
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)
-- [CSS3](https://en.wikipedia.org/wiki/CSS)
-- [Python](https://www.python.org/)
+In the development of this project, a variety of technologies were utilized to ensure a robust and efficient solution. Below is a list of the key programming languages employed, along with links to their respective informational resources:
+
+## Languages
+
+- **HTML5**: The latest version of HTML, used for structuring and presenting content on the World Wide Web. [Learn more about HTML5](https://en.wikipedia.org/wiki/HTML5).
+- **CSS3**: An extension of CSS that allows for more advanced styling of web pages. CSS3 introduces new features such as rounded corners, shadows, gradients, transitions or animations, and more. [Learn more about CSS3](https://en.wikipedia.org/wiki/CSS).
+- **Python**: A high-level, interpreted programming language known for its readability and versatility. Python is used in various areas, including web development, data analysis, artificial intelligence, scientific computing, and more. [Learn more about Python](https://www.python.org/).
 
 
-## Frameworks, Libraries & Programs Used
-[GitHub](https://github.com/) - Holds the repository of my project, GitHub connects to GitPod and Heroku.
+## Frameworks, Libraries, & Programs Used
 
-[GitPod](https://gitpod.io/workspaces) – Connected to GitHub, GitPod hosted the coding space, allowing the project to be built and then committed to the GitHub repository. 
+The development and deployment of this project were supported by a range of frameworks, libraries, and programs, detailed as follows:
 
-[Heroku](https://www.heroku.com/) - Connected to the GitHub repository, Heroku is a cloud application platform used to deploy this project so the backend language can be utilised/tested. 
+- **[GitHub](https://github.com/)**: Serves as the repository host for the project, facilitating version control and collaboration. GitHub connects seamlessly with GitPod for code editing and Heroku for application deployment.
 
-[Django](https://www.djangoproject.com/) - This framework was used to build the foundations of this project
+- **[GitPod](https://gitpod.io/workspaces)**: Linked directly to GitHub, GitPod provides a cloud-based development environment, allowing for coding, building, and committing changes to the GitHub repository.
 
-[Gunicorn](https://gunicorn.org/) - Gunicorn is a pure-Python HTTP server for WSGI applications.
+- **[Heroku](https://www.heroku.com/)**: Integrating with the GitHub repository, Heroku offers a cloud platform to deploy the project, enabling the backend languages to be utilized and tested in a live environment.
 
-[Dj Database URL](https://pypi.org/project/dj-database-url/) - This allows you to utilize the 12factor inspired DATABASE_URL environment variable to configure your Django application.
+- **[Django](https://www.djangoproject.com/)**: A high-level Python Web framework that encourages rapid development and clean, pragmatic design, Django was used to construct the foundation of this project.
 
-[Bootstrap](https://getbootstrap.com/) - Used to quickly add design to my website, Bootstrap focuses on mobile first design meaning this website is responsive across multiple devices ans screen sizes. 
+- **[Gunicorn](https://gunicorn.org/)**: A Python WSGI HTTP Server for UNIX, Gunicorn facilitates the serving of web applications to the web.
 
-[Cloudinary](https://cloudinary.com/?utm_source=google&utm_medium=cpc&utm_campaign=Rbrand&utm_content=492438439811&utm_term=cloudinary&gclid=Cj0KCQiAt8WOBhDbARIsANQLp96hTerzfFJ_P9lX0tEYEdtM3tSsYB6fhw-x3wQxOO0oc4hXm-A2ZBUaAptIEALw_wcB) - Used to store images online for the recipe posts. 
+- **[Dj Database URL](https://pypi.org/project/dj-database-url/)**: By employing the DATABASE_URL environment variable inspired by the twelve-factor app methodology, this utility allows for easy configuration of Django applications with dynamic databases.
 
-[Summernote](https://summernote.org/) Used to add a text area field to the admin setup to enable a list of ingredients and method steps.
+- **[Bootstrap](https://getbootstrap.com/)**: Leveraged for its extensive library of pre-styled components and responsive design templates, Bootstrap enabled quick and responsive design implementation across various devices and screen sizes.
 
-[Google Fonts](https://fonts.google.com/https://fonts.google.com/) - provide fonts for the website.
+- **[Cloudinary](https://cloudinary.com/)**: A cloud-based service for managing web and mobile application assets, Cloudinary was used to store and serve images dynamically for the project, enhancing the management of media resources.
 
-[Font Awesome](https://fontawesome.com/) -was used for icons.
+- **[Google Fonts](https://fonts.google.com/)**: Provides a wide array of fonts accessible for the web, enhancing the visual appeal and typography of the website without compromising on performance or loading times.
 
-[Drawio](https://draw.io/) - was used to create site wireframes.
+- **[Font Awesome](https://fontawesome.com/)**: A comprehensive icon library and toolkit, Font Awesome was utilized for embedding various icons throughout the site, enriching the user interface with visually engaging elements.
 
-[Am I Responsive](http://ami.responsivedesign.is/) - to check if the site is responsive on different screen sizes.
+- **[Draw.io](https://draw.io/)**: An online tool for creating diagrams and wireframes, Draw.io was employed in the planning stages to design the layout and structure of the website, ensuring a well-thought-out user experience.
 
-[Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com/) - were used for all the images
+- **[Am I Responsive](http://ami.responsivedesign.is/)**: This tool was used to test the responsiveness of the website across different devices and screen sizes, ensuring a consistent and accessible user experience regardless of the viewing platform.
 
-[W3C Markup Validator](https://validator.w3.org/#validate_by_input) - was used to validate HTML
+- **[DALL·E 3 - OpenAI](https://openai.com/dall-e-3)**: Employed to generate all the images for the website, leveraging advanced AI to create visually compelling and relevant graphics tailored to the content and theme of the site.
 
-[W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - was used to validate CSS
+- **[W3C Markup Validator](https://validator.w3.org/#validate_by_input)**: This tool was used to ensure the HTML code meets web standards and best practices, helping to identify and correct any markup errors.
 
-[Beautify](https://www.jpkc.com/tools/beautify/) - was used to correct indentation issues and get rid of too much whitespace - HTML, CSS
+- **[W3C Rocket Validator](https://rocketvalidator.com/)**: Similar to the Markup Validator, Rocket Validator was utilized for bulk validation of HTML, streamlining the process of ensuring web standards compliance across multiple pages at once.
 
-[Coolors]- to make color palette
+- **[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)**: To guarantee the CSS code adheres to the latest web standards and best practices, this validator was used, aiding in the identification and rectification of any issues in styling sheets.
+
+- **[Beautify](https://www.jpkc.com/tools/beautify/)**: A tool for cleaning up and formatting HTML and CSS code, Beautify was instrumental in correcting indentation inconsistencies and reducing excessive whitespace, resulting in cleaner, more readable code.
+
+- **[Color Hunt](https://colorhunt.co/)**: Provided inspiration and guidance for the website's color scheme, offering a curated selection of color palettes to enhance the visual design and user experience.
+
+By leveraging these tools and resources, the project benefited from improved code quality, adherence to web standards, and enhanced visual appeal, contributing to a more polished and professional final product.
+
+Each of these technologies played a pivotal role in the development lifecycle, from initial coding through to deployment, ensuring a robust and scalable solution.
 
 
 # Testing
@@ -545,24 +570,53 @@ The palettes that were used for the project were created with Color Hunt.
 **EPIC: Login/Register**
 
 ## Bugs and Issues
--
-
-# Deployment
-This project was deployed using Github and Heroku.
-
-## Github 
-To create a new repository I took the following steps:
-
-- Logged into Github.
-- Clicked over to the ‘repositories’ section.
-- Clicked the green ‘new’ button. This takes you to the create new repository page.
-- I am using VS Code therefore I creatdd my own template from scrath and also setup my virtual environment in the VS Code terminal.
-- I created the repository for this project in GitHub and then I open it via GitHub Desktop and cloned it to my local machine.
-- I then open the repository in VS Code and worked and estabished the virtual environment via Git Bash.
 
 
-## Django and Heroku 
-- To get the Django framework installed and set up I followed the Code institutes [Django Blog cheatsheet](https://codeinstitute.s3.amazonaws.com/fst/Django%20Blog%20Cheat%20Sheet%20v1.pdf)
+
+# Validation
+
+# Deploying a Django Project with GitHub, Heroku, and Cloudinary
+
+Deploying a Django application involves several platforms and services, each contributing to different stages of development, deployment, and runtime. Here's how GitHub, Heroku, and Cloudinary can be integrated for a seamless deployment process.
+
+## GitHub - Version Control and Code Repository
+
+GitHub serves as the central repository for your Django project's codebase. It offers version control with Git, allowing you to track changes, collaborate with others, and maintain a history of your project's development.
+
+### Key Steps:
+
+1. **Initialize a Git repository** in your Django project directory (if not already done) using `git init`.
+2. **Connect your local repository** to GitHub by adding the remote repository with `git remote add origin YOUR_REPOSITORY_URL`.
+3. **Commit your changes** locally and **push** them to GitHub using `git push -u origin master`.
+
+## Heroku - Hosting and Deployment
+
+Heroku is a cloud platform that enables developers to build, run, and operate applications entirely in the cloud. It supports Django applications natively and simplifies the deployment process.
+
+### Key Steps:
+
+1. **Create a Heroku account** and **install the Heroku CLI** on your development machine.
+2. **Log in to Heroku** through the CLI using `heroku login`.
+3. **Create a new Heroku app** using `heroku create`.
+4. **Add the Heroku remote** to your Git repository with `heroku git:remote -a YOUR_APP_NAME`.
+5. **Deploy your application** to Heroku by pushing your code with `git push heroku master`.
+6. **Set environment variables** (like `DATABASE_URL`, `SECRET_KEY`, and Cloudinary's credentials) in Heroku's dashboard.
+
+## Cloudinary - Media Management
+
+Cloudinary offers cloud-based image and video management services. In the context of a Django project, it can store media files (images, videos) uploaded by your application, freeing your web server from handling these files directly.
+
+### Key Steps:
+
+1. **Sign up for Cloudinary** and obtain your account details (cloud name, API key, API secret).
+2. **Install Cloudinary's library** for Django using pip: `pip install cloudinary`.
+3. **Configure Cloudinary** in your Django settings by adding your account details to the `CLOUDINARY_STORAGE` dictionary.
+4. **Use Cloudinary's storage** for your media files by setting `DEFAULT_FILE_STORAGE` to `'cloudinary_storage.storage.MediaCloudinaryStorage'` in your Django settings.
+
+## Integration
+
+The integration of GitHub, Heroku, and Cloudinary allows for efficient development, deployment, and media handling. GitHub acts as the source of truth for your codebase, Heroku as the cloud-based platform for running your web application, and Cloudinary as the solution for storing and serving media files. This setup ensures your Django application is scalable, maintainable, and performant.
+
 
 # Credits
 
