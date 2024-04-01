@@ -449,14 +449,20 @@ The palettes that were used for the project were created with Color Hunt.
 [Color palette from Color Hunt](https://colorhunt.co/create)
 
 
-[Palette 1 Image](README_assets/images/Surface/Pallete1.png)
 
-[Palette 2 Image](README_assets/images/Surface/Palette2.png)
+<p align="center">
+<img src="README_assets/images/Surface/Pallete1.png" width="400" height="300">
+</p>
+#ac011c
+#f52f0e
+#4a4a4a
+#f8f8f7
 
 
 <p align="center">
-<img src="assets/images/used-colors.png" width="800" height="300">
+<img src="README_assets/images/Surface/Palette2.png" width="400" height="300">
 </p>
+
 
 - **#** - Color for the navigation bar. Complements the hero image well.
 - **#** - Color selected for the buttons. This hue was picked as it harmonizes with the page's overall aesthetic and enhances its appearance.
