@@ -379,6 +379,7 @@ In summary, the app's structure is crafted to provide a user-friendly experience
 
 
 # Wireframes
+All wireframes were created used [draw.io](https://draw.io/)
 
 ## Desktop Wireframes
 
@@ -386,27 +387,18 @@ In summary, the app's structure is crafted to provide a user-friendly experience
 
 ![Desktop wireframes Image](README_assets/images/Wireframes/Wireframe_Desktop_recipes_createrecipe.png)
 
-
 ## Mobile Wireframes
 User can easily and securely logout from the website
 ![Mobile Wireframes1  Image](README_assets/images/Wireframes/Wireframe_Mobile_homepage_login_myrecipes_healthyrecipes.png)
 
 ![Mobile Wireframes2 Image](README_assets/images/Wireframes/wireframe_mobile_add_recipe__recipe_signout.png)
 
-All wireframes were created used [draw.io](https://draw.io/)
-
-Wireframes for each device are linked here:
-- [Desktop Wireframe - Homepage & Login/Register](assets\documents\Images\wireframe__desktop_1_drawio.png)
-- [Desktop](assets\documents\Images\wireframe_desktop_2.png)
-- [Tablet](assets/documents/Tablet-wireframes)
-- [Mobile](assets/documents/Mobile-wireframes)
-
 
 # Database schema
 ## Entity-Relationship Diagram (ERD)
 
 ![ERD Image](README_assets/images/ERD/ERD.png)
-
+ERD created using draw.io
 ## Entities, Relationships and Cardinalities
 
 | Entity        | Description                                         | Relationship                                       | Cardinality                        |
