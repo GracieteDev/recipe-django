@@ -382,14 +382,14 @@ In summary, the app's structure is crafted to provide a user-friendly experience
 All wireframes were created used [draw.io](https://draw.io/)
 
 ## Desktop Wireframes
-![Desktop wireframes1  Image](README_assets/images/Wireframes/Wireframe_Desktop_myrecipes_healthyrecipes.png)
+![Desktop wireframes1  Image]()
 ![Desktop wireframes1  Image](README_assets/images/Wireframes/Wireframe2_Desktop_homepage_login.png)
 
 
 ## Mobile Wireframes
-![Mobile Wireframes2 Image](README_assets/images/Wireframes/Wireframes2_Mobile_Homepage_Login_Myrecipes_healthyrecipes.png)
+![Mobile Wireframes2 Image](README_assets/images/Wireframes/Wireframe_Mobile_homepage_login_myrecipes_healthyrecipes.png)
 
-![Mobile Wireframes1  Image](README_assets/images/Wireframes/Wireframe_Mobile_Addrecipe_recipe_logout1.png)
+![Mobile Wireframes1  Image](README_assets/images/Wireframes/wireframe_mobile_add_recipe__recipe_signout.png)
 
 
 # Database schema
