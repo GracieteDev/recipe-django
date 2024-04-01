@@ -453,10 +453,14 @@ The palettes that were used for the project were created with Color Hunt.
 <p align="center">
 <img src="README_assets/images/Surface/Pallete1.png" width="400" height="300">
 </p>
+
+<p>
 #ac011c
 #f52f0e
 #4a4a4a
 #f8f8f7
+</p>
+
 
 
 <p align="center">
