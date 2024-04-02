@@ -33,15 +33,14 @@ class EditProfile(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
         """Get the object this view is displaying."""
         # Use get_object_or_404 to avoid raising an exception
         return get_object_or_404(Profile, user=self.kwargs["pk"])
-    
-    
+
     def form_valid(self, form):
         self.success_url = f'/profiles/user/{self.kwargs["pk"]}/'
         return super().form_valid(form)
 
     def test_func(self):
         return self.request.user == self.get_object().user
-    
+
     def test_func(self):
         profile = self.get_object()
         if profile:
@@ -50,4 +49,4 @@ class EditProfile(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
 
     def handle_no_permission(self):
         # Redirect to login page or show a message
-        return redirect('login')
+        return redirect("login")
