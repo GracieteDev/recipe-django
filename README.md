@@ -375,9 +375,6 @@ The foundational principle guiding the structure and design of our app is simpli
 In summary, the app's structure is crafted to provide a user-friendly experience that encourages exploration and engagement without overwhelming the users. This simplicity in design and structure is instrumental in building a positive relationship between the app and its users, fostering a sense of ease and efficiency.
 
 
-#Apps in the project
-
-
 # Wireframes
 All wireframes were created used [draw.io](https://draw.io/)
 
@@ -552,6 +549,7 @@ Each of these technologies played a pivotal role in the development lifecycle, f
 
 **Epic: Admin**
 - As an Admin I can can create, edit and delete recipes (access a form to input new recipe details, including title, description, ingredients, and preparation steps).
+  
 - CREATE/ADD RECIPE
 ![Admin User Story 1 Image](README_assets/images/Admin_stories/Admin_add_recipe.png)
 ![Admin User Story 3Image](README_assets/images/Admin_stories/Admin_recipe_added.png)
@@ -559,14 +557,20 @@ Each of these technologies played a pivotal role in the development lifecycle, f
 - CHANGE/EDIT RECIPE
 ![Admin User Story 2Image](README_assets/images/Admin_stories/admin_change_recipe.png)
 
+- DELETE
+![Admin User Story 4Image](README_assets/images/Admin_stories/admin_delete_recipe.png)
+![Admin User Story 5Image](README_assets/images/Admin_stories/admin_delete_recipe_confirm.png)
+![Admin User Story 6Image](README_assets/images/Admin_stories/recipe_deleted.png)
+
+
+
 - As an Admin I can log in to the admin panel using their credentials.
 - LOGIN
-![Admin User Story 2Image](README_assets/images/Admin_stories/django_admin_dashboard.png)
+![Admin User Story 7 Image](README_assets/images/Admin_stories/django_admin_dashboard.png)
 
- 
 - As an Admin I can Log out of the admin panel.
 - LOGOUT 
-![Admin User Story 3 Image](README_assets/images/Admin_stories/admin_logout_.png)
+![Admin User Story 8Image](README_assets/images/Admin_stories/admin_logout_.png)
 
 
 **EPIC:Logged-in User**
@@ -575,10 +579,8 @@ Each of these technologies played a pivotal role in the development lifecycle, f
 **EPIC: Not Logged-in User**
 
 
-
 ## Bugs and Issues
 I started this Django project on the ...
-
 
 # Validation
 
