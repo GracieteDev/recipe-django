@@ -584,8 +584,8 @@ I started this Django project on the ...
 
 # Validation
 
-## PYTHON VALIDATION with BLACK FORMATTER, AUTOPEP8 and FLAKE8
-### BLACK FORMATTER
+## Python Validation with Black Formatter, Autopep8 and Flake8
+### Black Formatter
 Using Black in VSCode to Automatically Format Python: Implemented this in this Django project to ensure consistent and standard Python code formatting. Black, as an automatic code formatter, greatly enhances the development workflow by enforcing style consistency across all Python scripts. This tool is crucial in maintaining code readability and reducing the time spent on manual code reviews for formatting issues.
 
 #### I ensure consistent code formatting throughout my Django projects by using [Black](https://github.com/psf/black). It's an uncompromising code formatter that automatically reformats my files, aligning them with the best coding practices. I placed  generic placeholders to hide personal file paths. 
@@ -609,7 +609,7 @@ All done! ✨ 🍰 ✨
 (env) 
 
 ```
-### AUTOPEP8
+### Autopep8
 After writing my code, I make sure to format it using `autopep8`, which is a tool that helps format Python code to conform to the PEP 8 style guidelines. The PEP 8 style guide is important for writing clean code that is easy to read and maintain. Here are the steps I take to format my Django project directories and files:
 
 ```bash
@@ -643,7 +643,7 @@ Note: The --in-place option is used to ensure changes are made directly in the f
 
 ```
 
-### FLAKE8
+### Flake8
 
 To maintain high code quality and ensure that it conforms to Python's coding standards, I routinely run `flake8`, a command-line utility for enforcing style consistency across Python projects. It helps identify coding issues such as unused imports, redefinitions of unused variables, and other issues that might not affect the functionality but could lead to maintenance problems or hinder readability.
 
@@ -682,6 +682,64 @@ Note: Flake8 will run checks against the code in the specified directories and r
 I carefully evaluated each suggestion from flake8 to ensure that following its recommendations would not disrupt the functionality of the code. I only implemented changes that maintained or improved the code's integrity and operational effectiveness.
 
 ```
+
+## HTML Validation with W3 Validator and Rocket Validator
+
+### W3 Validator 
+
+
+#### Home Page
+![Image]()
+
+#### Recipes Page
+![Image]()
+
+#### CreateRecipe Page
+![Image]()
+
+#### Profile Page
+![Image]()
+
+#### Meal Planner Page
+![Image]()
+
+#### Register Page
+![Image]()
+
+#### Login Page
+![Image]()
+
+
+#### Logout Page 
+![Image]()
+
+### Rocket Validator
+![Image]()
+
+#### Home Page
+![Image]()
+
+#### Recipes Page
+![Image]()
+
+#### CreateRecipe Page
+![Image]()
+
+#### Profile Page
+![Image]()
+
+#### Meal Planner Page
+![Image]()
+
+#### Register Page
+![Image]()
+
+#### Login Page
+![Image]()
+
+#### Logout Page 
+![Image]()
+
 
 
 # Deploying a Django Project with GitHub, Heroku, and Cloudinary
