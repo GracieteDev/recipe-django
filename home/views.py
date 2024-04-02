@@ -1,6 +1,6 @@
 from django.views.generic import ListView
 from recipes.models import Recipe
-
+from django.shortcuts import render 
 
 class Index(ListView):
     template_name = "home/index.html"
@@ -9,3 +9,8 @@ class Index(ListView):
 
     def get_queryset(self):
         return self.model.objects.all()[:6]
+
+    
+    
+    
+        
