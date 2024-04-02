@@ -1,5 +1,5 @@
 README.md
-<h1 align="center">HealthyRecipyApp</h1>
+<h1 align="center">The HealthyRecipy App</h1>
 
  ![Healthy Recipe Responsiveness](README_assets/images/homepage/healthyrecipy_app.png) 
 
@@ -584,6 +584,30 @@ I started this Django project on the ...
 
 # Validation
 
+## PYTHON VALIDATION with BLACK FORMATTER
+Using Black in VSCode to Automatically Format Python: Implemented this in this Django project to ensure consistent and standard Python code formatting. Black, as an automatic code formatter, greatly enhances the development workflow by enforcing style consistency across all Python scripts. This tool is crucial in maintaining code readability and reducing the time spent on manual code reviews for formatting issues.
+
+#### I ensure consistent code formatting throughout my Django projects by using [Black](https://github.com/psf/black). It's an uncompromising code formatter that automatically reformats my files, aligning them with the best coding practices. I placed  generic placeholders to hide personal file paths. 
+I formatted my entire project by navigating to the root directory and execute:
+ 
+```
+python -m black .
+```
+ 
+I activated my virtual environment and run the `black` formatter on the entire Django project to ensure code formatting consistency. Here's the command and its output:
+
+```bash
+# Activate the virtual environment
+$ source env/Scripts/activate
+(env) 
+
+# Run the Black formatter to format the code
+$ python -m black .
+All done! ✨ 🍰 ✨
+44 files left unchanged.
+(env) 
+
+```
 
 
 # Deploying a Django Project with GitHub, Heroku, and Cloudinary
@@ -660,12 +684,12 @@ To edit and manage my project's codebase, I followed these steps with VSCode:
 
 - **[Python Django Web Framework - Full Course for Beginners by Programming with Mosh](https://www.youtube.com/watch?v=rHux0gMZ3Eg&ab_channel=ProgrammingwithMosh)**: Programming with Mosh offered an exhaustive full course on Django, meticulously covering everything from initial setup to advanced features. This tutorial was crucial in bridging knowledge gaps and enhancing my proficiency with Django, enabling the implementation of more complex functionalities in my projects.
 
-- **[Learn Django by Building a Stock Management System by Dave Gray](https://www.youtube.com/watch?v=qcJZN1pvG6A&ab_channel=DaveGray)**: Dave Gray's practical approach to learning Django through building a stock management system provided me with hands-on experience and a project-based understanding of the framework. This tutorial not only enriched my learning experience but also inspired innovative ideas for applying Django in real-world applications.
+- **[Django Tutorial for Beginners by Telusko](https://www.youtube.com/watch?v=SIyxjRJ8VNY&list=PLsyeobzWxl7r2ukVgTqIQcl-1T0C2mzau&ab_channel=Telusko)**: Telusko's Django tutorial series for beginners is an exceptional resource that meticulously guides learners through the Django framework, from basic concepts to more advanced topics. The clear explanations and practical coding sessions offered by Telusko were invaluable in enhancing my understanding and skill in Django, contributing significantly to my project's development.
 
 - **[The Healthy Family PP4 Repository](https://github.com/Iris-Smok/The-Healthy-Family-PP4/tree/main)**: Accessing this GitHub repository was instrumental in visualizing the structure of a well-organized `README.md` document. It offered me a clear example of how to effectively structure documentation to enhance readability and provide comprehensive project insights. The repository served as a practical reference for crafting my own `README.md`, guiding me in the layout, content organization, and presentation best practices.
 
  
-### Acknowledgments to the People and the Furry Companion:
+### Acknowledgments to People and the Furry Companion:
 
 - **Iris Smok**: Immense gratitude is extended to my CI facilitator, Iris Smok, for her invaluable help, endless patience, and unwavering encouragement throughout this journey.
 
