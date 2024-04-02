@@ -687,21 +687,20 @@ I carefully evaluated each suggestion from flake8 to ensure that following its r
 
 ### W3 Validator 
 
-
 #### Home Page
-![Image]()
+![Image]README_assets\images\HTML Validation\HTML_vakidation .png)
 
 #### Recipes Page
-![Image]()
+![Image](README_assets\images\HTML Validation\recipes_w3htmlvalidation.png)
 
 #### CreateRecipe Page
-![Image]()
+![Image](README_assets\images\HTML Validation\createrecipe_w3htmlvalidation.png)
 
 #### Profile Page
-![Image]()
+![Image](README_assets\images\HTML Validation\profiles_htmlvalidation.png)
 
 #### Meal Planner Page
-![Image]()
+![Image](README_assets\images\HTML Validation\meal_planner_w3htmlvalidation.png)
 
 #### Register Page
 ![Image]()
@@ -711,34 +710,34 @@ I carefully evaluated each suggestion from flake8 to ensure that following its r
 
 
 #### Logout Page 
-![Image]()
+![Image](README_assets\images\HTML Validation\logout_htmlvalidationpng.png)
+
 
 ### Rocket Validator
-![Image]()
 
 #### Home Page
-![Image]()
+![Image](README_assets\images\HTML Validation\homepage_htmlvalidation.png)
 
 #### Recipes Page
-![Image]()
+![Image](README_assets\images\HTML Validation\recipes_htmlvalidation.png)
 
 #### CreateRecipe Page
-![Image]()
+![Image](README_assets\images\HTML Validation\createrecipe_htmlvalidation .png)
 
 #### Profile Page
-![Image]()
+![Image](README_assets\images\HTML Validation\profilepage_loggedinuser_htmlvalidation.png)
 
 #### Meal Planner Page
-![Image]()
+![Image](README_assets\images\HTML Validation\meal_planner_htmlvalidation.png)
 
 #### Register Page
-![Image]()
+![Image](README_assets\images\HTML Validation\register_page_htmlvalidation.png)
 
 #### Login Page
-![Image]()
+![Image](README_assets\images\HTML Validation\loginpage_htmlvalidation.png)
 
 #### Logout Page 
-![Image]()
+![Image](README_assets\images\HTML Validation\logoutpage_htmlvalidation.png)
 
 
 
