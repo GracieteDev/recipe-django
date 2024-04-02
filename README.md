@@ -1,7 +1,7 @@
 README.md
 <h1 align="center">HealthyRecipyApp</h1>
 
- ![Healthy Recipe Responsiveness](README_assets/images/homepage/red_healthyrecipy.png) 
+ ![Healthy Recipe Responsiveness](README_assets/images/homepage/healthyrecipy_app.png) 
 
 
 
