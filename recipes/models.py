@@ -7,7 +7,8 @@ from django_resized import ResizedImageField
 
 
 # Choice Fields
-MEAL_TYPES = (("breakfast", "Breakfast"), ("lunch", "Lunch"), ("dinner", "Dinner"))
+MEAL_TYPES = (("breakfast", "Breakfast"),
+              ("lunch", "Lunch"), ("dinner", "Dinner"))
 
 CUISINE_TYPES = (
     ("african", "African"),
@@ -41,7 +42,10 @@ class Recipe(models.Model):
         null=False,
     )
     image_alt = models.CharField(max_length=100, null=False, blank=False)
-    meal_type = models.CharField(max_length=50, choices=MEAL_TYPES, default="breakfast")
+    meal_type = models.CharField(
+        max_length=50,
+        choices=MEAL_TYPES,
+        default="breakfast")
     cuisine_types = models.CharField(
         max_length=60, choices=CUISINE_TYPES, default="african"
     )

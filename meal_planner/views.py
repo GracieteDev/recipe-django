@@ -1,4 +1,5 @@
-import datetime, calendar
+import datetime
+import calendar
 
 from django_reorder.reorder import reorder
 
