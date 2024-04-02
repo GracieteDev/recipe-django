@@ -115,3 +115,4 @@ class AddMeal(View):
         )
 
         return HttpResponseRedirect(reverse("meal_planner"))
+        
