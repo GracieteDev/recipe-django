@@ -1,5 +1,5 @@
 README.md
-<h1 align="center">HealthyRecipyApp</h1>
+<h1 align="center">The HealthyRecipy App</h1>
 
  ![Healthy Recipe Responsiveness](README_assets/images/homepage/healthyrecipy_app.png) 
 
@@ -584,7 +584,9 @@ I started this Django project on the ...
 
 # Validation
 
-
+## PYTHON VALIDATION with BLACK FORMATTER
+Using Black in VSCode to Automatically Format Python: Implemented this in this Django project to ensure consistent and standard Python code formatting. Black, as an automatic code formatter, greatly enhances the development workflow by enforcing style consistency across all Python scripts. This tool is crucial in maintaining code readability and reducing the time spent on manual code reviews for formatting issues.
+![Admin User Story 6Image](README_assets/images/validation/black_formatter.png)
 
 # Deploying a Django Project with GitHub, Heroku, and Cloudinary
 
