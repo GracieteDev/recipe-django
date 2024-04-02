@@ -88,8 +88,6 @@ footer {
 }
 
 .nav-item {
-  padding: 1rem;
-  margin: 1rem;
   font-size: 1.2rem;
   font-weight: 700;
 }
@@ -101,7 +99,6 @@ a.nav-link {
 a.nav-link:hover {
   color: var(--red);
 }
-
 
 
 img.logo {
