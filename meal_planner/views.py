@@ -47,16 +47,12 @@ class GetMeal(TemplateView):
         calories = self.request.GET.get("calories")
         query = self.request.GET.get("search")
 
-        # If a query was sent from the from & no calories, set max calories
-        # This needs done to convert calories to an int as we can't convert null
-        # If no calories specified
         if query:
             if not calories:
                 calories = 9999
 
             calories = int(calories)
-            # Filter by description, title, ingredients, cuisine type or instructions
-            # AND calories & meal type
+
             recipes = Recipe.objects.filter(
                 Q(description__icontains=query)
                 | Q(title__icontains=query)
@@ -115,4 +111,3 @@ class AddMeal(View):
         )
 
         return HttpResponseRedirect(reverse("meal_planner"))
-        
