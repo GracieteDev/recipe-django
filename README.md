@@ -552,13 +552,21 @@ Each of these technologies played a pivotal role in the development lifecycle, f
 
 **Epic: Admin**
 - As an Admin I can can create, edit and delete recipes (access a form to input new recipe details, including title, description, ingredients, and preparation steps).
-  ![Admin User Story 1 Image]()
-  
+- CREATE/ADD RECIPE
+![Admin User Story 1 Image](README_assets/images/Admin_stories/Admin_add_recipe.png)
+![Admin User Story 3Image](README_assets/images/Admin_stories/Admin_recipe_added.png)
+
+- CHANGE/EDIT RECIPE
+![Admin User Story 2Image](README_assets/images/Admin_stories/admin_change_recipe.png)
+
 - As an Admin I can log in to the admin panel using their credentials.
-  ![Admin User Story 2Image]()
-  
-- As an Admin I can Log out of the admin panel. 
-  ![Admin User Story 3 Image]()
+- LOGIN
+![Admin User Story 2Image](README_assets/images/Admin_stories/django_admin_dashboard.png)
+
+ 
+- As an Admin I can Log out of the admin panel.
+- LOGOUT 
+![Admin User Story 3 Image](README_assets/images/Admin_stories/admin_logout_.png)
 
 
 **EPIC:Logged-in User**
@@ -569,7 +577,7 @@ Each of these technologies played a pivotal role in the development lifecycle, f
 
 
 ## Bugs and Issues
-
+I started this Django project on the ...
 
 
 # Validation
@@ -658,8 +666,6 @@ To edit and manage my project's codebase, I followed these steps with VSCode:
 ### Acknowledgments to the People and the Furry Companion:
 
 - **Iris Smok**: Immense gratitude is extended to my CI facilitator, Iris Smok, for her invaluable help, endless patience, and unwavering encouragement throughout this journey.
-
-- **Excellence Ilesanmi**: Special thanks to my mentor, Excellence Ilesanmi, for his guidance and expertise in navigating the complexities of this Django project. His patience and adeptness in resolving bugs and issues have been pivotal to my progress.
 
 - **Dulce Gil**: Heartfelt appreciation to my sister, Dulce Gil, for her continuous encouragement and support. Her presence and motivation were my pillars of strength during challenging moments.
 
