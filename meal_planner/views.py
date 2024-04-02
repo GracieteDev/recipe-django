@@ -1,33 +1,29 @@
-import datetime
 import calendar
+import datetime
+import random
 
-from django_reorder.reorder import reorder
-
-from django.views.generic import TemplateView, View
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.db.models import Q
 from django.http import HttpResponseRedirect
 from django.urls import reverse
-
-from django.db.models import Q
+from django.views.generic import TemplateView, View
+from django_reorder.reorder import reorder
 
 from .models import Meal
 from recipes.models import Recipe
 
-import random
-
 
 class MealPlanner(LoginRequiredMixin, TemplateView):
     """Meal planner view"""
-
     template_name = "meal_planner/meal_planner.html"
 
-    def get_context_data(self, **Kwargs):
+    def get_context_data(self, **kwargs):
         today = datetime.date.today()
-        days_in_mon = calendar.monthrange(today.year, today.month)[1]
+        days_in_month = calendar.monthrange(today.year, today.month)[1]
 
         days = [
             datetime.date(today.year, today.month, day)
-            for day in range(1, days_in_mon + 1)
+            for day in range(1, days_in_month + 1)
         ]
 
         meals = Meal.objects.filter(
@@ -44,7 +40,6 @@ class GetMeal(TemplateView):
     Class to handle getting a random meal based on
     search queries or empty input
     """
-
     template_name = "meal_planner/create_meal.html"
 
     def get_context_data(self, **kwargs):
@@ -60,17 +55,16 @@ class GetMeal(TemplateView):
                 calories = 9999
 
             calories = int(calories)
-            # Filter by description, title, ingrediends, cuisine type or instructions
+            # Filter by description, title, ingredients, cuisine type or instructions
             # AND calories & meal type
-
             recipes = Recipe.objects.filter(
                 Q(description__icontains=query)
                 | Q(title__icontains=query)
                 | Q(ingredients__icontains=query)
                 | Q(cuisine_types__icontains=query)
-                | Q(instructions__icontains=query)
-                & Q(calories__lte=calories)
-                & Q(meal_type=kwargs["meal_type"])
+                | Q(instructions__icontains=query),
+                calories__lte=calories,
+                meal_type=kwargs["meal_type"]
             )
         # If only calories sent, search by meal type and calories
         elif calories:
@@ -84,6 +78,7 @@ class GetMeal(TemplateView):
             else:
                 # Get random recipe for meal type
                 recipes = Recipe.objects.filter(meal_type=kwargs["meal_type"])
+
         # If recipes returned, get random recipe and return it
         if len(recipes) > 0:
             recipe = random.choice(recipes)

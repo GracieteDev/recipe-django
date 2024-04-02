@@ -1,6 +1,6 @@
 from django.views.generic import ListView
 from recipes.models import Recipe
-from django.shortcuts import render
+
 
 
 class Index(ListView):
