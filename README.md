@@ -609,14 +609,26 @@ That person can click on the recipe on their profile and have acces to the recip
 The 'My Recipes'in the profile of the Logged-in user shows 3 recipes after deletion by user of the Tabouleh Salad.<br>
 ![Edit Recipe image](README_assets/images/users_stories/14_profile_deletedrecipe_notpresent_profiles_user_2_.png)
 
-- #### - Add picture and description to my recipes and  I can easily find the one I am looking for 
+- #### - I can add picture and description to my recipes so tha I can easily find the one I am looking for 
 **AC1:** Users can add a picture when uploading or editing recipes.<br>
+Logged-in User
+![profile image](README_assets/images/users_stories/15profiles_user_3_.png)
+
 **AC2:** Pictures are automatically resized to fit the website’s layout.<br>
+![picture added to recipe](README_assets/images/users_stories/19description_added_a56e80b1fce6.herokuapp.com_recipes_42_.png)
+Recipe added to profile<br>
+![Recipe added to profile](README_assets/images/users_stories/17recipe_added to profile_profiles_user_3_.png)
+Recipe added to Home Page
+![Recipe added to home page](README_assets/images/users_stories/18recipe_added_homepage.png)
+
 **AC3:** Users can add a description to their recipes during the upload process.<br> 
+![pictue and description added  to recipe image](README_assets/images/users_stories/16createrecipe_recipes_add_.png)
 
 
-#### - Store my recipes in one place and  I can easily browse and retrieve them 
+#### I can store my recipes in one place and  I can easily browse and retrieve them 
 **AC1:** Users have a list view of all their recipes for easy browsing.<br>
+Logged-in User
+![profile image](README_assets/images/users_stories/15profiles_user_3_.png)
 **AC2:** Each recipe in the list view is a clickable link that takes the user to the full recipe page.<br>
 
 
