@@ -569,7 +569,7 @@ User returns to the register/login navbar screen.
 **AC1:** Recipes are available to all users, ensuring wide accessibility.<br>
 **AC2:** Non-logged in users can view admin-created recipes, promoting discovery without the need for account creation.<br>
 **AC3:** Non-logged in users have read-only access to recipes, allowing browsing without the ability to alter content.<br> 
-![[browse recipes image1](README_assets/images/users_stories/6browsing recipes.png)
+![[browse recipes image1](README_assets/images/users_stories/6browsing_recipes.png)
 ![read-only for Nin-logged](README_assets/images/users_stories/7access_recipes_8_.png)
 
 
