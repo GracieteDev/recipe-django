@@ -836,56 +836,56 @@ I carefully evaluated each suggestion from flake8 to ensure that following its r
 ### W3 Validator 
 
 #### Home Page
-![Home Page validation Image](README_assets\images\html_Validation\HTML_validation.png)
+![Home Page validation Image](README_assets\images\HTML_Validation\HTML_validation.png)
 
 #### Recipes Page
-![Recipes Page validation Image](README_assets/images/html_Validation/recipes_w3htmlvalidation.png)
+![Recipes Page validation Image](README_assets/images/HTML_Validation/recipes_w3htmlvalidation.png)
 
 #### CreateRecipe Page
-![CreateRecipe Page validation Image](README_assets/images/html_Validation/createrecipe_w3htmlvalidation.png)
+![CreateRecipe Page validation Image](README_assets/images/HTML_Validation/createrecipe_w3htmlvalidation.png)
 
 #### Profile Page
-![Profile Page validation Image](README_assets/images/html_Validation/profiles_htmlvalidation.png)
+![Profile Page validation Image](README_assets/images/HTML_Validation/profiles_htmlvalidation.png)
 
 #### Meal Planner Page
-![Meal Planner Page validation Image](README_assets/images/html_Validation/meal_planner_w3htmlvalidation.png)
+![Meal Planner Page validation Image](README_assets/images/HTML_Validation/meal_planner_w3htmlvalidation.png)
 
 #### Register Page
-![Register Page validatio Image](README_assets/images/html_Validation/register_rocket_htmlvalidation.png)
+![Register Page validatio Image](README_assets/images/HTML_Validation/register_rocket_htmlvalidation.png)
 
 #### Login Page
-![Login Page validation Image](README_assets/images/html_Validation/login_rocket_htmlvalidation.png)
+![Login Page validation Image](README_assets/images/HTML_Validation/login_rocket_htmlvalidation.png)
 
 
 #### Logout Page 
-![Logout Image](README_assets/images/html_Validation/logout_htmlvalidationpng.png)
+![Logout Image](README_assets/images/HTML_Validation/logout_htmlvalidationpng.png)
 
 
 ### Rocket Validator
 
 #### Home Page
-![Home Page validation Image](README_assets\images\html_Validation\HTML_validation.png)
+![Home Page validation Image](README_assets\images\HTML_Validation\HTML_validation.png)
 
 #### Recipes Page
-![Recipes Page validation Image](README_assets/images/html_Validation/recipes_htmlvalidation.png)
+![Recipes Page validation Image](README_assets/images/HTML_Validation/recipes_htmlvalidation.png)
 
 #### CreateRecipe Page
-![CreateRecipe Page validation Image](README_assets/images/html_Validation/createrecipe_htmlvalidation.png)
+![CreateRecipe Page validation Image](README_assets/images/HTML_Validation/createrecipe_htmlvalidation.png)
 
 #### Profile Page
-![Profile Page validation Image](README_assets/images/html_Validation/profilepage_loggedinuser_htmlvalidation.png)
+![Profile Page validation Image](README_assets/images/HTML_Validation/profilepage_loggedinuser_htmlvalidation.png)
 
 #### Meal Planner Page
-![Meal Planner Page validation Image](README_assets/images/html_Validation/meal_planner_htmlvalidation.png)
+![Meal Planner Page validation Image](README_assets/images/HTML_Validation/meal_planner_htmlvalidation.png)
 
 #### Register Page
-![Register Page validation Image](README_assets/images/html_Validation/register_page_htmlvalidation.png)
+![Register Page validation Image](README_assets/images/HTML_Validation/register_page_htmlvalidation.png)
 
 #### Login Page
-![Login Page validation Image](README_assets/images/html_Validation/loginpage_htmlvalidation.png)
+![Login Page validation Image](README_assets/images/HTML_Validation/loginpage_htmlvalidation.png)
 
 #### Logout Page 
-![Logout Page validation Image](README_assets/images/html_Validation/logoutpage_htmlvalidation.png)
+![Logout Page validation Image](README_assets/images/HTML_Validation/logoutpage_htmlvalidation.png)
 
 
 ## HTML Validation 
