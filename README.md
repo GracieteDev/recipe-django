@@ -599,6 +599,7 @@ User returns to the register/login navbar screen.
 **AC1:** Users can edit their recipes through an edit functionality accessible on their recipe pages via profile).<br>
 ![ profile image](README_assets/images/users_stories/9loggedin_user_profile.png)
 ![Edit Recipe image](README_assets/images/users_stories/10profile_detailrecipe_edit_deletebuttons__recipes_17_.png)
+![edited recipe imAGE](README_assets/images/users_stories/11edit_recipes_edit_17_.png)
 **AC2:** Users can delete their recipes using a delete option available on their recipe pages.<br>
 ![Delete Recipe image](README_assets/images/users_stories/12_delete_recipes_14_.png)
 **AC3:** Edit and delete functionalities are only available to the user who created the recipe. 
