@@ -570,7 +570,7 @@ Each of these technologies played a pivotal role in the development lifecycle, f
 
 - As an Admin I can Log out of the admin panel.
 - LOGOUT 
-![Admin User Story 8Image](README_assets/images/Admin_stories/admin_logout_.png)
+![Admin User Story 8 Image](README_assets/images/Admin_stories/admin_logout_.png)
 
 
 **EPIC:Logged-in User**
@@ -688,56 +688,56 @@ I carefully evaluated each suggestion from flake8 to ensure that following its r
 ### W3 Validator 
 
 #### Home Page
-![Image]README_assets\images\HTML Validation\HTML_vakidation .png)
+![Home Page validation Image](README_assets\images\HTML_Validation\HTML_validation.png)
 
 #### Recipes Page
-![Image](README_assets\images\HTML Validation\recipes_w3htmlvalidation.png)
+![Recipes Page validation Image](README_assets/images/HTML_Validation/recipes_w3htmlvalidation.png)
 
 #### CreateRecipe Page
-![Image](README_assets\images\HTML Validation\createrecipe_w3htmlvalidation.png)
+![CreateRecipe Page validation Image](README_assets/images/HTML_Validation/createrecipe_w3htmlvalidation.png)
 
 #### Profile Page
-![Image](README_assets\images\HTML Validation\profiles_htmlvalidation.png)
+![Profile Page validation Image](README_assets/images/HTML_Validation/profiles_htmlvalidation.png)
 
 #### Meal Planner Page
-![Image](README_assets\images\HTML Validation\meal_planner_w3htmlvalidation.png)
+![Meal Planner Page validation Image](README_assets/images/HTML_Validation/meal_planner_w3htmlvalidation.png)
 
 #### Register Page
-![Image]()
+![Register Page validatio Image](README_assets/images/HTML_Validation/register_rocket_htmlvalidation.png)
 
 #### Login Page
-![Image]()
+![Login Page validation Image](README_assets/images/HTML_Validation/login_rocket_htmlvalidation.png)
 
 
 #### Logout Page 
-![Image](README_assets\images\HTML Validation\logout_htmlvalidationpng.png)
+![Image](README_assets/images/HTML_Validation/logout_htmlvalidationpng.png)
 
 
 ### Rocket Validator
 
 #### Home Page
-![Image](README_assets\images\HTML Validation\homepage_htmlvalidation.png)
+![Home Page validation Image](README_assets/images/HTML_Validation/homepage_htmlvalidation.png)
 
 #### Recipes Page
-![Image](README_assets\images\HTML Validation\recipes_htmlvalidation.png)
+![Recipes Page validation Image](README_assets/images/HTML_Validation/recipes_htmlvalidation.png)
 
 #### CreateRecipe Page
-![Image](README_assets\images\HTML Validation\createrecipe_htmlvalidation .png)
+![CreateRecipe Page validation Image](README_assets/images/HTML_Validation/createrecipe_htmlvalidation .png)
 
 #### Profile Page
-![Image](README_assets\images\HTML Validation\profilepage_loggedinuser_htmlvalidation.png)
+![Profile Page validation Image](README_assets/images/HTML_Validation/profilepage_loggedinuser_htmlvalidation.png)
 
 #### Meal Planner Page
-![Image](README_assets\images\HTML Validation\meal_planner_htmlvalidation.png)
+![Meal Planner Page validation Image](README_assets/images/HTML_Validation/meal_planner_htmlvalidation.png)
 
 #### Register Page
-![Image](README_assets\images\HTML Validation\register_page_htmlvalidation.png)
+![Register Page validation Image](README_assets/images/HTML_Validation/register_page_htmlvalidation.png)
 
 #### Login Page
-![Image](README_assets\images\HTML Validation\loginpage_htmlvalidation.png)
+![Login Page validation Image](README_assets/images/HTML_Validation/loginpage_htmlvalidation.png)
 
 #### Logout Page 
-![Image](README_assets\images\HTML Validation\logoutpage_htmlvalidation.png)
+![Logout Page validation Image](README_assets/images/HTML_Validation/logoutpage_htmlvalidation.png)
 
 
 
@@ -816,8 +816,6 @@ To edit and manage my project's codebase, I followed these steps with VSCode:
 - **[Python Django Web Framework - Full Course for Beginners by Programming with Mosh](https://www.youtube.com/watch?v=rHux0gMZ3Eg&ab_channel=ProgrammingwithMosh)**: Programming with Mosh offered an exhaustive full course on Django, meticulously covering everything from initial setup to advanced features. This tutorial was crucial in bridging knowledge gaps and enhancing my proficiency with Django, enabling the implementation of more complex functionalities in my projects.
 
 - **[Django Tutorial for Beginners by Telusko](https://www.youtube.com/watch?v=SIyxjRJ8VNY&list=PLsyeobzWxl7r2ukVgTqIQcl-1T0C2mzau&ab_channel=Telusko)**: Telusko's Django tutorial series for beginners is an exceptional resource that meticulously guides learners through the Django framework, from basic concepts to more advanced topics. The clear explanations and practical coding sessions offered by Telusko were invaluable in enhancing my understanding and skill in Django, contributing significantly to my project's development.
-
-- **[The Healthy Family PP4 Repository](https://github.com/Iris-Smok/The-Healthy-Family-PP4/tree/main)**: Accessing this GitHub repository was instrumental in visualizing the structure of a well-organized `README.md` document. It offered me a clear example of how to effectively structure documentation to enhance readability and provide comprehensive project insights. The repository served as a practical reference for crafting my own `README.md`, guiding me in the layout, content organization, and presentation best practices.
 
  
 ### Acknowledgments to People and the Furry Companion:
