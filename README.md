@@ -562,7 +562,7 @@ As a Non-logged-in user:
 **AC2:** User can login to their account using their credentials.<br>
 ![login form image](README_assets/images/users_stories/2accounts_login_.png)
 User can store personal recipes
-![user profile image](README_assetss/images/users_stories/3profiles_user_15_.png)
+![user profile image](README_assets/images/users_stories/3profiles_user_15_.png)
 **AC3:** User can logout of their account, ensuring their session is securely ended.<br>
 ![logout image](README_assets/images/users_stories/4accounts_logout.png)
 User returns to the register/login navbar screen.
