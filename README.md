@@ -201,7 +201,7 @@ The navigation bar's design is responsive, accommodating various screen sizes by
 
 ### Home Page Image: 
 
-![Home page desktop Image](README_assets\images\users_stories\5logout_return _loginrequest.png)
+![Home page desktop Image](README_assets/images/users_stories/5logout_return_loginrequest.png)
 
 - #### Engaging Homepage Imagery
 Upon visiting the homepage, users are greeted with captivating images accompanied by a brief message that encapsulates the essence of our website. These images not only set the tone but also provide a glimpse into what users can expect - a vibrant community centered around sharing and discovering recipes. The imagery on the homepage is dynamic, evolving to feature new and exciting recipes over time, ensuring the experience remains fresh and engaging.
