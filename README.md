@@ -136,7 +136,7 @@ By addressing the needs and challenges faced by our target audience, HealthyReci
 | I want to... | So that I can... | Acceptance Criteria |
 | ----------- | ----------- | ----------- |
 | Create an account | Store my personal recipes | **AC1:** User can create an account through a registration form.<br>**AC2:** User can log in to their account using their credentials.<br>**AC3:** User can log out of their account, ensuring their session is securely ended. |
-| Browse through recipes | Find some new meal ideas | **AC1:** Admin-created recipes are available to all users, ensuring wide accessibility.<br>**AC2:** Non-logged in users can view admin-created recipes, promoting discovery without the need for account creation.<br>**AC3:** Non-logged in users have read-only access to recipes, allowing browsing without the ability to alter content. |
+| Browse through recipes | Find some new meal ideas | **AC1:** Recipes are available to all users, ensuring wide accessibility.<br>**AC2:** Non-logged in users can view admin-created recipes, promoting discovery without the need for account creation.<br>**AC3:** Non-logged in users have read-only access to recipes, allowing browsing without the ability to alter content. |
 
 
 **Epic:Logged in User**
@@ -549,6 +549,8 @@ Each of these technologies played a pivotal role in the development lifecycle, f
 
 ### **Epic:Non-logged-in user**
 
+As a Non-logged-in user:
+
 - #### I can create an account so that I can store my personal recipes
 **AC1:** User can create an account through a registration form.<br>
 **AC2:** User can log in to their account using their credentials.<br>
@@ -565,13 +567,12 @@ User can store personal recipes
 User returns to the register/login navbar screen.
 ![user returns to register/login nav-bar screen](README_assets/images/users_stories/5logout_return_loginrequest.png)
 
-- #### Browse through recipes so that I can find some new meal ideas 
+- #### I can browse through recipes so that I can find some new meal ideas 
 **AC1:** Recipes are available to all users, ensuring wide accessibility.<br>
 **AC2:** Non-logged in users can view admin-created recipes, promoting discovery without the need for account creation.<br>
 ![browse recipes image1](README_assets/images/users_stories/6browsing_recipes.png)
 **AC3:** Non-logged in users have read-only access to recipes, allowing browsing without the ability to alter content.<br>
-![read-only for Nin-logged](README_assets/images/users_stories/7access_recipes_8_.png)
-
+![read-only for Non-logged](README_assets/images/users_stories/7access_recipes_8_.png)
 
 ### **Epic:Logged in User**
 
@@ -579,6 +580,19 @@ User returns to the register/login navbar screen.
 **AC1:** User can create an account through a registration form.<br>
 **AC2:** User can log in to their account using their credentials.<br>
 **AC3:** User can log out of their account, ensuring their session is securely ended.<br> 
+
+
+**AC1:** User can create an account through a registration form.<br>
+![registration form image](README_assets/images/users_stories/1signup_form.png)
+**AC2:** User can login to their account using their credentials.<br>
+![login form image](README_assets/images/users_stories/2accounts_login_.png)
+User can store personal recipes
+![Loggedin user access to recipes](README_assets/images/users_stories/8profiles_user_5_.png)
+**AC3:** User can log out of their account, ensuring their session is securely ended.<br>
+![logout image](README_assets/images/users_stories/4accounts_logout_.png)
+User returns to the register/login navbar screen.
+![user returns to register/login nav-bar screen](README_assets/images/users_stories/5logout_return_loginrequest.png)
+
 
 
 - #### Edit or delete my recipes and Update them 
