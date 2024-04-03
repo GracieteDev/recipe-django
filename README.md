@@ -556,18 +556,21 @@ Each of these technologies played a pivotal role in the development lifecycle, f
 
 **AC1:** User can create an account through a registration form.<br>
 ![registration form image](README_assets/images/users_stories/1signup_form.png)
-**AC2:** User can log in to their account using their credentials.<br>
+**AC2:** User can login to their account using their credentials.<br>
+![login form image](README_assets/images/users_stories/2accounts_login_.png)
+User can store personal recipes
+![user profile image](README_assets/images/users_stories/3profiles_user_15_.png)
+**AC3:** User can logout of their account, ensuring their session is securely ended.<br>
+![logout image](README_assets/images/users_stories/4accounts_logout_.png)
+User returns to the register/login navbar screen.
+![user returns to register/login nav-bar screen](README_assets/images/users_stories/5logout_return_loginrequest.png)
 
-
-**AC3:** User can log out of their account, ensuring their session is securely ended.<br>
-Uer rturns to the register/login navbar settings.
-
-
-- #### Browse through recipes sothat I can find some new meal ideas 
-**AC1:** Admin-created recipes are available to all users, ensuring wide accessibility.<br>
+- #### Browse through recipes so that I can find some new meal ideas 
+**AC1:** Recipes are available to all users, ensuring wide accessibility.<br>
 **AC2:** Non-logged in users can view admin-created recipes, promoting discovery without the need for account creation.<br>
 **AC3:** Non-logged in users have read-only access to recipes, allowing browsing without the ability to alter content.<br> 
-
+![[browse recipes image1](README_assets/images/users_stories/6browsing recipes.png)
+![read-only for Nin-logged](README_assets/images/users_stories/7access_recipes_8_.png)
 
 
 ### **Epic:Logged in User**
