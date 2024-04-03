@@ -591,7 +591,7 @@ As a Logged-in User:
 User can store personal recipes
 ![Loggedin user access to recipes](README_assets/images/users_stories/8profiles_user_5_.png)
 **AC3:** User can log out of their account, ensuring their session is securely ended.<br>
-![logout image](README_assets/images/users_stories/4accounts_logout_.png)
+![logout image](README_assets/images/users_stories/4accounts_logout.png)
 User returns to the register/login navbar screen.
 ![user returns to register/login nav-bar screen](README_assets/images/users_stories/5logout_return_loginrequest.png)
 
@@ -622,7 +622,7 @@ The 'My Recipes'in the profile of the Logged-in user shows 3 recipes after delet
 
 **AC1:** Users can add a picture when uploading or editing recipes.<br>
 Logged-in User
-![profile image](README_assetsimages/users_stories/15profiles_user_3_.png)
+![profile image](README_assets/images/users_stories/15profiles_user_3.png)
 
 **AC2:** Pictures are automatically resized to fit the website’s layout.<br>
 ![picture added to recipe](README_assets/images/users_stories/19description_added_a56e80b1fce6.herokuapp.com_recipes_42_.png)
@@ -696,14 +696,14 @@ As An Admin:
   
 #### I can create, edit and delete recipes so that I can manage the site content 
 **AC1:** Admin can access a form to input new recipe details, including title, description, ingredients, and preparation steps.<br>
-- CREATE
+- **Create**
 ![Admin User Story 1 Image](README_assets/images/Admin_stories/Admin_add_recipe.png)
 ![Admin User Story 3Image](README_assets/images/Admin_stories/Admin_recipe_added.png)
 
-- CHANGE/EDIT RECIPE
+- **Change/Edit Recipe**
 ![Admin User Story 2Image](README_assets/images/Admin_stories/admin_change_recipe.png)
 
-- DELETE
+- **Delete**
 ![Admin User Story 4Image](README_assets/images/Admin_stories/admin_delete_recipe.png)
 ![Admin User Story 5Image](README_assets/images/Admin_stories/admin_delete_recipe_confirm.png)
 ![Admin User Story 6Image](README_assets/images/Admin_stories/recipe_deleted.png)
@@ -712,17 +712,17 @@ As An Admin:
 **AC1:** Admin can log in to the admin panel using their credentials.<br>
 **AC2:** Upon successful login, admin is directed to the dashboard where they can manage recipes and site content.<br>
 **AC3:** Incorrect login attempts are handled gracefully, displaying an error message and the opportunity to retry. <br>
-- LOGIN
+- **Login**
 ![Admin User Story 7 Image](README_assets/images/Admin_stories/django_admin_dashboard.png)
 
-- Only the Admin can login to the Admin Dashboard
+- **Only the Admin can login to the Admin Dashboard**
 ![Admin User Story 7 Image](README_assets/images/users_stories/29admin_login__next=_admin_.png)
 
 #### I can Logout of the admin panel so that I can disconnect from the website securely 
 **AC1:** A log-out option is clearly accessible from anywhere within the admin panel.<br>
 **AC2:** Selecting the log-out option immediately ends the admin session.<br>
 **AC3:** Upon logging out, the admin is redirected to the login page, ensuring they are fully disconnected.<br>
-- LOGOUT 
+- **Logout** 
 ![Admin User Story 8 Image](README_assets/images/Admin_stories/admin_logout_.png)
 
 
@@ -836,7 +836,7 @@ I carefully evaluated each suggestion from flake8 to ensure that following its r
 ### W3 Validator 
 
 #### Home Page
-![Home Page validation Image](README_assets\images\HTML_Validation\HTML_validation.png)
+![Home Page validation Image](README_assets/images/HTML_Validation/HTML_validation.png)
 
 #### Recipes Page
 ![Recipes Page validation Image](README_assets/images/HTML_Validation/recipes_w3htmlvalidation.png)
@@ -864,7 +864,7 @@ I carefully evaluated each suggestion from flake8 to ensure that following its r
 ### Rocket Validator
 
 #### Home Page
-![Home Page validation Image](README_assets\images\HTML_Validation\HTML_validation.png)
+![Home Page validation Image](README_assets/images/HTML_Validation/HTML_validation.png)
 
 #### Recipes Page
 ![Recipes Page validation Image](README_assets/images/HTML_Validation/recipes_htmlvalidation.png)
