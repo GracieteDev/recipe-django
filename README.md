@@ -554,6 +554,14 @@ Each of these technologies played a pivotal role in the development lifecycle, f
 **AC2:** User can log in to their account using their credentials.<br>
 **AC3:** User can log out of their account, ensuring their session is securely ended.<br>
 
+**AC1:** User can create an account through a registration form.<br>
+![registration form image](README_assets/images/users_stories/1signup_form.png)
+**AC2:** User can log in to their account using their credentials.<br>
+
+
+**AC3:** User can log out of their account, ensuring their session is securely ended.<br>
+Uer rturns to the register/login navbar settings.
+
 
 - #### Browse through recipes sothat I can find some new meal ideas 
 **AC1:** Admin-created recipes are available to all users, ensuring wide accessibility.<br>
