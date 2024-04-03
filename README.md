@@ -12,13 +12,13 @@ README.md
 You can find the live site [here](https://recipe-django-a56e80b1fce6.herokuapp.com/).
 
 
-# HealthyRecipy App: Your Gateway to Healthier Eating 
+# The Healthy-Recipy App: Your Gateway to Healthier Eating 
 
-Welcome to the **HealthyRecipy App**, where every meal is an opportunity to nourish your body and delight your palate. Designed with Django, our app bridges the gap between nutritional goals and culinary enjoyment, offering a meticulously curated selection of recipes from around the world for a healthier lifestyle.
+Welcome to the **Healthy-Recipy App**, where every meal is an opportunity to nourish your body and delight your palate. Designed with Django, our app bridges the gap between nutritional goals and culinary enjoyment, offering a meticulously curated selection of recipes from around the world for a healthier lifestyle.
 
-## Why HealthyRecipy?
+## Why Healthy-Recipy?
 
-HealthyRecipy is built on the belief that healthy eating shouldn't be complicated or dull. With a user-friendly interface and a rich database of nutritious recipes, our app is the perfect companion for anyone looking to eat better without sacrificing taste or spending hours in the kitchen.
+Healthy-Recipy is built on the belief that healthy eating shouldn't be complicated or dull. With a user-friendly interface and a rich database of nutritious recipes, our app is the perfect companion for anyone looking to eat better without sacrificing taste or spending hours in the kitchen.
 
 ## Key Features
 
@@ -36,7 +36,7 @@ HealthyRecipy is built on the belief that healthy eating shouldn't be complicate
 
 ## Powered by Django & Python
 
-The HealthyRecipy App is developed using Django, a high-level Python web framework known for its robustness, scalability, and versatility. Our application is engineered to facilitate a seamless and enriching user experience, making healthy eating straightforward and accessible.
+The Healthy-Recipy App is developed using Django, a high-level Python web framework known for its robustness, scalability, and versatility. Our application is engineered to facilitate a seamless and enriching user experience, making healthy eating straightforward and accessible.
 
 ### Our App at Work
 
@@ -48,9 +48,9 @@ The HealthyRecipy App is developed using Django, a high-level Python web framewo
 
 ## Healthy Eating Journey
 
-With the HealthyRecipy App, discover the joy of cooking and eating meals that are as nutritious as they are delicious. Say goodbye to guesswork and hello to a world where healthy eating is easy, enjoyable, and perfectly tailored to you.
+With the Healthy-Recipy App, discover the joy of cooking and eating meals that are as nutritious as they are delicious. Say goodbye to guesswork and hello to a world where healthy eating is easy, enjoyable, and perfectly tailored to you.
 
-Start your journey towards a healthier you with HealthyRecipy today.
+Start your journey towards a healthier you with Healthy-Recipy today.
 
 
 # Table of Contents
@@ -75,7 +75,7 @@ Start your journey towards a healthier you with HealthyRecipy today.
 
 Guided by fundamental UX principles, my initial approach centered on pinpointing the target audience for the HealthyRecipy app and discerning the specific features that would provide the most value to them.
 
-The target audience for HealthyRecipy encompasses:
+The target audience for Healthy-Recipy App encompasses:
 
 - Individuals across all demographics, with a notable emphasis on those who play a significant role in meal planning and preparation within households.
 - Health-conscious individuals seeking inspiration and guidance for crafting nutritious meals for themselves and their loved ones.
@@ -89,7 +89,7 @@ These users seek:
 - The ability to establish a personal account, enhancing interactivity with the app’s offerings.
 
 
-The HealthyRecipy app is designed to fulfill these needs, providing a user-friendly experience that encourages exploration, interaction, and the discovery of nutritious and delicious meal options.
+The Healthy-Recipy App is designed to fulfill these needs, providing a user-friendly experience that encourages exploration, interaction, and the discovery of nutritious and delicious meal options.
 
 
 
@@ -575,7 +575,8 @@ User returns to the register/login navbar screen.
 
 ### **Epic:Logged in User**
 
-- #### Create an account and Store my personal recipes
+As a Logged-in User:
+- #### I can create an account and Store my personal recipes
 **AC1:** User can create an account through a registration form.<br>
 **AC2:** User can log in to their account using their credentials.<br>
 **AC3:** User can log out of their account, ensuring their session is securely ended.<br> 
@@ -596,9 +597,13 @@ User returns to the register/login navbar screen.
 
 - #### Edit or delete my recipes and Update them 
 **AC1:** Users can edit their recipes through an edit functionality accessible on their recipe pages.<br>
+![Edit Recipe image]()
 **AC2:** Users can delete their recipes using a delete option available on their recipe pages.<br>
-**AC3:** Edit and delete functionalities are only available to the user who created the recipe; a 403 error is returned otherwise.<br>
-
+![Delete Recipe image]()
+**AC3:** Edit and delete functionalities are only available to the user who created the recipe. 
+Only the person that created the recipe has the option to edit and delete the recipe via their portofolio when they are logged-in.<br>
+That person can click on the recipe on their profile and have acces to the recipe detail page where the  edit and delete buttonsare only available for the owner of the recipe when their are logged-in.
+![Edit Recipe image]()
 
 #### - Add picture and description to my recipes and  I can easily find the one I am looking for 
 **AC1:** Users can add a picture when uploading or editing recipes.<br>
