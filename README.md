@@ -614,14 +614,14 @@ Add recipes to favourites and view my favourite recipes easily
 **AC1:** Users can add recipes to their favourites using a specific button.
 **AC2:** This functionality applies to both user and admin recipes.
 **AC3:** Favourite recipes are displayed on a dedicated page.
-
-
 **AC4:** Recipes have an indicator to show if they are a favourite. |
 
 **Epic: Admin**
-- As an Admin I can can create, edit and delete recipes (access a form to input new recipe details, including title, description, ingredients, and preparation steps).
+As An Admin:
   
-- CREATE/ADD RECIPE
+I can create, edit and delete recipes so that I can manage the site content 
+**AC1:** Admin can access a form to input new recipe details, including title, description, ingredients, and preparation steps.
+- CREATE
 ![Admin User Story 1 Image](README_assets/images/Admin_stories/Admin_add_recipe.png)
 ![Admin User Story 3Image](README_assets/images/Admin_stories/Admin_recipe_added.png)
 
@@ -633,13 +633,19 @@ Add recipes to favourites and view my favourite recipes easily
 ![Admin User Story 5Image](README_assets/images/Admin_stories/admin_delete_recipe_confirm.png)
 ![Admin User Story 6Image](README_assets/images/Admin_stories/recipe_deleted.png)
 
-
-
-- As an Admin I can log in to the admin panel using their credentials.
+I can access the admin panel so that I can manage recipes 
+**AC1:** Admin can log in to the admin panel using their credentials.
+**AC2:** Upon successful login, admin is directed to the dashboard where they can manage recipes and site content.
+**AC3:** Incorrect login attempts are handled gracefully, displaying an error message and the opportunity to retry. 
 - LOGIN
 ![Admin User Story 7 Image](README_assets/images/Admin_stories/django_admin_dashboard.png)
 
-- As an Admin I can Log out of the admin panel.
+
+I can Logout of the admin panel so that I can disconnect from the website securely 
+**AC1:** A log-out option is clearly accessible from anywhere within the admin panel.
+**AC2:** Selecting the log-out option immediately ends the admin session.
+**AC3:** Upon logging out, the admin is redirected to the login page, ensuring they are fully disconnected. 
+
 - LOGOUT 
 ![Admin User Story 8 Image](README_assets/images/Admin_stories/admin_logout_.png)
 
