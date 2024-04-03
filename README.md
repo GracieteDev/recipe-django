@@ -149,8 +149,8 @@ By addressing the needs and challenges faced by our target audience, HealthyReci
 | Add picture and description to my recipes | I can easily find the one I am looking for | **AC1:** Users can add a picture when uploading or editing recipes.<br>**AC2:** Pictures are automatically resized to fit the website’s layout.<br>**AC3:** Users can add a description to their recipes during the upload process. |
 | Store my recipes in one place | I can easily browse and retrieve them | **AC1:** Users have a list view of all their recipes for easy browsing.<br>**AC2:** Each recipe in the list view is a clickable link that takes the user to the full recipe page. |
 | View the ingredients and method for my recipes | Follow the recipe without having to touch the screen | **AC1:** Ingredients and method sections are displayed side by side on medium and large screens to minimize scrolling. |
-| Have a personalised home page | View my own recipes | **AC1:** A generic homepage is available for all users.<br>**AC2:** Logged-in users see a personalized homepage displaying their own recipes. |
-| Categorise my recipes by cooking method | Plan my meals easily | **AC1:** Users can select categories for their recipes when adding or editing them.<br>**AC2:** Users can filter recipes by these categories to find them more easily. |
+| Have a profile(personalised home page) | View my own recipes | **AC1:** A generic homepage is available for all users.<br>**AC2:** Logged-in users see a profile (personalized homepage) displaying their own recipes. |
+| Categorise my recipes by calories, cuisine-type or other keyword| Plan my meals easily | **AC1:** Users can select categories for their recipes when adding or editing them.<br>**AC2:** Users can filter recipes by these categories to find them more easily. |
 | Be able to log into the same account as my family | My household can share an account | **AC1:** Users can log in using a username that allows multiple people to access the same account.<br>**AC2:** A "keep logged in" function is available for ease of access. |
 | Search my recipes | To quickly find the recipe I want | **AC1:** A search bar is included in the site’s navigation.<br>**AC2:** The search bar functionality enables searching through recipes.<br>**AC3:** Users can search recipes using a variety of parameters. |
 | Add recipes to favourites | View my favourite recipes easily | **AC1:** Users can add recipes to their favourites using a specific button.<br>**AC2:** This functionality applies to both user and admin recipes.<br>**AC3:** Favourite recipes are displayed on a dedicated page.<br>**AC4:** Recipes have an indicator to show if they are a favourite. |
@@ -350,9 +350,11 @@ Our website's footer is a constant presence across all pages, serving as a hub f
 
 - **Rich User Profiles:** While primarily functional at this stage for meal planning and recipe discovery, user profiles lay the groundwork for a more personalized app experience, including tracking recipes and meal planning history.
 
-## Future Features
+- **Social Sharing Enhancements** - This update empowers logged-in users to share their culinary creations with others. Future versions will introduce options for users to comment on and rate their favorite recipes and meal plans. Share these with friends and family.
+  This will significantly enrich the app's community experience.
 
-- **Social Sharing:** In future updates, we plan to introduce functionality that will allow users to share their favorite recipes and meal plans with friends and family, enhancing the app's social aspect.
+
+## Future Features
 
 - **Interactive Meal Feedback:** Future iterations will include features for users to rate recipes and provide feedback, helping others in the app community make better meal choices based on collective experiences.
 
@@ -597,16 +599,22 @@ User returns to the register/login navbar screen.
 
 
 - #### I can edit or delete my recipes and update them 
-**AC1:** Users can edit their recipes through an edit functionality accessible on their recipe pages via profile).<br>
+**AC1:** Users can edit their recipes through an edit functionality accessible on their recipe pages via profile.<br>
 ![ profile image](README_assets/images/users_stories/9loggedin_user_profile.png)
+
+Only the person that created the recipe has the option to edit and delete the recipe via their portofolio when they are logged-in.<br>
 ![Edit Recipe image](README_assets/images/users_stories/10profile_detailrecipe_edit_deletebuttons__recipes_17_.png)
+
+Logged-in user with profile page can edit their own recipes.
 ![edited recipe imAGE](README_assets/images/users_stories/11edit_recipes_edit_17_.png)
+
 **AC2:** Users can delete their recipes using a delete option available on their recipe pages.<br>
 ![Delete Recipe image](README_assets/images/users_stories/12_delete_recipes_14_.png)
-**AC3:** Edit and delete functionalities are only available to the user who created the recipe. 
-Only the person that created the recipe has the option to edit and delete the recipe via their portofolio when they are logged-in.<br>
+
+**AC3:** Edit and delete functionalities are only available to the user who created the recipe.<br>
 That person can click on the recipe on their profile and have acces to the recipe detail page where the edit and delete buttons are only available for the owner of the recipe when their are logged-in.<br>
 ![Edit Recipe image](README_assets/images/users_stories/13delete_confirmation_recipes_delete_14_.png)
+
 The 'My Recipes'in the profile of the Logged-in user shows 3 recipes after deletion by user of the Tabouleh Salad.<br>
 ![Edit Recipe image](README_assets/images/users_stories/14_profile_deletedrecipe_notpresent_profiles_user_2_.png)
 
@@ -620,7 +628,7 @@ Logged-in User
 **AC2:** Pictures are automatically resized to fit the website’s layout.<br>
 ![picture added to recipe](README_assets/images/users_stories/19description_added_a56e80b1fce6.herokuapp.com_recipes_42_.png)
 Recipe added to profile<br>
-![Recipe added to profile](README_assets/images/users_stories/17recipe_added to profile_profiles_user_3_.png)
+![Recipe added to profile](README_assets/images/users_stories/17recipe_added_profile.png)
 Recipe added to Home Page
 ![Recipe added to home page](README_assets/images/users_stories/18recipe_added_homepage.png)
 
@@ -628,30 +636,41 @@ Recipe added to Home Page
 ![pictue and description added  to recipe image](README_assets/images/users_stories/16createrecipe_recipes_add_.png)
 
 
-#### I can store my recipes in one place and  I can easily browse and retrieve them 
+#### I can store my recipes in one place and I can easily browse and retrieve them 
 **AC1:** Users have a list view of all their recipes for easy browsing.<br>
 Logged-in User
 ![profile image](README_assets/images/users_stories/15profiles_user_3_.png)
 **AC2:** Each recipe in the list view is a clickable link that takes the user to the full recipe page.<br>
 
+#### I can view the ingredients and method for my recipes so that I can follow the recipe without having to touch the screen
 
-#### View the ingredients and method for my recipes and Follow the recipe without having to touch the screen
 **AC1:** Ingredients and method sections are displayed side by side on medium and large screens to minimize scrolling.<br>
+![view ingredients Image](README_assets/images/users_stories/21_personalisedhomepage_profile_recipes_44_.png)
 
-
-#### Have a personalised home page and can View my own recipes 
+#### Have a personalised home page (profile) so that I can view my own own recipes 
 **AC1:** A generic homepage is available for all users.<br>
+![view ingredients Image](README_assets/images/users_stories/22generalised_homepage.png)
+
 **AC2:** Logged-in users see a personalized homepage displaying their own recipes.<br> 
+![view ingredients Image](README_assets/images/users_stories/20Adami_profiles_user_17_.png)
 
-#### Categorise my recipes by cooking method | Plan my meals easily 
+
+####  Categorise my recipes by calories, cuisine-type or meal-type so that I can plan my meals easily 
 **AC1:** Users can select categories for their recipes when adding or editing them<br>
-**AC2:** Users can filter recipes by these categories to find them more easily<br>. 
+![categorise recipe image](README_assets/images/users_stories/24categorise_recipes_edit_10_.png)
 
+**AC2:** Users can filter recipes by these categories or keywords to find them more easily<br>. 
+Filter by meal-type
+![filter recipes image](README_assets/images/users_stories/25filter_recipes_profiles_user_3_.png)
+![filter recipes image](README_assets/images/users_stories/26lunch_search_recipes__q=lunch.png)
+Filter By Keyword
+![filter recipes image](README_assets/images/users_stories/27_filter_keyword_.png)
+![filter recipes image](README_assets/images/users_stories/28_recipes__q=fruit.png)
 
 #### Be able to log into the same account as my family | My household can share an account
 **AC1:** Users can log in using a username that allows multiple people to access the same account<br>
 **AC2:** A "keep logged in" function is available for ease of access.<br>
-
+(This feature will be available in future iteration)
 
 #### Search my recipes and to quickly find the recipe I want 
 **AC1:** A search bar is included in the site’s navigation.<br>
@@ -945,5 +964,6 @@ To edit and manage my project's codebase, I followed these steps with VSCode:
 - **Dulce Gil**: Heartfelt appreciation to my sister, Dulce Gil, for her continuous encouragement and support. Her presence and motivation were my pillars of strength during challenging moments.
 
 - **Gracie, My Beloved Dog**: A warm acknowledgment to Gracie, my faithful companion, whose unconditional love and comforting presence have been a source of joy and inspiration.
+  
 
 
