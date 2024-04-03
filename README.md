@@ -680,10 +680,16 @@ Filter By Keyword
 ![search bar image](README_assets/images/users_stories/31bar_functionalitypng.png)
 ![search bar image](README_assets/images/users_stories/32recipes__q=african.png)
 
-- #### I can add recipes to 'My recipes' so that I can view my recipes easily 
+- #### I can add recipes to 'My recipes' so that I can view my recipes easily
+  
 **AC1:** Users can add recipes to their 'My Recipes Section' of profile using 'CreateRecipe Form'.<br>
 **AC2:** This functionality applies to both user and admin recipes.( As can be seen also in the Admin User stories)<br>
+![add recepies image ](README_assets/images/users_stories/34recipes_add_.png)
+
 **AC3:** 'My Recipes 'are displayed on my profile page page.<br>
+![add recepies image ](README_assets/images/users_stories/35profiles_user_18_.png)
+Also added to the recipes bank of the website
+![add recepies image ](README_assets/images/users_stories/37recipe-django-a56e80b1fce6.herokuapp.com_.png)
 
 
 #### **Epic: Admin**
