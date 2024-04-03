@@ -547,10 +547,82 @@ Each of these technologies played a pivotal role in the development lifecycle, f
 
 ### **Testing Users Stories form (UX) Section**
 
-**Epic: Admin**
-- As an Admin I can can create, edit and delete recipes (access a form to input new recipe details, including title, description, ingredients, and preparation steps).
+### **Epic:Non-logged-in user**
+
+- #### I can create an account so that I can store my personal recipes
+**AC1:** User can create an account through a registration form.<br>
+**AC2:** User can log in to their account using their credentials.<br>
+**AC3:** User can log out of their account, ensuring their session is securely ended.<br>
+
+
+- #### Browse through recipes sothat I can find some new meal ideas 
+**AC1:** Admin-created recipes are available to all users, ensuring wide accessibility.<br>
+**AC2:** Non-logged in users can view admin-created recipes, promoting discovery without the need for account creation.<br>
+**AC3:** Non-logged in users have read-only access to recipes, allowing browsing without the ability to alter content.<br> 
+
+
+
+### **Epic:Logged in User**
+
+- #### Create an account and Store my personal recipes
+**AC1:** User can create an account through a registration form.<br>
+**AC2:** User can log in to their account using their credentials.<br>
+**AC3:** User can log out of their account, ensuring their session is securely ended.<br> 
+
+
+- #### Edit or delete my recipes and Update them 
+**AC1:** Users can edit their recipes through an edit functionality accessible on their recipe pages.<br>
+**AC2:** Users can delete their recipes using a delete option available on their recipe pages.<br>
+**AC3:** Edit and delete functionalities are only available to the user who created the recipe; a 403 error is returned otherwise.<br>
+
+
+#### - Add picture and description to my recipes and  I can easily find the one I am looking for 
+**AC1:** Users can add a picture when uploading or editing recipes.<br>
+**AC2:** Pictures are automatically resized to fit the website’s layout.<br>
+**AC3:** Users can add a description to their recipes during the upload process.<br> 
+
+
+#### - Store my recipes in one place and  I can easily browse and retrieve them 
+**AC1:** Users have a list view of all their recipes for easy browsing.<br>
+**AC2:** Each recipe in the list view is a clickable link that takes the user to the full recipe page.<br>
+
+
+#### View the ingredients and method for my recipes and Follow the recipe without having to touch the screen
+**AC1:** Ingredients and method sections are displayed side by side on medium and large screens to minimize scrolling.<br>
+
+
+#### Have a personalised home page and can View my own recipes 
+**AC1:** A generic homepage is available for all users.<br>
+**AC2:** Logged-in users see a personalized homepage displaying their own recipes.<br> 
+
+#### Categorise my recipes by cooking method | Plan my meals easily 
+**AC1:** Users can select categories for their recipes when adding or editing them<br>
+**AC2:** Users can filter recipes by these categories to find them more easily<br>. 
+
+
+#### Be able to log into the same account as my family | My household can share an account
+**AC1:** Users can log in using a username that allows multiple people to access the same account<br>
+**AC2:** A "keep logged in" function is available for ease of access.<br>
+
+
+#### Search my recipes and to quickly find the recipe I want 
+**AC1:** A search bar is included in the site’s navigation.<br>
+**AC2:** The search bar functionality enables searching through recipes.<br>
+**AC3:** Users can search recipes using a variety of parameters.<br> 
+
+
+#### Add recipes to favourites and view my favourite recipes easily 
+**AC1:** Users can add recipes to their favourites using a specific button.<br>
+**AC2:** This functionality applies to both user and admin recipes.<br>
+**AC3:** Favourite recipes are displayed on a dedicated page.<br>
+**AC4:** Recipes have an indicator to show if they are a favourite.<br>
+
+#### **Epic: Admin**
+As An Admin:
   
-- CREATE/ADD RECIPE
+#### I can create, edit and delete recipes so that I can manage the site content 
+**AC1:** Admin can access a form to input new recipe details, including title, description, ingredients, and preparation steps.<br>
+- CREATE
 ![Admin User Story 1 Image](README_assets/images/Admin_stories/Admin_add_recipe.png)
 ![Admin User Story 3Image](README_assets/images/Admin_stories/Admin_recipe_added.png)
 
@@ -562,21 +634,21 @@ Each of these technologies played a pivotal role in the development lifecycle, f
 ![Admin User Story 5Image](README_assets/images/Admin_stories/admin_delete_recipe_confirm.png)
 ![Admin User Story 6Image](README_assets/images/Admin_stories/recipe_deleted.png)
 
-
-
-- As an Admin I can log in to the admin panel using their credentials.
+#### I can access the admin panel so that I can manage recipes 
+**AC1:** Admin can log in to the admin panel using their credentials.<br>
+**AC2:** Upon successful login, admin is directed to the dashboard where they can manage recipes and site content.<br>
+**AC3:** Incorrect login attempts are handled gracefully, displaying an error message and the opportunity to retry. <br>
 - LOGIN
 ![Admin User Story 7 Image](README_assets/images/Admin_stories/django_admin_dashboard.png)
 
-- As an Admin I can Log out of the admin panel.
+
+#### I can Logout of the admin panel so that I can disconnect from the website securely 
+**AC1:** A log-out option is clearly accessible from anywhere within the admin panel.<br>
+**AC2:** Selecting the log-out option immediately ends the admin session.<br>
+**AC3:** Upon logging out, the admin is redirected to the login page, ensuring they are fully disconnected.<br>
 - LOGOUT 
 ![Admin User Story 8 Image](README_assets/images/Admin_stories/admin_logout_.png)
 
-
-**EPIC:Logged-in User**
-
-
-**EPIC: Not Logged-in User**
 
 
 ## Bugs and Issues
@@ -716,13 +788,13 @@ I carefully evaluated each suggestion from flake8 to ensure that following its r
 ### Rocket Validator
 
 #### Home Page
-![Home Page validation Image](README_assets/images/HTML_Validation/homepage_htmlvalidation.png)
+![Home Page validation Image](README_assets\images\HTML_Validation\HTML_validation.png)
 
 #### Recipes Page
 ![Recipes Page validation Image](README_assets/images/HTML_Validation/recipes_htmlvalidation.png)
 
 #### CreateRecipe Page
-![CreateRecipe Page validation Image](README_assets/images/HTML_Validation/createrecipe_htmlvalidation .png)
+![CreateRecipe Page validation Image](README_assets/images/HTML_Validation/createrecipe_htmlvalidation.png)
 
 #### Profile Page
 ![Profile Page validation Image](README_assets/images/HTML_Validation/profilepage_loggedinuser_htmlvalidation.png)
