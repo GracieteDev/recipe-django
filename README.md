@@ -2,7 +2,7 @@ README.md
 <h1 align="center">The Healthy-Recipy App</h1>
 
 
- ![Healthy Recipe Responsiveness](README_assets\images\homepage\healthyrecipy_app1.png) 
+ ![Healthy Recipe Responsiveness](README_assets/images/homepage/healthyrecipy_app.png) 
 
 
 
@@ -175,7 +175,7 @@ By addressing the needs and challenges faced by our target audience, HealthyReci
 
 ### Navigation bar:
 
-![NavBar Image](readme_assets/images/homepage/navbar.png)
+![NavBar Image](README_assets/images/homepage/navbar.png)
 
 <p align="center">
 
@@ -201,7 +201,7 @@ The navigation bar's design is responsive, accommodating various screen sizes by
 
 
 ### Home Page Image: 
-![homepage image](readme_assets/images/homepage/homepage.png)
+![homepage image](README_assets/images/homepage/homepage.png)
 
 - #### Engaging Homepage Imagery
 Upon visiting the homepage, users are greeted with captivating images accompanied by a brief message that encapsulates the essence of our website. These images not only set the tone but also provide a glimpse into what users can expect - a vibrant community centered around sharing and discovering recipes. The imagery on the homepage is dynamic, evolving to feature new and exciting recipes over time, ensuring the experience remains fresh and engaging.
@@ -213,7 +213,7 @@ The **Login/Register** button is designed for straightforward navigation to the 
 ## Recipes Page:  
 Our goal is to provide an engaging and informative platform where users can easily access and enjoy the latest in the world of recipes.
 
-![Recipes Page Image](readme_assets/images/recipes/recipeshalf_.png)
+![Recipes Page Image](README_assets/images/recipes/recipeshalf_.png)
 
 - **Stay Updated:** Navigate directly to the most recently published recipes to discover new culinary inspirations.
   Our platform ensures that the freshest content is always at your fingertips, allowing you to stay current with the latest culinary trends.
@@ -224,7 +224,7 @@ Our goal is to provide an engaging and informative platform where users can easi
 ## Recipe Details Page
 Explore the culinary world with just a click on a recipe card, leading you to the **Recipe Details Page**.
 
-![Recipe details page Image](readme_assets/images/recipe_detail/recipe_detail_21_.png)
+![Recipe details page Image](README_assets/images/recipe_detail/recipe_detail_21_.png)
 
 
 - **Detailed Recipe Insights:** By selecting a recipe card, you'll be taken to the **Recipe Details Page**.
@@ -246,21 +246,21 @@ Users who are not logged in or registered will not have access to the **'CreateR
 - #### Registered Users:
 Logged-in users gain access to the **'CreateRecipe'** feature. They will be directed to a page containing a form that enables them to add a new recipe. Users can share their creations on the **Home** and **Recipes** pages, as well as include them on their own **Profile** page (further details are provided later in this README.md document).
 
-![CreateRecipe Page Image](readme_assets/images/create_recipe/create_recipe_form_filled_.png)
+![CreateRecipe Page Image](README_assets/images/create_recipe/create_recipe_form_filled_.png)
 
 ## **CreateRecipe Page- Recipe added to Home Page**
-![Add Recipe Form Image](readme_assets/images/homepage/homepage.png)
+![Add Recipe Form Image](README_assets/images/homepage/homepage.png)
 
 
 ## Login/Register
 Our streamlined process is crafted to ensure a seamless Login/Register experience, whether the user is returning or just starting out, access to our platform is straightforward and welcoming.
 
 ## Register Page
-![Register form  Image](readme_assets/images/login_logout/register_signup_form.png)
+![Register form  Image](README_assets/images/login_logout/register_signup_form.png)
 
 ## Login Page
 
-![Login form Image](readme_assets/images/login_logout/login_form.png)
+![Login form Image](README_assets/images/login_logout/login_form.png)
 
 - #### **Effortless Access:** Clicking the **Login / Register** button navigates users to our login/register pages, designed with simplicity and user-friendliness in mind. Here, those who already belong to our community can quickly re-enter their digital home.
 
@@ -272,7 +272,7 @@ Our streamlined process is crafted to ensure a seamless Login/Register experienc
 Designed to celebrate and manage the user's culinary contributions and preferences, the Profile Page enhances the overall experience within the app.
 The Profile Page is an exclusive section accessible only to logged-in users, providing a personalized view of their contributions and personal information. 
 
-![Profile Page Image](readme_assets/images/profile/profile.png)
+![Profile Page Image](README_assets/images/profile/profile.png)
 
 #### Highlights of the Profile Page include:
 - **My Recipes:** Showcases the recipes created by the user, highlighting their culinary creativity.
@@ -287,56 +287,56 @@ The Profile Page is an exclusive section accessible only to logged-in users, pro
 
 ## Edit Profile Page
 **Edit Button:** Allows users to update their bio and avatar image, keeping their profile current.
-![Edit Profile Page  Image](readme_assets/images/profile/edit_profile.png)
+![Edit Profile Page  Image](README_assets/images/profile/edit_profile.png)
 
 ## Recipe Detail Page
 **My Recipes:** Showcases the recipes created by the user, highlighting their culinary creativity.
 When user clicks on a recipe link, they are redirected to the 'Recipe Detail Page'
-![Recipe Detail Page  Image](readme_assets/images/profile/profile_recipe_detail_edit_delete_options.png)
+![Recipe Detail Page  Image](README_assets/images/profile/profile_recipe_detail_edit_delete_options.png)
 
 ## Recipe Edit Form Page
 The user has the option to edit/update their recipes
-![ Recipe Edit Form Pag Image](readme_assets/images/profile/profile_edit_recipe_.png)
+![ Recipe Edit Form Pag Image](README_assets/images/profile/profile_edit_recipe_.png)
 
 ## Delete Recipe Confirmation Page
 The user has the option to delete their recipes
-![Delete Recipe Confirmation Page Image](readme_assets/images/profile/delete_confirm.png)
+![Delete Recipe Confirmation Page Image](README_assets/images/profile/delete_confirm.png)
 
 ## Profile Page after Recipe Deletion 
 The recipes count is now 5, and we can see that the 'African Chicken Curry' has been deleted.
-![Profile Page after Recipe DeletionImage](readme_assets/images/profile/profile_recipe_delete_successful.png)
+![Profile Page after Recipe DeletionImage](README_assets/images/profile/profile_recipe_delete_successful.png)
 
 
 
 ## Meal Planner - Monthly View Page
 **Meals Button:** Provides direct access to the Meal Planner, aiding users in their meal preparation and planning.
-![Meal Planner - Monthly View Page Image](readme_assets/images/profile/meal_planner.png)
+![Meal Planner - Monthly View Page Image](README_assets/images/profile/meal_planner.png)
 
 ## Meal Planner - Choose a Meal Page
 User can choose the meal to add to the Meal Planner by calories and keywords.
-![Register form  Image](readme_assets/images/profile/meal_planner_choose_breakfast.png)
+![Register form  Image](README_assets/images/profile/meal_planner_choose_breakfast.png)
 
 ## Meal Planner - Add Meal Page
 User can add the meal to the  the Meal Planner.
-![Register form  Image](readme_assets/images/profile/meal_planner_breakfast_added.png)
+![Register form  Image](README_assets/images/profile/meal_planner_breakfast_added.png)
 
 ## Meal Added to Meal Planner Page
 Meal added to the Monthly Meal Planner.
 User can click on the recipe title link to access the recipe detail information
-![Register form  Image](readme_assets/images/profile/meal_planner_breakfastadded_to_day.png)
+![Register form  Image](README_assets/images/profile/meal_planner_breakfastadded_to_day.png)
 
 ## Recipe Detail Page
 User can easily access the recipe detail information
-![Register form  Image](readme_assets/images/profile/recipe_detail_instructions_ingredients.png)
+![Register form  Image](README_assets/images/profile/recipe_detail_instructions_ingredients.png)
 
 
 ## Logout Page
 User can easily and securely logout from the website
-![Logout Page  Image](readme_assets/images/login_logout/logout.png)
+![Logout Page  Image](README_assets/images/login_logout/logout.png)
 
 
 ## Footer
-![Footer Image](readme_assets/images/homepage/footer.png)
+![Footer Image](README_assets/images/homepage/footer.png)
 Our website's footer is a constant presence across all pages, serving as a hub for our social media links. Designed with user convenience in mind, each link opens in a new tab, ensuring that you remain on our site while exploring our social media presence. This thoughtful feature keeps your browsing experience uninterrupted, allowing for easy navigation back to our content.
 
 
@@ -366,7 +366,7 @@ Our website's footer is a constant presence across all pages, serving as a hub f
 
 # App Structure and Navigation
 
-![App Structure and Navigation Image](readme_assets/images/homepage/flowdiagram.png)
+![App Structure and Navigation Image](README_assets/images/flowdiagram_2.png)
 
 The foundational principle guiding the structure and design of our app is simplicity. By prioritizing a straightforward and intuitive interface, we ensure that users can swiftly familiarize themselves with the app's functionalities. This approach minimizes the learning curve and enhances the overall user experience by enabling:
 
@@ -382,21 +382,21 @@ All wireframes were created used [draw.io](https://draw.io/)
 
 ## Desktop Wireframes
 
-![Desktop wireframes Image](readme_assets/images/Wireframes/Wireframe2_Desktop_homepage_login.png)
+![Desktop wireframes Image](README_assets/images/Wireframes/Wireframe2_Desktop_homepage_login.png)
 
-![Desktop wireframes Image](readme_assets/images/Wireframes/Wireframe_Desktop_recipes_createrecipe.png)
+![Desktop wireframes Image](README_assets/images/Wireframes/Wireframe_Desktop_recipes_createrecipe.png)
 
 ## Mobile Wireframes
 User can easily and securely logout from the website
-![Mobile Wireframes1  Image](readme_assets/images/Wireframes/Wireframe_Mobile_homepage_login_myrecipes_healthyrecipes.png)
+![Mobile Wireframes1  Image](README_assets/images/Wireframes/Wireframe_Mobile_homepage_login_myrecipes_healthyrecipes.png)
 
-![Mobile Wireframes2 Image](readme_assets/images/Wireframes/wireframe_mobile_add_recipe__recipe_signout.png)
+![Mobile Wireframes2 Image](README_assets/images/Wireframes/wireframe_mobile_add_recipe__recipe_signout.png)
 
 
 # Database schema
 ## Entity-Relationship Diagram (ERD)
 
-![ERD Image](readme_assets/images/erd/erd.png)
+![ERD Image](README_assets/images/ERD/ERD.png)
 ERD created using draw.io
 ## Entities, Relationships and Cardinalities
 
@@ -437,13 +437,13 @@ ERD created using draw.io
 ## Models
 
 ## Recipe Model 
-![Register form  Image](readme_assets/images/models/Recipe_model.png)
+![Register form  Image](README_assets/images/Models/Recipe_model.png)
 
 ## Meal Model 
-![Register form  Image](readme_assets/images/models/meal_model.png)
+![Register form  Image](README_assets/images/Models/meal_model.png)
 
 ## Profile Model 
-![Register form  Image](readme_assets/images/models/profile_model.png)
+![Register form  Image](README_assets/images/Models/profile_model.png)
 
 
 
@@ -458,7 +458,7 @@ The palettes that were used for the project were created with Color Hunt.
 
 
 ##  AC011C  F52F0E  4A4A4A  F8F8F7                                  |    000000  F60030  F1E1D0  F8F8F7                     
-##  ![Palette 1](readme_assets/images/surface/Pallete1.png)              ![Palette 2](readme_assets/images/surface/Palette2.png) 
+##  ![Palette 1](README_assets/images/surface/Pallete1.png)              ![Palette 2](README_assets/images/surface/Palette2.png) 
 
 
 
@@ -558,22 +558,22 @@ As a Non-logged-in user:
 **AC3:** User can log out of their account, ensuring their session is securely ended.<br>
 
 **AC1:** User can create an account through a registration form.<br>
-![registration form image](readme_assets/images/users_stories/1signup_form.png)
+![registration form image](README_assets/images/users_stories/1signup_form.png)
 **AC2:** User can login to their account using their credentials.<br>
-![login form image](readme_assets/images/users_stories/2accounts_login_.png)
+![login form image](README_assets/images/users_stories/2accounts_login_.png)
 User can store personal recipes
-![user profile image](readme_assets/images/users_stories/3profiles_user_15_.png)
+![user profile image](README_assetss/images/users_stories/3profiles_user_15_.png)
 **AC3:** User can logout of their account, ensuring their session is securely ended.<br>
-![logout image](readme_assets/images/users_stories/4accounts_logout_.png)
+![logout image](README_assets/images/users_stories/4accounts_logout.png)
 User returns to the register/login navbar screen.
-![user returns to register/login nav-bar screen](readme_assets/images/users_stories/5logout_return_loginrequest.png)
+![user returns to register/login nav-bar screen](README_assets/images/users_stories/5logout_return_loginrequest.png)
 
 - #### I can browse through recipes so that I can find some new meal ideas 
 **AC1:** Recipes are available to all users, ensuring wide accessibility.<br>
 **AC2:** Non-logged in users can view admin-created recipes, promoting discovery without the need for account creation.<br>
-![browse recipes image1](readme_assets/images/users_stories/6browsing_recipes.png)
+![browse recipes image1](README_assets/images/users_stories/6browsing_recipes.png)
 **AC3:** Non-logged in users have read-only access to recipes, allowing browsing without the ability to alter content.<br>
-![read-only for Non-logged](readme_assets/images/users_stories/7access_recipes_8_.png)
+![read-only for Non-logged](README_assets/images/users_stories/7access_recipes_8_.png)
 
 ### **Epic:Logged in User**
 
@@ -585,86 +585,86 @@ As a Logged-in User:
 
 
 **AC1:** User can create an account through a registration form.<br>
-![registration form image](readme_assets/images/users_stories/1signup_form.png)
+![registration form image](README_assets/images/users_stories/1signup_form.png)
 **AC2:** User can login to their account using their credentials.<br>
-![login form image](readme_assets/images/users_stories/2accounts_login_.png)
+![login form image](README_assets/images/users_stories/2accounts_login_.png)
 User can store personal recipes
-![Loggedin user access to recipes](readme_assets/images/users_stories/8profiles_user_5_.png)
+![Loggedin user access to recipes](README_assets/images/users_stories/8profiles_user_5_.png)
 **AC3:** User can log out of their account, ensuring their session is securely ended.<br>
-![logout image](readme_assets/images/users_stories/4accounts_logout_.png)
+![logout image](README_assets/images/users_stories/4accounts_logout_.png)
 User returns to the register/login navbar screen.
-![user returns to register/login nav-bar screen](readme_assets/images/users_stories/5logout_return_loginrequest.png)
+![user returns to register/login nav-bar screen](README_assets/images/users_stories/5logout_return_loginrequest.png)
 
 
 
 - #### I can edit or delete my recipes and update them 
 **AC1:** Users can edit their recipes through an edit functionality accessible on their recipe pages via profile.<br>
-![ profile image](readme_assets/images/users_stories/9loggedin_user_profile.png)
+![ profile image](README_assets/images/users_stories/9loggedin_user_profile.png)
 
 Only the person that created the recipe has the option to edit and delete the recipe via their portofolio when they are logged-in.<br>
-![Edit Recipe image](readme_assets/images/users_stories/10profile_detailrecipe_edit_deletebuttons__recipes_17_.png)
+![Edit Recipe image](README_assets/images/users_stories/10profile_detailrecipe_edit_deletebuttons__recipes_17_.png)
 
 Logged-in user with profile page can edit their own recipes.
-![edited recipe imAGE](readme_assets/images/users_stories/11edit_recipes_edit_17_.png)
+![edited recipe imAGE](README_assets/images/users_stories/11edit_recipes_edit_17_.png)
 
 **AC2:** Users can delete their recipes using a delete option available on their recipe pages.<br>
-![Delete Recipe image](readme_assets/images/users_stories/12_delete_recipes_14_.png)
+![Delete Recipe image](README_assets/images/users_stories/12_delete_recipes_14_.png)
 
 **AC3:** Edit and delete functionalities are only available to the user who created the recipe.<br>
 That person can click on the recipe on their profile and have acces to the recipe detail page where the edit and delete buttons are only available for the owner of the recipe when their are logged-in.<br>
-![Edit Recipe image](readme_assets/images/users_stories/13delete_confirmation_recipes_delete_14_.png)
+![Edit Recipe image](README_assets/images/users_stories/13delete_confirmation_recipes_delete_14_.png)
 
 The 'My Recipes'in the profile of the Logged-in user shows 3 recipes after deletion by user of the Tabouleh Salad.<br>
-![Edit Recipe image](readme_assets/images/users_stories/14_profile_deletedrecipe_notpresent_profiles_user_2_.png)
+![Edit Recipe image](README_assets/images/users_stories/14_profile_deletedrecipe_notpresent_profiles_user_2_.png)
 
 
 - #### I can add picture and description to my recipes and  I can easily find the one I am looking for.<br>
 
 **AC1:** Users can add a picture when uploading or editing recipes.<br>
 Logged-in User
-![profile image](readme_assets/images/users_stories/15profiles_user_3_.png)
+![profile image](README_assetsimages/users_stories/15profiles_user_3_.png)
 
 **AC2:** Pictures are automatically resized to fit the website’s layout.<br>
-![picture added to recipe](readme_assets/images/users_stories/19description_added_a56e80b1fce6.herokuapp.com_recipes_42_.png)
+![picture added to recipe](README_assets/images/users_stories/19description_added_a56e80b1fce6.herokuapp.com_recipes_42_.png)
 Recipe added to profile<br>
-![Recipe added to profile](readme_assets/images/users_stories/17recipe_added_profile.png)
+![Recipe added to profile](README_assets/images/users_stories/17recipe_added_profile.png)
 Recipe added to Home Page
-![Recipe added to home page](readme_assets/images/users_stories/18recipe_added_homepage.png)
+![Recipe added to home page](README_assets/images/users_stories/18recipe_added_homepage.png)
 
 **AC3:** Users can add a description to their recipes during the upload process.<br> 
-![pictue and description added  to recipe image](readme_assets/images/users_stories/16createrecipe_recipes_add_.png)
+![pictue and description added  to recipe image](README_assets/images/users_stories/16createrecipe_recipes_add_.png)
 
 
 #### I can store my recipes in one place and I can easily browse and retrieve them 
 **AC1:** Users have a list view of all their recipes for easy browsing.<br>
 Logged-in User
-![profile image](readme_assets/images/users_stories/15profiles_user_3_.png)
+![profile image](README_assets/images/users_stories/15profiles_user_3_.png)
 **AC2:** Each recipe in the list view is a clickable link that takes the user to the full recipe page.<br>
 
 - #### I can view the ingredients and method for my recipes so that I can follow the recipe without having to touch the screen
 
 **AC1:** Ingredients and method sections are displayed side by side on medium and large screens to minimize scrolling.<br>
-![view ingredients Image](readme_assets/images/users_stories/21_personalisedhomepage_profile_recipes_44_.png)
+![view ingredients Image](README_assets/images/users_stories/21_personalisedhomepage_profile_recipes_44_.png)
 
 #### Have a personalised home page (profile) so that I can view my own own recipes 
 **AC1:** A generic homepage is available for all users.<br>
-![view ingredients Image](readme_assets/images/users_stories/22generalised_homepage.png)
+![view ingredients Image](README_assets/images/users_stories/22generalised_homepage.png)
 
 **AC2:** Logged-in users see a personalized homepage displaying their own recipes.<br> 
-![view ingredients Image](readme_assets/images/users_stories/20Adami_profiles_user_17_.png)
+![view ingredients Image](README_assets/images/users_stories/20Adami_profiles_user_17_.png)
 
 
 ####  Categorise my recipes by calories, cuisine-type or meal-type so that I can plan my meals easily 
 **AC1:** Users can select categories for their recipes when adding or editing them<br>
-![categorise recipe image](readme_assets/images/users_stories/24categorise_recipes_edit_10_.png)
+![categorise recipe image](README_assets/images/users_stories/24categorise_recipes_edit_10_.png)
 
 **AC2:** Users can filter recipes by these categories or keywords to find them more easily<br>. 
 Filter by meal-type
-![filter recipes image](readme_assets/images/users_stories/25filter_recipes_profiles_user_3_.png)
-![filter recipes image](readme_assets/images/users_stories/26lunch_search_recipes__q=lunch.png)
+![filter recipes image](README_assets/images/users_stories/25filter_recipes_profiles_user_3_.png)
+![filter recipes image](README_assets/images/users_stories/26lunch_search_recipes__q=lunch.png)
 Filter By Keyword
-![filter recipes image](readme_assets/images/users_stories/27_filter_keyword_.png)
-![filter recipes image](readme_assets/images/users_stories/28_recipes__q=fruit.png)
+![filter recipes image](README_assets/images/users_stories/27_filter_keyword_.png)
+![filter recipes image](README_assets/images/users_stories/28_recipes__q=fruit.png)
 
 - #### I can able log into the same account as my family so that my household can share an account
 **AC1:** Users can log in using a username that allows multiple people to access the same account<br>
@@ -673,22 +673,22 @@ Filter By Keyword
 
 - #### I can search my recipesso taht I can quickly find the recipe I want 
 **AC1:** A search bar is included in the site’s navigation.<br>
-![search bar image](readme_assets/images/users_stories/30search_bar_.png)
+![search bar image](README_assets/images/users_stories/30search_bar_.png)
 **AC2:** The search bar functionality enables searching through recipes.<br>
 **AC3:** Users can search recipes using a variety of parameters.<br> 
-![search bar image](readme_assets/images/users_stories/31bar_functionalitypng.png)
-![search bar image](readme_assets/images/users_stories/32recipes__q=african.png)
+![search bar image](README_assets/images/users_stories/31bar_functionalitypng.png)
+![search bar image](README_assets/images/users_stories/32recipes__q=african.png)
 
 - #### I can add recipes to 'My recipes' so that I can view my recipes easily
   
 **AC1:** Users can add recipes to their 'My Recipes Section' of profile using 'CreateRecipe Form'.<br>
 **AC2:** This functionality applies to both user and admin recipes.( As can be seen also in the Admin User stories)<br>
-![add recepies image ](readme_assets/images/users_stories/34recipes_add_.png)
+![add recepies image ](README_assets/images/users_stories/34recipes_add_.png)
 
 **AC3:** 'My Recipes 'are displayed on my profile page page.<br>
-![add recepies image ](readme_assets/images/users_stories/35profiles_user_18_.png)
+![add recepies image ](README_assets/images/users_stories/35profiles_user_18_.png)
 Also added to the recipes bank of the website
-![add recepies image ](readme_assets/images/users_stories/37recipe-django-a56e80b1fce6.herokuapp.com_.png)
+![add recepies image ](README_assets/images/users_stories/37recipe-django-a56e80b1fce6.herokuapp.com_.png)
 
 
 #### **Epic: Admin**
@@ -697,33 +697,33 @@ As An Admin:
 #### I can create, edit and delete recipes so that I can manage the site content 
 **AC1:** Admin can access a form to input new recipe details, including title, description, ingredients, and preparation steps.<br>
 - CREATE
-![Admin User Story 1 Image](readme_assets/images/Admin_stories/Admin_add_recipe.png)
-![Admin User Story 3Image](readme_assets/images/Admin_stories/Admin_recipe_added.png)
+![Admin User Story 1 Image](README_assets/images/Admin_stories/Admin_add_recipe.png)
+![Admin User Story 3Image](README_assets/images/Admin_stories/Admin_recipe_added.png)
 
 - CHANGE/EDIT RECIPE
-![Admin User Story 2Image](readme_assets/images/Admin_stories/admin_change_recipe.png)
+![Admin User Story 2Image](README_assets/images/Admin_stories/admin_change_recipe.png)
 
 - DELETE
-![Admin User Story 4Image](readme_assetss/images/Admin_stories/admin_delete_recipe.png)
-![Admin User Story 5Image](readme_assets/images/Admin_stories/admin_delete_recipe_confirm.png)
-![Admin User Story 6Image](readme_assets/images/Admin_stories/recipe_deleted.png)
+![Admin User Story 4Image](README_assets/images/Admin_stories/admin_delete_recipe.png)
+![Admin User Story 5Image](README_assets/images/Admin_stories/admin_delete_recipe_confirm.png)
+![Admin User Story 6Image](README_assets/images/Admin_stories/recipe_deleted.png)
 
 #### I can access the admin panel so that I can manage recipes 
 **AC1:** Admin can log in to the admin panel using their credentials.<br>
 **AC2:** Upon successful login, admin is directed to the dashboard where they can manage recipes and site content.<br>
 **AC3:** Incorrect login attempts are handled gracefully, displaying an error message and the opportunity to retry. <br>
 - LOGIN
-![Admin User Story 7 Image](readme_assets/images/Admin_stories/django_admin_dashboard.png)
+![Admin User Story 7 Image](README_assets/images/Admin_stories/django_admin_dashboard.png)
 
 - Only the Admin can login to the Admin Dashboard
-![Admin User Story 7 Image](readme_assets/images/users_stories/29admin_login__next=_admin_.png)
+![Admin User Story 7 Image](README_assets/images/users_stories/29admin_login__next=_admin_.png)
 
 #### I can Logout of the admin panel so that I can disconnect from the website securely 
 **AC1:** A log-out option is clearly accessible from anywhere within the admin panel.<br>
 **AC2:** Selecting the log-out option immediately ends the admin session.<br>
 **AC3:** Upon logging out, the admin is redirected to the login page, ensuring they are fully disconnected.<br>
 - LOGOUT 
-![Admin User Story 8 Image](readme_assets/images/Admin_stories/admin_logout_.png)
+![Admin User Story 8 Image](README_assets/images/Admin_stories/admin_logout_.png)
 
 
 
@@ -836,56 +836,56 @@ I carefully evaluated each suggestion from flake8 to ensure that following its r
 ### W3 Validator 
 
 #### Home Page
-![Home Page validation Image](readme_assets\images\html_Validation\HTML_validation.png)
+![Home Page validation Image](README_assets\images\html_Validation\HTML_validation.png)
 
 #### Recipes Page
-![Recipes Page validation Image](readme_assets/images/html_Validation/recipes_w3htmlvalidation.png)
+![Recipes Page validation Image](README_assets/images/html_Validation/recipes_w3htmlvalidation.png)
 
 #### CreateRecipe Page
-![CreateRecipe Page validation Image](readme_assets/images/html_Validation/createrecipe_w3htmlvalidation.png)
+![CreateRecipe Page validation Image](README_assets/images/html_Validation/createrecipe_w3htmlvalidation.png)
 
 #### Profile Page
-![Profile Page validation Image](readme_assets/images/html_Validation/profiles_htmlvalidation.png)
+![Profile Page validation Image](README_assets/images/html_Validation/profiles_htmlvalidation.png)
 
 #### Meal Planner Page
-![Meal Planner Page validation Image](readme_assets/images/html_Validation/meal_planner_w3htmlvalidation.png)
+![Meal Planner Page validation Image](README_assets/images/html_Validation/meal_planner_w3htmlvalidation.png)
 
 #### Register Page
-![Register Page validatio Image](readme_assets/images/html_Validation/register_rocket_htmlvalidation.png)
+![Register Page validatio Image](README_assets/images/html_Validation/register_rocket_htmlvalidation.png)
 
 #### Login Page
-![Login Page validation Image](readme_assets/images/html_Validation/login_rocket_htmlvalidation.png)
+![Login Page validation Image](README_assets/images/html_Validation/login_rocket_htmlvalidation.png)
 
 
 #### Logout Page 
-![Logout Image](readme_assets/images/html_Validation/logout_htmlvalidationpng.png)
+![Logout Image](README_assets/images/html_Validation/logout_htmlvalidationpng.png)
 
 
 ### Rocket Validator
 
 #### Home Page
-![Home Page validation Image](readme_assets\images\html_Validation\HTML_validation.png)
+![Home Page validation Image](README_assets\images\html_Validation\HTML_validation.png)
 
 #### Recipes Page
-![Recipes Page validation Image](readme_assets/images/html_Validation/recipes_htmlvalidation.png)
+![Recipes Page validation Image](README_assets/images/html_Validation/recipes_htmlvalidation.png)
 
 #### CreateRecipe Page
-![CreateRecipe Page validation Image](readme_assets/images/html_Validation/createrecipe_htmlvalidation.png)
+![CreateRecipe Page validation Image](README_assets/images/html_Validation/createrecipe_htmlvalidation.png)
 
 #### Profile Page
-![Profile Page validation Image](readme_assets/images/html_Validation/profilepage_loggedinuser_htmlvalidation.png)
+![Profile Page validation Image](README_assets/images/html_Validation/profilepage_loggedinuser_htmlvalidation.png)
 
 #### Meal Planner Page
-![Meal Planner Page validation Image](readme_assets/images/html_Validation/meal_planner_htmlvalidation.png)
+![Meal Planner Page validation Image](README_assets/images/html_Validation/meal_planner_htmlvalidation.png)
 
 #### Register Page
-![Register Page validation Image](readme_assets/images/html_Validation/register_page_htmlvalidation.png)
+![Register Page validation Image](README_assets/images/html_Validation/register_page_htmlvalidation.png)
 
 #### Login Page
-![Login Page validation Image](readme_assets/images/html_Validation/loginpage_htmlvalidation.png)
+![Login Page validation Image](README_assets/images/html_Validation/loginpage_htmlvalidation.png)
 
 #### Logout Page 
-![Logout Page validation Image](readme_assets/images/html_Validation/logoutpage_htmlvalidation.png)
+![Logout Page validation Image](README_assets/images/html_Validation/logoutpage_htmlvalidation.png)
 
 
 ## HTML Validation 
