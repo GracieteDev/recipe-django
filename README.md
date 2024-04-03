@@ -248,7 +248,7 @@ Logged-in users gain access to the **'CreateRecipe'** feature. They will be dire
 ![CreateRecipe Page Image](README_assets/images/create_recipe/create_recipe_foem_filled_.png)
 
 ## **CreateRecipe Page- Recipe added to Home Page**
-![Add Recipe Form Image](README_assets/images/create_recipe/created_recipe_added_to_homepage.webp)
+![Add Recipe Form Image](README_assets/images/homepage/homepage.png)
 
 
 ## Login/Register
