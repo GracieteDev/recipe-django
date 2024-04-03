@@ -547,6 +547,77 @@ Each of these technologies played a pivotal role in the development lifecycle, f
 
 ### **Testing Users Stories form (UX) Section**
 
+**Epic:Non-logged-in user**
+I can create an account so that I can store my personal recipes
+**AC1:** User can create an account through a registration form.
+**AC2:** User can log in to their account using their credentials.
+**AC3:** User can log out of their account, ensuring their session is securely ended.
+
+
+Browse through recipes sothat I can find some new meal ideas 
+**AC1:** Admin-created recipes are available to all users, ensuring wide accessibility.
+**AC2:** Non-logged in users can view admin-created recipes, promoting discovery without the need for account creation.
+**AC3:** Non-logged in users have read-only access to recipes, allowing browsing without the ability to alter content. 
+
+
+
+**Epic:Logged in User**
+
+Create an account and Store my personal recipes
+**AC1:** User can create an account through a registration form.
+**AC2:** User can log in to their account using their credentials.
+**AC3:** User can log out of their account, ensuring their session is securely ended. 
+
+
+| Edit or delete my recipes and Update them 
+**AC1:** Users can edit their recipes through an edit functionality accessible on their recipe pages
+**AC2:** Users can delete their recipes using a delete option available on their recipe pages
+**AC3:** Edit and delete functionalities are only available to the user who created the recipe; a 403 error is returned otherwise.
+
+
+Add picture and description to my recipes and  I can easily find the one I am looking for 
+**AC1:** Users can add a picture when uploading or editing recipes.
+**AC2:** Pictures are automatically resized to fit the website’s layout.
+**AC3:** Users can add a description to their recipes during the upload process. 
+
+
+Store my recipes in one place and  I can easily browse and retrieve them 
+**AC1:** Users have a list view of all their recipes for easy browsing
+**AC2:** Each recipe in the list view is a clickable link that takes the user to the full recipe page. 
+
+
+View the ingredients and method for my recipes and Follow the recipe without having to touch the screen
+**AC1:** Ingredients and method sections are displayed side by side on medium and large screens to minimize scrolling.
+
+
+Have a personalised home page and can View my own recipes 
+**AC1:** A generic homepage is available for all users.
+**AC2:** Logged-in users see a personalized homepage displaying their own recipes. 
+
+Categorise my recipes by cooking method | Plan my meals easily 
+**AC1:** Users can select categories for their recipes when adding or editing them
+**AC2:** Users can filter recipes by these categories to find them more easily. 
+
+
+Be able to log into the same account as my family | My household can share an account
+**AC1:** Users can log in using a username that allows multiple people to access the same account
+**AC2:** A "keep logged in" function is available for ease of access. 
+
+
+Search my recipes and to quickly find the recipe I want 
+**AC1:** A search bar is included in the site’s navigation.
+**AC2:** The search bar functionality enables searching through recipes.
+**AC3:** Users can search recipes using a variety of parameters. 
+
+
+Add recipes to favourites and view my favourite recipes easily 
+**AC1:** Users can add recipes to their favourites using a specific button.
+**AC2:** This functionality applies to both user and admin recipes.
+**AC3:** Favourite recipes are displayed on a dedicated page.
+
+
+**AC4:** Recipes have an indicator to show if they are a favourite. |
+
 **Epic: Admin**
 - As an Admin I can can create, edit and delete recipes (access a form to input new recipe details, including title, description, ingredients, and preparation steps).
   
