@@ -609,7 +609,9 @@ That person can click on the recipe on their profile and have acces to the recip
 The 'My Recipes'in the profile of the Logged-in user shows 3 recipes after deletion by user of the Tabouleh Salad.<br>
 ![Edit Recipe image](README_assets/images/users_stories/14_profile_deletedrecipe_notpresent_profiles_user_2_.png)
 
-- #### - I can add picture and description to my recipes so tha I can easily find the one I am looking for 
+
+- #### I can add picture and description to my recipes and  I can easily find the one I am looking for.<br>
+
 **AC1:** Users can add a picture when uploading or editing recipes.<br>
 Logged-in User
 ![profile image](README_assets/images/users_stories/15profiles_user_3_.png)
