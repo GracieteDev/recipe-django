@@ -595,17 +595,20 @@ User returns to the register/login navbar screen.
 
 
 
-- #### Edit or delete my recipes and Update them 
-**AC1:** Users can edit their recipes through an edit functionality accessible on their recipe pages.<br>
-![Edit Recipe image]()
+- #### I can edit or delete my recipes and update them 
+**AC1:** Users can edit their recipes through an edit functionality accessible on their recipe pages via profile).<br>
+![ profile image](README_assets/images/users_stories/9loggedin_user_profile.png)
+![Edit Recipe image](README_assets/images/users_stories/10profile_detailrecipe_edit_deletebuttons__recipes_17_.png)
 **AC2:** Users can delete their recipes using a delete option available on their recipe pages.<br>
-![Delete Recipe image]()
+![Delete Recipe image](README_assets/images/users_stories/12_delete_recipes_14_.png)
 **AC3:** Edit and delete functionalities are only available to the user who created the recipe. 
 Only the person that created the recipe has the option to edit and delete the recipe via their portofolio when they are logged-in.<br>
-That person can click on the recipe on their profile and have acces to the recipe detail page where the  edit and delete buttonsare only available for the owner of the recipe when their are logged-in.
-![Edit Recipe image]()
+That person can click on the recipe on their profile and have acces to the recipe detail page where the edit and delete buttons are only available for the owner of the recipe when their are logged-in.<br>
+![Edit Recipe image](README_assets/images/users_stories/13delete_confirmation_recipes_delete_14_.png)
+The 'My Recipes'in the profile of the Logged-in user shows 3 recipes after deletion by user of the Tabouleh Salad.<br>
+![Edit Recipe image](README_assets/images/users_stories/14_profile_deletedrecipe_notpresent_profiles_user_2_.png)
 
-#### - Add picture and description to my recipes and  I can easily find the one I am looking for 
+- #### - Add picture and description to my recipes and  I can easily find the one I am looking for 
 **AC1:** Users can add a picture when uploading or editing recipes.<br>
 **AC2:** Pictures are automatically resized to fit the website’s layout.<br>
 **AC3:** Users can add a description to their recipes during the upload process.<br> 
