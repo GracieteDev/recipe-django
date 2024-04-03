@@ -570,7 +570,7 @@ Each of these technologies played a pivotal role in the development lifecycle, f
 
 - As an Admin I can Log out of the admin panel.
 - LOGOUT 
-![Admin User Story 8Image](README_assets/images/Admin_stories/admin_logout_.png)
+![Admin User Story 8 Image](README_assets/images/Admin_stories/admin_logout_.png)
 
 
 **EPIC:Logged-in User**
@@ -688,25 +688,25 @@ I carefully evaluated each suggestion from flake8 to ensure that following its r
 ### W3 Validator 
 
 #### Home Page
-![Image]README_assets/images/HTML_Validation/HTML_validation.png)
+![Home Page validation Image](README_assets\images\HTML_Validation\HTML_validation.png)
 
 #### Recipes Page
-![Image](README_assets/images/HTML_Validation/recipes_w3htmlvalidation.png)
+![Recipes Page validation Image](README_assets/images/HTML_Validation/recipes_w3htmlvalidation.png)
 
 #### CreateRecipe Page
-![Image](README_assets/images/HTML_Validation/createrecipe_w3htmlvalidation.png)
+![CreateRecipe Page validation Image](README_assets/images/HTML_Validation/createrecipe_w3htmlvalidation.png)
 
 #### Profile Page
-![Image](README_assets/images/HTML_Validation/profiles_htmlvalidation.png)
+![Profile Page validation Image](README_assets/images/HTML_Validation/profiles_htmlvalidation.png)
 
 #### Meal Planner Page
-![Image](README_assets/images/HTML_Validation/meal_planner_w3htmlvalidation.png)
+![Meal Planner Page validation Image](README_assets/images/HTML_Validation/meal_planner_w3htmlvalidation.png)
 
 #### Register Page
-![Image](README_assets/images/HTML_Validation/register_rocket_htmlvalidation.png)
+![Register Page validatio Image](README_assets/images/HTML_Validation/register_rocket_htmlvalidation.png)
 
 #### Login Page
-![Image](README_assets/images/HTML_Validation/login_rocket_htmlvalidation.png)
+![Login Page validation Image](README_assets/images/HTML_Validation/login_rocket_htmlvalidation.png)
 
 
 #### Logout Page 
@@ -716,28 +716,28 @@ I carefully evaluated each suggestion from flake8 to ensure that following its r
 ### Rocket Validator
 
 #### Home Page
-![Image](README_assets/images/HTML_Validation/homepage_htmlvalidation.png)
+![Home Page validation Image](README_assets/images/HTML_Validation/homepage_htmlvalidation.png)
 
 #### Recipes Page
-![Image](README_assets/images/HTML_Validation/recipes_htmlvalidation.png)
+![Recipes Page validation Image](README_assets/images/HTML_Validation/recipes_htmlvalidation.png)
 
 #### CreateRecipe Page
-![Image](README_assets/images/HTML_Validation/createrecipe_htmlvalidation .png)
+![CreateRecipe Page validation Image](README_assets/images/HTML_Validation/createrecipe_htmlvalidation .png)
 
 #### Profile Page
-![Image](README_assets/images/HTML_Validation/profilepage_loggedinuser_htmlvalidation.png)
+![Profile Page validation Image](README_assets/images/HTML_Validation/profilepage_loggedinuser_htmlvalidation.png)
 
 #### Meal Planner Page
-![Image](README_assets/images/HTML_Validation/meal_planner_htmlvalidation.png)
+![Meal Planner Page validation Image](README_assets/images/HTML_Validation/meal_planner_htmlvalidation.png)
 
 #### Register Page
-![Image](README_assets/images/HTML_Validation/register_page_htmlvalidation.png)
+![Register Page validation Image](README_assets/images/HTML_Validation/register_page_htmlvalidation.png)
 
 #### Login Page
-![Image](README_assets/images/HTML_Validation/loginpage_htmlvalidation.png)
+![Login Page validation Image](README_assets/images/HTML_Validation/loginpage_htmlvalidation.png)
 
 #### Logout Page 
-![Image](README_assets/images/HTML_Validation/logoutpage_htmlvalidation.png)
+![Logout Page validation Image](README_assets/images/HTML_Validation/logoutpage_htmlvalidation.png)
 
 
 
