@@ -716,13 +716,13 @@ I carefully evaluated each suggestion from flake8 to ensure that following its r
 ### Rocket Validator
 
 #### Home Page
-![Home Page validation Image](README_assets/images/HTML_Validation/homepage_htmlvalidation.png)
+![Home Page validation Image](README_assets\images\HTML_Validation\HTML_validation.png)
 
 #### Recipes Page
 ![Recipes Page validation Image](README_assets/images/HTML_Validation/recipes_htmlvalidation.png)
 
 #### CreateRecipe Page
-![CreateRecipe Page validation Image](README_assets/images/HTML_Validation/createrecipe_htmlvalidation .png)
+![CreateRecipe Page validation Image](README_assets/images/HTML_Validation/createrecipe_htmlvalidation.png)
 
 #### Profile Page
 ![Profile Page validation Image](README_assets/images/HTML_Validation/profilepage_loggedinuser_htmlvalidation.png)
