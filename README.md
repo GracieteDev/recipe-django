@@ -576,13 +576,13 @@ Each of these technologies played a pivotal role in the development lifecycle, f
 **AC3:** Edit and delete functionalities are only available to the user who created the recipe; a 403 error is returned otherwise.
 
 
-#### Add picture and description to my recipes and  I can easily find the one I am looking for 
+#### - Add picture and description to my recipes and  I can easily find the one I am looking for 
 **AC1:** Users can add a picture when uploading or editing recipes.
 **AC2:** Pictures are automatically resized to fit the website’s layout.
 **AC3:** Users can add a description to their recipes during the upload process. 
 
 
-#### Store my recipes in one place and  I can easily browse and retrieve them 
+#### - Store my recipes in one place and  I can easily browse and retrieve them 
 **AC1:** Users have a list view of all their recipes for easy browsing
 **AC2:** Each recipe in the list view is a clickable link that takes the user to the full recipe page. 
 
