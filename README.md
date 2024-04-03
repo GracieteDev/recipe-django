@@ -153,7 +153,7 @@ By addressing the needs and challenges faced by our target audience, HealthyReci
 | Categorise my recipes by calories, cuisine-type or other keyword| Plan my meals easily | **AC1:** Users can select categories for their recipes when adding or editing them.<br>**AC2:** Users can filter recipes by these categories to find them more easily. |
 | Be able to log into the same account as my family | My household can share an account | **AC1:** Users can log in using a username that allows multiple people to access the same account.<br>**AC2:** A "keep logged in" function is available for ease of access. |
 | Search my recipes | To quickly find the recipe I want | **AC1:** A search bar is included in the site’s navigation.<br>**AC2:** The search bar functionality enables searching through recipes.<br>**AC3:** Users can search recipes using a variety of parameters. |
-| Add recipes to favourites | View my favourite recipes easily | **AC1:** Users can add recipes to their favourites using a specific button.<br>**AC2:** This functionality applies to both user and admin recipes.<br>**AC3:** Favourite recipes are displayed on a dedicated page.<br>**AC4:** Recipes have an indicator to show if they are a favourite. |
+| Add recipes to 'My recipes'| View my recipes easily | **AC1:** Users can add recipes to their 'My Recipes Section' of profile using 'CreateRecipe Form'.<br>**AC2:** This functionality applies to both user and admin recipes.<br>**AC3:** 'My Recipes 'are displayed on my profile page page.<br>
 
 
 
@@ -642,7 +642,7 @@ Logged-in User
 ![profile image](README_assets/images/users_stories/15profiles_user_3_.png)
 **AC2:** Each recipe in the list view is a clickable link that takes the user to the full recipe page.<br>
 
-#### I can view the ingredients and method for my recipes so that I can follow the recipe without having to touch the screen
+- #### I can view the ingredients and method for my recipes so that I can follow the recipe without having to touch the screen
 
 **AC1:** Ingredients and method sections are displayed side by side on medium and large screens to minimize scrolling.<br>
 ![view ingredients Image](README_assets/images/users_stories/21_personalisedhomepage_profile_recipes_44_.png)
@@ -667,22 +667,25 @@ Filter By Keyword
 ![filter recipes image](README_assets/images/users_stories/27_filter_keyword_.png)
 ![filter recipes image](README_assets/images/users_stories/28_recipes__q=fruit.png)
 
-#### Be able to log into the same account as my family | My household can share an account
+- #### Be able to log into the same account as my family | My household can share an account
 **AC1:** Users can log in using a username that allows multiple people to access the same account<br>
 **AC2:** A "keep logged in" function is available for ease of access.<br>
 (This feature will be available in future iteration)
 
-#### Search my recipes and to quickly find the recipe I want 
+- #### Search my recipes and to quickly find the recipe I want 
 **AC1:** A search bar is included in the site’s navigation.<br>
 **AC2:** The search bar functionality enables searching through recipes.<br>
 **AC3:** Users can search recipes using a variety of parameters.<br> 
 
 
-#### Add recipes to favourites and view my favourite recipes easily 
-**AC1:** Users can add recipes to their favourites using a specific button.<br>
+- #### I can add recipes to 'My recipes' so that I can view my recipes easily 
+**AC1:** Users can add recipes to their 'My Recipes Section' of profile using 'CreateRecipe Form'.<br>
 **AC2:** This functionality applies to both user and admin recipes.<br>
 **AC3:** Favourite recipes are displayed on a dedicated page.<br>
-**AC4:** Recipes have an indicator to show if they are a favourite.<br>
+**AC4:** 'My Recipes 'are displayed on my profile page page.<br>
+
+
+
 
 #### **Epic: Admin**
 As An Admin:
