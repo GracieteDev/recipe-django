@@ -246,7 +246,7 @@ Users who are not logged in or registered will not have access to the **'CreateR
 - #### Registered Users:
 Logged-in users gain access to the **'CreateRecipe'** feature. They will be directed to a page containing a form that enables them to add a new recipe. Users can share their creations on the **Home** and **Recipes** pages, as well as include them on their own **Profile** page (further details are provided later in this README.md document).
 
-![CreateRecipe Page Image](README_assets/images/create_recipe/create_recipe_foem_filled_.png)
+![CreateRecipe Page Image](README_assets/images/create_recipe/create_recipe_form_filled_.png)
 
 ## **CreateRecipe Page- Recipe added to Home Page**
 ![Add Recipe Form Image](README_assets/images/homepage/homepage.png)
@@ -462,20 +462,19 @@ The palettes that were used for the project were created with Color Hunt.
 
 
 
-## Site Color Scheme Overview
+## My Website Color Scheme
 
-The color scheme selected for the website has been thoughtfully chosen to enhance user experience and visual harmony across different sections:
+I've carefully curated a color scheme for my website that prioritizes visual harmony and a seamless user experience. With an emphasis on a light and serene aesthetic, I've meticulously chosen colors to create a unified look across the entire platform:
 
-- **Navigation Bar Color**: The color chosen for the navigation bar perfectly complements the hero image, ensuring a cohesive look and feel across the website's interface.
+- **Unified Color for Navigation, Main Body, and Footer**: I chose a smooth, light color that flows throughout the navigation bar, main content area, and footer. This decision reflects my design philosophy of continuity and simplicity, providing a visually soothing backdrop that enhances readability and keeps the user's focus on the content.
 
-- **Button Color**: Selected for its ability to blend seamlessly with the page's overall aesthetic, this hue enhances the visual appeal and draws attention to interactive elements.
+- **Interactive Elements and Buttons**: To strike a balance between visual appeal and functionality, I selected a complementary hue for buttons. This color contrasts nicely with the light background, ensuring that interactive elements are easy to find without disrupting the overall aesthetic harmony of the site.
 
-- **Main Body Color**: This color was picked for its gentle contrast against the design elements, offering a visually soothing alternative to stark white and improving readability.
+- **Login/Register Section**: For the login and registration areas, I carefully picked a background color that meshes well with the surrounding elements. This approach fosters a welcoming and cohesive user interface, guiding visitors smoothly through the sign-in process.
 
-- **Login/Register Section Background**: The backdrop color for the login/register sections has been carefully chosen to coordinate with adjacent imagery, fostering a welcoming and integrated user experience.
+- **Visual Harmony and Accessibility**: I've chosen colors across the site with an eye towards optimizing readability and comfort. By fine-tuning contrasts, I aim to facilitate effortless navigation and content engagement, making the website accessible and pleasant for a broad audience.
 
-- **Footer Background Color**: The background color used for the footer has been specifically selected to round off the site's design smoothly, complementing the overall color scheme while clearly defining the page's bottom boundary.
-
+I chose the color scheme carefully to ensure a consistent and appealing look across the website, focusing on light and harmonious colors to create an inviting and visually attractive space.
 
 
 ## Font Choices Overview
@@ -889,6 +888,7 @@ I carefully evaluated each suggestion from flake8 to ensure that following its r
 ![Logout Page validation Image](README_assets/images/HTML_Validation/logoutpage_htmlvalidation.png)
 
 
+## HTML Validation 
 
 # Deploying a Django Project with GitHub, Heroku, and Cloudinary
 
