@@ -599,6 +599,7 @@ User returns to the register/login navbar screen.
 **AC1:** Users can edit their recipes through an edit functionality accessible on their recipe pages via profile).<br>
 ![ profile image](README_assets/images/users_stories/9loggedin_user_profile.png)
 ![Edit Recipe image](README_assets/images/users_stories/10profile_detailrecipe_edit_deletebuttons__recipes_17_.png)
+![edited recipe imAGE](README_assets/images/users_stories/11edit_recipes_edit_17_.png)
 **AC2:** Users can delete their recipes using a delete option available on their recipe pages.<br>
 ![Delete Recipe image](README_assets/images/users_stories/12_delete_recipes_14_.png)
 **AC3:** Edit and delete functionalities are only available to the user who created the recipe. 
@@ -608,7 +609,7 @@ That person can click on the recipe on their profile and have acces to the recip
 The 'My Recipes'in the profile of the Logged-in user shows 3 recipes after deletion by user of the Tabouleh Salad.<br>
 ![Edit Recipe image](README_assets/images/users_stories/14_profile_deletedrecipe_notpresent_profiles_user_2_.png)
 
-- #### - Add picture and description to my recipes and  I can easily find the one I am looking for 
+- #### - I can add picture and description to my recipes and  I can easily find the one I am looking for.<br>
 **AC1:** Users can add a picture when uploading or editing recipes.<br>
 **AC2:** Pictures are automatically resized to fit the website’s layout.<br>
 **AC3:** Users can add a description to their recipes during the upload process.<br> 
