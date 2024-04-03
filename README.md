@@ -667,24 +667,23 @@ Filter By Keyword
 ![filter recipes image](README_assets/images/users_stories/27_filter_keyword_.png)
 ![filter recipes image](README_assets/images/users_stories/28_recipes__q=fruit.png)
 
-- #### Be able to log into the same account as my family | My household can share an account
+- #### I can able log into the same account as my family so that my household can share an account
 **AC1:** Users can log in using a username that allows multiple people to access the same account<br>
 **AC2:** A "keep logged in" function is available for ease of access.<br>
 (This feature will be available in future iteration)
 
-- #### Search my recipes and to quickly find the recipe I want 
+- #### I can search my recipesso taht I can quickly find the recipe I want 
 **AC1:** A search bar is included in the site’s navigation.<br>
+![search bar image](README_assets/images/users_stories/30search_bar_.png)
 **AC2:** The search bar functionality enables searching through recipes.<br>
 **AC3:** Users can search recipes using a variety of parameters.<br> 
-
+![search bar image](README_assets/images/users_stories/31bar_functionalitypng.png)
+![search bar image](README_assets/images/users_stories/32recipes__q=african.png)
 
 - #### I can add recipes to 'My recipes' so that I can view my recipes easily 
 **AC1:** Users can add recipes to their 'My Recipes Section' of profile using 'CreateRecipe Form'.<br>
-**AC2:** This functionality applies to both user and admin recipes.<br>
-**AC3:** Favourite recipes are displayed on a dedicated page.<br>
-**AC4:** 'My Recipes 'are displayed on my profile page page.<br>
-
-
+**AC2:** This functionality applies to both user and admin recipes.( As can be seen also in the Admin User stories)<br>
+**AC3:** 'My Recipes 'are displayed on my profile page page.<br>
 
 
 #### **Epic: Admin**
@@ -711,6 +710,8 @@ As An Admin:
 - LOGIN
 ![Admin User Story 7 Image](README_assets/images/Admin_stories/django_admin_dashboard.png)
 
+- Only the Admin can login to the Admin Dashboard
+![Admin User Story 7 Image](README_assets/images/users_stories/29admin_login__next=_admin_.png)
 
 #### I can Logout of the admin panel so that I can disconnect from the website securely 
 **AC1:** A log-out option is clearly accessible from anywhere within the admin panel.<br>
