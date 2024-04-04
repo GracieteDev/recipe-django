@@ -534,8 +534,13 @@ The development and deployment of this project were supported by a range of fram
 - **[VSCode: Using Black to Automatically Format Python](https://code.visualstudio.com/docs/python/editing#_formatting)**: Implemented this Django project to ensure consistent and standard Python code formatting. Black, as an automatic code formatter, greatly enhances 
     the development workflow by enforcing style consistency across all Python scripts. This tool is crucial in maintaining code readability and reducing the time spent on manual code reviews for formatting issues.
 
-- **[Color Hunt](https://colorhunt.co/)**: For this project, I created two color palettes using Color Hunt, specifically designed to enrich the visual design and elevate the user experience. These custom palettes were meticulously selected to ensure 
-    a harmonious blend of colors that aligns seamlessly with the site's aesthetic, contributing to a cohesive and attractive interface
+- **[autopep8](https://pypi.org/project/autopep8/)**: autopep8 was a vital tool in automating the process of formatting Python code to adhere to the PEP 8 style guide. Its integration into my development workflow ensured that the project's codebase remained clean, readable, and consistent, significantly improving code quality and maintainability.
+
+- **[flake8](https://pypi.org/project/flake8/)**: flake8 played an indispensable role in maintaining the quality and integrity of the project's Python codebase. By providing a comprehensive linting service, it helped identify and rectify potential errors, style inconsistencies, and code smells. The utilization of flake8 ensured that the code adhered to best practices and remained clean and efficient, facilitating a smoother development process and a more reliable application.
+
+- **[Canva](https://www.canva.com/)**: Canva was a key resource in the visual design phase of my project, especially in the creation of the project's logo. Its intuitive design platform and vast array of design elements enabled me to craft a distinctive and professional-looking logo. This not only enhanced the brand's visual identity but also contributed significantly to the overall aesthetic appeal of the project.
+
+- **[Color Hunt](https://colorhunt.co/)**: For this project, I created two color palettes using Color Hunt, specifically designed to enrich the visual design and elevate the user experience. These custom palettes were meticulously selected to ensure a harmonious blend of colors that aligns seamlessly with the site's aesthetic, contributing to a cohesive and attractive interface
 
 By leveraging these tools and resources, the project benefited from improved code quality, adherence to web standards, and enhanced visual appeal, contributing to a more polished and professional final product.
 Each of these technologies played a pivotal role in the development lifecycle, from initial coding through to deployment, ensuring a robust and scalable solution.
