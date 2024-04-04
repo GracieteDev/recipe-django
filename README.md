@@ -525,7 +525,7 @@ The development and deployment of this project were supported by a range of fram
 
 - **[Draw.io](https://draw.io/)**: An online tool for creating diagrams and wireframes, Draw.io was employed in the planning stages to design the layout and structure of the website, ensuring a well-thought-out user experience.
 
-- **[W3C Markup Validator](https://validator.w3.org/#validate_by_input)**: This tool was used to ensure the HTML code meets web standards and best practices, helping to identify and correct any markup errors.
+- **[W3C Markup Validator](https://validator.w3.org/#validate_by_URL)**: This tool was used to ensure the HTML code meets web standards and best practices, helping to identify and correct any markup errors.
 
 - **[W3C Rocket Validator](https://rocketvalidator.com/)**: Similar to the Markup Validator, Rocket Validator was utilized for bulk validation of HTML, streamlining the process of ensuring web standards compliance across multiple pages at once.
 
@@ -866,7 +866,7 @@ I carefully evaluated each suggestion from flake8 to ensure that following its r
 ![Home Page validation Image](README_assets/images/HTML_validation/homepage_rocket_html_validation.png)
 
 #### Recipes Page
-![Recipes Page validation Image](README_assets/images/HTML_validation/homepage_rocket_html_validation.png)
+![Recipes Page validation Image](README_assets/images/HTML_validation/recipes_htmlvalidation.png)
 
 #### CreateRecipe Page
 ![CreateRecipe Page validation Image](README_assets/images/HTML_Validation/createrecipe_htmlvalidation.png)
@@ -887,7 +887,9 @@ I carefully evaluated each suggestion from flake8 to ensure that following its r
 ![Logout Page validation Image](README_assets/images/HTML_Validation/logoutpage_htmlvalidation.png)
 
 
-## HTML Validation 
+## CSS Validation with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): To guarantee the CSS code adheres to the latest web standards and best practices, this validator was used, aiding in the identification and rectification of any issues in styling sheets.
+![CSS validation ]()
+
 
 # Deploying a Django Project with GitHub, Heroku, and Cloudinary
 
