@@ -15,6 +15,7 @@ from recipes.models import Recipe
 
 class MealPlanner(LoginRequiredMixin, TemplateView):
     """Meal planner view"""
+
     template_name = "meal_planner/meal_planner.html"
 
     def get_context_data(self, **kwargs):
@@ -40,6 +41,7 @@ class GetMeal(TemplateView):
     Class to handle getting a random meal based on
     search queries or empty input
     """
+
     template_name = "meal_planner/create_meal.html"
 
     def get_context_data(self, **kwargs):
@@ -60,7 +62,7 @@ class GetMeal(TemplateView):
                 | Q(cuisine_types__icontains=query)
                 | Q(instructions__icontains=query),
                 calories__lte=calories,
-                meal_type=kwargs["meal_type"]
+                meal_type=kwargs["meal_type"],
             )
         # If only calories sent, search by meal type and calories
         elif calories:

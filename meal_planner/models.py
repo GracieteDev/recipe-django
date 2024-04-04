@@ -6,10 +6,7 @@ from recipes.models import Recipe
 class Meal(models.Model):
     """Meal model"""
 
-    user = models.ForeignKey(
-        User,
-        related_name="meal_owner",
-        on_delete=models.CASCADE)
+    user = models.ForeignKey(User, related_name="meal_owner", on_delete=models.CASCADE)
     recipe = models.ForeignKey(
         Recipe, related_name="user_meal", on_delete=models.CASCADE
     )
