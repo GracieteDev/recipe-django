@@ -693,8 +693,6 @@ Filter By Keyword
 
 **AC3:** 'My Recipes 'are displayed on my profile page page.<br>
 ![add recepies image ](README_assets/images/users_stories/35profiles_user_18_.png)
-Also added to the recipes bank of the website
-![add recepies image ](README_assets/images/users_stories/37recipe-django-a56e80b1fce6.herokuapp.com_.png)
 
 
 #### **Epic: Admin**
@@ -702,24 +700,28 @@ As An Admin:
   
 #### I can create, edit and delete recipes so that I can manage the site content 
 **AC1:** Admin can access a form to input new recipe details, including title, description, ingredients, and preparation steps.<br>
-- **Create**
-![Admin User Story 1 Image](README_assets/images/Admin_stories/Admin_add_recipe.png)
+**Homepage before create, edit and delete recipes**
+![Homepage Before add recipe image](README_assets/images/users_stories/37.homepage1.png)
+![Admin Dashboard](README_assets/images/users_stories/38dashboard_admin_.png)
+![Add Recipe View Image](README_assets/images/users_stories/42admin_recipes_recipe_add_.png)
+![Added recipe Image](README_assets/images/users_stories/45homepage2_.png)
 ![Admin User Story 3Image](README_assets/images/Admin_stories/Admin_recipe_added.png)
+![Homepage Pudding Image](README_assets/images/users_stories/50homepagepudding_.png)
 
 - **Change/Edit Recipe**
-![Admin User Story 2Image](README_assets/images/Admin_stories/admin_change_recipe.png)
+![change recipe Image](README_assets/images/users_stories/39admin_recipes_recipe_32_change_.png)
 
 - **Delete**
-![Admin User Story 4Image](README_assets/images/Admin_stories/admin_delete_recipe.png)
-![Admin User Story 5Image](README_assets/images/Admin_stories/admin_delete_recipe_confirm.png)
-![Admin User Story 6Image](README_assets/images/Admin_stories/recipe_deleted.png)
+![Admin Delete 4Image](README_assets/images/users_stories/40admin_recipes_recipe_32_delete_.png)
+![Admin Delete 5Image](README_assets/images/users_stories/48delete_confirmation_admin_recipes_recipe_.png)
+![Admin Delete 6Image](README_assets/images/Admin_stories/recipe_deleted.png)
 
 #### I can access the admin panel so that I can manage recipes 
 **AC1:** Admin can log in to the admin panel using their credentials.<br>
 **AC2:** Upon successful login, admin is directed to the dashboard where they can manage recipes and site content.<br>
 **AC3:** Incorrect login attempts are handled gracefully, displaying an error message and the opportunity to retry. <br>
 - **Login**
-![Admin User Story 7 Image](README_assets/images/Admin_stories/django_admin_dashboard.png)
+![Admin User Story 7 Image](README_assets/images/users_stories/42admin_recipes_recipe_add_.png)
 
 - **Only the Admin can login to the Admin Dashboard**
 ![Admin User Story 7 Image](README_assets/images/users_stories/29admin_login__next=_admin_.png)
@@ -728,8 +730,7 @@ As An Admin:
 **AC1:** A log-out option is clearly accessible from anywhere within the admin panel.<br>
 **AC2:** Selecting the log-out option immediately ends the admin session.<br>
 **AC3:** Upon logging out, the admin is redirected to the login page, ensuring they are fully disconnected.<br>
-- **Logout** 
-![Admin User Story 8 Image](README_assets/images/Admin_stories/admin_logout_.png)
+![Admin Logout Image](README_assets/images/users_stories/46admin_logout_.png)
 
 
 
