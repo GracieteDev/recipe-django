@@ -704,7 +704,7 @@ As An Admin:
 ![Homepage Before add recipe image](README_assets/images/users_stories/37.homepage1.png)
 ![Admin Dashboard](README_assets/images/users_stories/38dashboard_admin_.png)
 ![Add Recipe View Image](README_assets/images/users_stories/42admin_recipes_recipe_add_.png)
-![Added recipe Image](README_assets/images/users_stories/45homepage2_.png)
+![Added recipe Image](README_assets/images/users_stories/50homepagepudding_.png)
 ![Admin User Story 3Image](README_assets/images/Admin_stories/Admin_recipe_added.png)
 ![Homepage Pudding Image](README_assets/images/users_stories/50homepagepudding_.png)
 
@@ -714,13 +714,13 @@ As An Admin:
 - **Delete**
 ![Admin Delete 4Image](README_assets/images/users_stories/40admin_recipes_recipe_32_delete_.png)
 ![Admin Delete 5Image](README_assets/images/users_stories/48delete_confirmation_admin_recipes_recipe_.png)
-![Admin Delete 6Image](README_assets/images/Admin_stories/recipe_deleted.png)
 
 #### I can access the admin panel so that I can manage recipes 
 **AC1:** Admin can log in to the admin panel using their credentials.<br>
 **AC2:** Upon successful login, admin is directed to the dashboard where they can manage recipes and site content.<br>
 **AC3:** Incorrect login attempts are handled gracefully, displaying an error message and the opportunity to retry. <br>
 - **Login**
+![Admin User Story 7 Image](README_assets/images/users_stories/47login__next=_admin_.png)
 ![Admin User Story 7 Image](README_assets/images/users_stories/42admin_recipes_recipe_add_.png)
 
 - **Only the Admin can login to the Admin Dashboard**
@@ -897,7 +897,8 @@ I carefully evaluated each suggestion from flake8 to ensure that following its r
 ![Logout Page validation Image](README_assets/images/HTML_Validation/logoutpage_htmlvalidation.png)
 
 
-## CSS Validation with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): To guarantee the CSS code adheres to the latest web standards and best practices, this validator was used, aiding in the identification and rectification of any issues in styling sheets.
+## CSS Validation with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+To guarantee the CSS code adheres to the latest web standards and best practices, this validator was used, aiding in the identification and rectification of any issues in styling sheets.
 ![CSS validation ](README_assets/images/css_validation.png)
 
 
