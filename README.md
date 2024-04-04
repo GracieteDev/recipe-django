@@ -836,7 +836,7 @@ I carefully evaluated each suggestion from flake8 to ensure that following its r
 ### W3 Validator 
 
 #### Home Page
-![w3 Homepage validation](README_assets/images/HTML_validation/homepage_w3_html_validation.png)
+![w3 Homepage validation](README_assets/images/validator_w3.png)
 
 #### Recipes Page
 ![Recipes Page validation Image](README_assets/images/HTML_Validation/recipes_w3htmlvalidation.png)
@@ -863,10 +863,10 @@ I carefully evaluated each suggestion from flake8 to ensure that following its r
 ### Rocket Validator
 
 #### Home Page
-![Home Page validation Image](README_assets/images/HTML_validation/homepage_rocket_html_validation.png)
+![Home Page validation Image](README_assets/images/rocketvalidator_homepage.png)
 
 #### Recipes Page
-![Recipes Page validation Image](README_assets/images/HTML_validation/recipes_htmlvalidation.png)
+![Recipes Page validation Image](README_assets/images/recipes_htmlvalidation.png)
 
 #### CreateRecipe Page
 ![CreateRecipe Page validation Image](README_assets/images/HTML_Validation/createrecipe_htmlvalidation.png)
@@ -888,7 +888,7 @@ I carefully evaluated each suggestion from flake8 to ensure that following its r
 
 
 ## CSS Validation with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): To guarantee the CSS code adheres to the latest web standards and best practices, this validator was used, aiding in the identification and rectification of any issues in styling sheets.
-![CSS validation ]()
+![CSS validation ](README_assets/images/css_validation.png)
 
 
 # Deploying a Django Project with GitHub, Heroku, and Cloudinary
