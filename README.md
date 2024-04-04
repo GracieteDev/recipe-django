@@ -1014,9 +1014,12 @@ To edit and manage my project's codebase, I followed these steps with VSCode:
 - **[Django Tutorial for Beginners by Telusko](https://www.youtube.com/watch?v=SIyxjRJ8VNY&list=PLsyeobzWxl7r2ukVgTqIQcl-1T0C2mzau&ab_channel=Telusko)**: Telusko's Django tutorial series for beginners is an exceptional resource that meticulously guides learners through the Django framework, from basic concepts to more advanced topics. The clear explanations and practical coding sessions offered by Telusko were invaluable in enhancing my understanding and skill in Django, contributing significantly to my project's development.
 
  
-### Acknowledgments to People and the Furry Companion:
+### Acknowledgments to CI  and the Furry Companion:
 
-- **Iris Smok**: Immense gratitude is extended to my CI facilitator, Iris Smok, for her invaluable help, endless patience, and unwavering encouragement throughout this journey.
+- **Iris Smok**: Immense gratitude is extended to my CI facilitator, Iris Smok, for her invaluable help, patience, and 
+ encouragement throughout this journey.
+
+- **Excellence Ilesanmi**: Thanks to Excellence Ilesanmi for his guidance and support.
 
 - **Dulce Gil**: Heartfelt appreciation to my sister, Dulce Gil, for her continuous encouragement and support. Her presence and motivation were my pillars of strength during challenging moments.
 
