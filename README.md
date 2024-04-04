@@ -546,8 +546,9 @@ By leveraging these tools and resources, the project benefited from improved cod
 Each of these technologies played a pivotal role in the development lifecycle, from initial coding through to deployment, ensuring a robust and scalable solution.
 
 
-# Testing
 
+
+# Testing
 
 ## User Story Testing
 
@@ -732,8 +733,23 @@ As An Admin:
 
 
 
-## Bugs and Issues
-I started this Django project on the ...
+## Development Challenges and Solutions
+
+### Custom 404 Error Page Implementation
+
+#### The Challenge:
+I had created a custom `404.html` template for my Django project, intending to provide a better user experience for missing pages. However, despite having the template ready, I struggled to get Django to display it when a 404 error was triggered.
+
+#### The Solution:
+Thankfully, my mentor, Excellence Ilesanmi, stepped in to assist me with this problem. With his guidance, I was able to:
+
+- Turn off `DEBUG` mode by setting `DEBUG` to `False` in `settings.py`, since Django does not use the custom 404 template when `DEBUG` is true.
+- Place my `404.html` in the correct top-level templates directory, which is where Django looks for custom error templates.
+- Check my `TEMPLATES` configuration in `settings.py` to ensure the `DIRS` option included the path to the `404.html` file.
+- Verify that the custom 404 page was working by deliberately visiting a non-existing URL on my site.
+
+This experience taught me more about Django's error handling mechanism and reinforced the importance of thorough testing. Now, users who stumble upon a broken link will see a friendly and consistent error page, maintaining the overall look and feel of my project.
+
 
 # Validation
 
