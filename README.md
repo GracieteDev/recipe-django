@@ -736,19 +736,7 @@ As An Admin:
 ## Development Challenges and Solutions
 
 ### Custom 404 Error Page Implementation
-
-#### The Challenge:
-I had created a custom `404.html` template for my Django project, intending to provide a better user experience for missing pages. However, despite having the template ready, I struggled to get Django to display it when a 404 error was triggered.
-
-#### The Solution:
-Thankfully, my mentor, Excellence Ilesanmi, stepped in to assist me with this problem. With his guidance, I was able to:
-
-- Turn off `DEBUG` mode by setting `DEBUG` to `False` in `settings.py`, since Django does not use the custom 404 template when `DEBUG` is true.
-- Place my `404.html` in the correct top-level templates directory, which is where Django looks for custom error templates.
-- Check my `TEMPLATES` configuration in `settings.py` to ensure the `DIRS` option included the path to the `404.html` file.
-- Verify that the custom 404 page was working by deliberately visiting a non-existing URL on my site.
-
-This experience taught me more about Django's error handling mechanism and reinforced the importance of thorough testing. Now, users who stumble upon a broken link will see a friendly and consistent error page, maintaining the overall look and feel of my project.
+ Implementing a custom 404 error page in my Django project taught me valuable lessons in error handling and the importance of mentorship. The challenge began when I realized that despite having a 404.html template ready, Django wouldn't display it due to DEBUG mode being enabled. My mentor, Excellence Ilesanmi, guided me through the solution, which involved setting DEBUG to False in settings.py, ensuring my 404.html was in the top-level templates directory, checking the TEMPLATES configuration in settings.py to include the path to my custom template, and finally testing the setup by accessing a non-existent URL on my site. This process not only enlightened me about Django's error handling mechanism but also emphasized the importance of proper configuration and testing. Now, users who encounter a broken link are greeted with a friendly and consistent error page, maintaining the overall aesthetic and user experience of my project.
 
 
 # Validation
@@ -927,15 +915,12 @@ Lighthouse is more than just a performance metric tool; it's a comprehensive val
 - **PWA**: Evaluates the readiness of web applications to meet the standards of progressive web apps, ensuring an engaging user experience across all devices.
 
 ### How to Use Lighthouse for Validation
-
 1. **Installation**: For Chrome users, Lighthouse is readily available in Chrome DevTools. It can also be installed as a Node module for automated or command line-based auditing.
 2. **Running Audits**: Lighthouse can audit live web pages directly from the browser or through command line interfaces, providing a detailed report on the current state of the website.
 3. **Implementing Recommendations**: The audit report includes actionable recommendations for improvement, enabling developers to make informed decisions to enhance their site's performance and compliance.
-
 ### The Impact of Lighthouse
-
 Adopting Lighthouse as a validation tool ensures that a website not only meets the technical standards of modern web development but also provides a superior user experience. Its comprehensive feedback and recommendations are invaluable for developers aiming to build accessible, efficient, and search-engine-friendly web applications.
-
+![lighthouse valiation report](README_assets/images/healthy_recipy_lighthouse.png)
 
 # Deploying a Django Project with GitHub, Heroku, and Cloudinary
 
