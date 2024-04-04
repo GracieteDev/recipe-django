@@ -836,7 +836,7 @@ I carefully evaluated each suggestion from flake8 to ensure that following its r
 ### W3 Validator 
 
 #### Home Page
-![Home Page validation Image](README_assets/images/HTML_Validation/HTML_validation.png)
+![w3 Homepage validation](README_assets/images/HTML_validation/homepage_w3_html_validation.png)
 
 #### Recipes Page
 ![Recipes Page validation Image](README_assets/images/HTML_Validation/recipes_w3htmlvalidation.png)
@@ -856,7 +856,6 @@ I carefully evaluated each suggestion from flake8 to ensure that following its r
 #### Login Page
 ![Login Page validation Image](README_assets/images/HTML_Validation/login_rocket_htmlvalidation.png)
 
-
 #### Logout Page 
 ![Logout Image](README_assets/images/HTML_Validation/logout_htmlvalidationpng.png)
 
@@ -864,10 +863,10 @@ I carefully evaluated each suggestion from flake8 to ensure that following its r
 ### Rocket Validator
 
 #### Home Page
-![Home Page validation Image](README_assets/images/HTML_Validation/HTML_validation.png)
+![Home Page validation Image](README_assets/images/HTML_validation/homepage_rocket_html_validation.png)
 
 #### Recipes Page
-![Recipes Page validation Image](README_assets/images/HTML_Validation/recipes_htmlvalidation.png)
+![Recipes Page validation Image](README_assets/images/HTML_validation/homepage_rocket_html_validation.png)
 
 #### CreateRecipe Page
 ![CreateRecipe Page validation Image](README_assets/images/HTML_Validation/createrecipe_htmlvalidation.png)
